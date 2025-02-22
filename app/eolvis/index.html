@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+
+<head>
+    <title>eolvis</title>
+    <meta name="description" content="Visualise software EOL (End-Of-Life) timelines">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=5, user-scalable=yes">
+    <link rel="stylesheet" href="css/eolvis.css">
+    <link rel="icon" href="eolvis-favicon.png" sizes="32x32" />
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-logo">
+            <img src="eolvis-logo.png" alt="eolvis logo" width="22" height="26" />
+        </div>
+        <h1 id="title">eolvis</h1>
+        <div id="header-right">
+            <icon-button id="icon-button-add-item" title="Add Item" class="hidden"
+                icon-svg-path="M 10 2 L 10 18 M 2 10 L 18 10"></icon-button>
+            <icon-button id="icon-button-download" title="Download"
+                icon-svg-path="M 10 2 L 10 14 M 5 10 L 10 14 L 10 14 L 15 10 M 3 14 L 3 18 L 17 18 L 17 14"></icon-button>
+            <icon-button id="icon-button-information" title="About"
+                icon-svg-path="M 2 10 A 1 1 0 0 0 18 10 A 1 1 0 0 0 2 10 M 10 15 L 10 9 M 10 7 L 10 5"></icon-button>
+        </div>
+    </header>
+
+    <filter-bar id="filter-bar"></filter-bar>
+    <information-dialog id="information-dialog" data-stylesheet="./css/eolvis.css" style="visibility: hidden;">
+        <span slot="dialog-title">About eolvis</span>
+        <div slot="dialog-content" style="max-width: 40em;">
+            <p>
+                The <em>eolvis</em> web application is used to represent the lifecycle of software (and devices) on a
+                timeline, from release to EOL (End-Of-Life). This visualisation helps when managing and planning a
+                technical roadmap.
+            </p>
+            <p>
+                Each item is represented as a bar on the timeline:
+            </p>
+            <ul>
+                <li>
+                    The Supported From and To dates are represented as a bar with a solid outline.
+                </li>
+                <li>
+                    Extended Support is represented with a dashed outline.
+                </li>
+                <li>
+                    The Use From and To dates are represented as an inner bar with a solid colour.
+                </li>
+            </ul>
+            <p>
+                The colour of the bar depends on its position on the timeline relative to the current date:
+            </p>
+            <ul>
+                <li>
+                    Grey = Use From and To dates are in the future or in the past
+                </li>
+                <li>
+                    Green = Use From and To dates are between the Supported From and To dates, and Current date is between
+                    the Use From and To dates
+                </li>
+                <li>
+                    Amber = Current date is near (i.e. 90 days (configurable)) to a future Use To date
+                </li>
+                <li>
+                    Red = the Use To date is in the future and after the Supported To date
+                </li>
+            </ul>
+        </div>
+    </information-dialog>
+    <download-dialog id="download-dialog"></download-dialog>
+    <item-details-form id="item-details-form"></item-details-form>
+    <item-board id="item-board" class="section-eol"></item-board>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
