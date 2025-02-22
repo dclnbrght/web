@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+
+<head>
+    <title>agroforestgrid</title>
+    <meta name="description" content="Model agroforestry layouts">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=5, user-scalable=yes">
+    <link rel="stylesheet" href="css/agroforestgrid.css">
+    <link rel="icon" href="favicon.png" sizes="32x32" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-logo">
+            <svg width="20" height="28" viewBox="0 0 20 20">
+                <g>
+                    <path d="M 2 4 h 16 M 2 10 h 16 M 2 16 h 16 M 4 2 v 16 M 10 2 v 16 M 16 2 v 16" />
+                </g>
+            </svg>
+        </div>
+        <h1 id="title">agroforestgrid</h1>
+        <div id="header-search">
+            <input id="location-search-box" type="text" class="location-search-box"
+                placeholder="Search address or co-ordinates">
+        </div>
+        <div id="header-right">
+            <icon-button id="icon-button-settings" title="Settings" fill="#eee" stroke-width="0"
+                icon-svg-path="M 12 4 A 1 1 0 0 0 12 16 A 1 1 0 0 0 12 4 V 6 A 1 1 0 0 1 12 14 A 1 1 0 0 1 12 6 Z M 11 2 h 2 v 2 h -2 z M 11 18 h 2 v -2 h -2 z M 4 11 v -2 h 2 v 2 z M 20 9 v 2 h -2 v -2 z M 16.75 3.75 l 1.5 1.5 l -1.25 1.25 l -1.5 -1.5 z M 16.75 16.25 l 1.5 -1.5 l -1.25 -1.25 l -1.5 1.5 z M 7.25 16.25 l -1.5 -1.5 l 1.25 -1.25 l 1.5 1.5 z m 0 -12.5 l -1.5 1.5 l 1.25 1.25 l 1.5 -1.5 Z"></icon-button>
+            <icon-button id="icon-button-download" title="Download"
+                icon-svg-path="M 10 2 L 10 14 M 5 10 L 10 14 L 10 14 L 15 10 M 3 14 L 3 18 L 17 18 L 17 14"></icon-button>
+            <icon-button id="icon-button-information" title="About"
+                icon-svg-path="M 2 10 A 1 1 0 0 0 18 10 A 1 1 0 0 0 2 10 M 10 15 L 10 9 M 10 7 L 10 5"></icon-button>
+        </div>
+    </header>
+
+    <user-settings-dialog id="user-settings-dialog" data-stylesheet="./css/agroforestgrid.css" style="visibility: hidden;">
+        <span slot="dialog-title">Settings</span>
+    </user-settings-dialog>
+    <export-import-dialog id="export-import-dialog" data-stylesheet="./css/agroforestgrid.css" style="visibility: hidden;">
+        <span slot="dialog-title">Export / Import</span>
+    </export-import-dialog>
+    <information-dialog id="information-dialog" data-stylesheet="./css/agroforestgrid.css" style="visibility: hidden;">
+        <span slot="dialog-title">About agroforestgrid</span>
+        <div slot="dialog-content" style="max-width: 40em;">
+            <p>
+                agroforestgrid is used for planning the layout of agroforestry plantations.
+            </p>
+            <ul>
+                <li>Start by zooming and panning the map to the desired location.</li>
+                <li>Create a new project (plus icon) and give it a name.</li>
+                <li>Draw an area on the map using the polygon tool.</li>
+                <ul>
+                    <li>There are two types of polygon; Boundary &amp; Tree Group</li>
+                    <li>Boundary is used to outline the boundary of a segment.</li>
+                    <li>Tree Groups are used to outline groups of trees within a segment.</li>
+                    <li>If no Tree Groups are drawn, trees will be created within the boundary.</li>
+                </ul>
+                <li>Draw a grid onto the map (of the configured width &amp; height). </li>
+                <li>Trees can be drawn in two ways:</li>
+                <ul>
+                    <li>When trees are drawn using the top toolbar, they will appear on the grid intersections points
+                        inside the polygons. (Tree Groups or Boundary)</li>
+                    <li>Individual trees can be drawn using the circle tool.</li>
+                </ul>
+                <li>The number of trees in the segments is displayed at the bottom of the map.</li>
+                <li>Individual trees can be dragged around using the hand tool.</li>
+                <li>Individual trees or polygons can be deleted by double-clicking on them with the hand tool.</li>
+                <li>The Polygon, Grid or Trees can be toggled On/Off or deleted (bin icon).</li>
+                <li>Multiple Segments can be create within each Project.</li>
+                <li>Multiple Tree Groups can be create within each Segment.</li>
+            </ul>
+            <p>
+                A Google Maps API Key is required for this application to function correctly. You can get an API key
+                from <a href="https://developers.google.com/maps/documentation/javascript/get-api-key"
+                    target="_blank">here</a>. Enter your API key in the Settings (gear icon) at the top right of this
+                page.
+            </p>
+            <p>
+                Touch gestures are supported on touch screen devices; one finger pan, two finger pinch zoom, two finger
+                rotate and two finger slide up &amp; down to tilt.
+            </p>
+        </div>
+    </information-dialog>
+    <project-dialog id="project-dialog" data-stylesheet="./css/agroforestgrid.css" style="visibility: hidden;">
+    </project-dialog>
+
+    <project-bar id="project-bar" data-stylesheet="./css/agroforestgrid.css"></project-bar>
+
+    <span id="map-tree-details"></span>
+    <div id="map"></div>
+    
+    <script type="module" src="./bundle.js"></script>
+</body>
+
+</html>

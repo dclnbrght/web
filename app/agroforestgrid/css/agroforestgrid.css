@@ -1,0 +1,289 @@
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/agroforestgrid.css ***!
+  \******************************************************************************/
+html,
+BODY {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+BODY {
+    margin: 0;
+    font-size: 10pt;
+    background-color: #444;
+}
+
+BODY,
+INPUT,
+TEXTAREA {
+    font-family: "Arimo", Tahoma, Verdana, Geneva, sans-serif;
+}
+
+INPUT[type="text"],
+INPUT[type="number"],
+TEXTAREA,
+SELECT {
+    vertical-align: middle;
+    padding: 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #444;
+}
+SELECT option {
+    padding: 0.2em;
+    background-color: #fff;
+    color: #444;
+}
+SELECT option:hover {
+    background-color: #f1f1f1;
+}
+SELECT:focus {
+    border-color: #444;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    height: 2.4em;
+}
+
+#title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#header-logo {
+    width: 1.6em;
+    height: 2em;
+    padding: 0.2em;
+    background-color: #00811c;
+}
+
+#header-logo svg g {
+    stroke: #eee;
+    stroke-width: 1;
+}
+
+H1 {
+    margin: 0;
+    font-size: 120%;
+    display: inline-block;
+    padding: 0.4em 0.4em 0.4em 0.6em;
+}
+
+#header-search {
+    margin-left: auto;
+}
+
+#header-right {
+    margin-left: auto;
+    padding: 0.3em;
+    white-space: nowrap;
+}
+
+.header-action {
+    margin: 0 0.3em;
+    display: inline-block;
+}
+
+#map {
+    width: 100%;
+    height: calc(100% - 5.4em);
+}
+
+dialog {
+    background-color: #fff;
+    color: #666;
+    text-align: left;
+    border: none;
+    padding: 0.5rem 1.4rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+    min-width: 18em;
+    max-width: 80vw;
+    border-radius: 0.5em;
+}
+
+dialog::backdrop {
+    background: rgba(100, 100, 100, .5);
+    backdrop-filter: blur(0.08em);
+}
+
+.dialog-form-error {
+    padding: 0.75rem;
+    color: #002840;
+    background-color: #ce8585;
+    border-radius: 0.25rem;
+    margin: 0.5rem 0 0 0;
+    max-width: 80vw;
+}
+
+.dialog-message {
+    position: absolute;
+    top: 1em;
+    width: calc(100% - 4.5em);
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 0.25em;
+    background-color: #fec;
+    color: #444;
+}
+
+.dialog-button-container {
+    text-align: center;
+    margin: 1.4em 0 1.4em 0;
+}
+
+.dialog-button,
+.dialog-button-secondary {
+    background-color: #666;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 0 0.6em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 0.3em;
+}
+
+.dialog-button-secondary {
+    background-color: #ddd;
+    border: #666;
+    color: #444;
+}
+
+.dialog-button:hover {
+    background-color: #555;
+}
+
+.dialog-button-secondary:hover {
+    background-color: #ccc;
+}
+
+.dialog-button-left {
+    float: inline-start;
+}
+
+.dialog-close-x {
+    float: right;
+    font-weight: bold;
+    color: #999;
+    font-size: 120%;
+    margin-top: 0.4em;
+    cursor: pointer;
+    border: solid 1px #ddd;
+    padding: 0 0.2em 0.08em 0.2em;
+    background-color: #efefef;
+    line-height: 1.2em;
+}
+
+.map-button {
+    display: none;
+    background-color: #444;
+    color: #ddd;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+}
+
+.map-button:hover {
+    background-color: #333;
+}
+
+.map-button-right {
+    transform: rotate(-90deg) translateY(2.3em);
+}
+
+.map-button-left {
+    transform: rotate(-90deg) translateY(-2.1em);
+}
+
+.location-search-box {
+    width: 8em;
+}
+
+.form-item {
+    margin: 0.6em;
+}
+
+.form-item label {
+    display: inline-block;
+    line-height: 1.5em;
+    min-width: 7em;
+}
+
+.form-input-text {
+    max-width: 10em;
+}
+
+.form-button-add {
+    position: absolute;
+    right: 1em;
+}
+
+.form-summary {
+    color: #888;
+    line-height: 1.2em;
+    font-size: 90%;
+    margin-left: 9em;
+}
+
+#map-tree-details {
+    color: #eee;
+    background-color: #666;
+    padding: 0.2em 0.5em;
+    margin: 0.3em;
+    border-radius: 0.3em;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media only screen and (min-width: 320px) {
+    .form-item label {
+        display: inline-block;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    .map-button {
+        display: inline-block;
+    }
+
+    .form-button-delete {
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .form-input-text {
+        min-width: 16em;
+        max-width: 20em;
+    }
+
+    .location-search-box {
+        width: 16em;
+    }
+}
+
+@media print {
+    #header,
+    #action-bar,
+    button {
+        display: none;
+    }
+}
