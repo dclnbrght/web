@@ -27,11 +27,11 @@
 
 	// Table of Contents
 	window.onload = () => {
-        const toc = document.getElementById('toc');
-        if (toc !== null)
-            generateTOC(toc);
-		
-        const comments = document.getElementById('comments');
+		const toc = document.getElementById('toc');
+		if (toc !== null)
+			generateTOC(toc);
+
+		const comments = document.getElementById('comments');
 		if (comments !== null)
 			setupComments(comments);
     }
