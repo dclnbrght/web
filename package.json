@@ -1,0 +1,16 @@
+{
+    "name": "declanbright.com",
+    "version": "1.0.0",
+    "description": "declanbright.com 11ty project",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "build-dev": "npx @11ty/eleventy",
+        "build": "NODE_ENV=production eleventy --pathprefix='web'"
+    },
+    "devDependencies": {
+        "@11ty/eleventy": "^3.0.0"
+    },
+    "repository": {
+        "url": "https://github.com/dclnbrght/web"
+    }
+}
