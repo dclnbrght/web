@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/box/marantz-pm66se-amplifier-repair">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/marantz-pm66se-reassembled.webp');background-size:114%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Marantz PM66SE Amplifier Repair</strong>
+            <br />Restoring an old Marantz hi-fi amplifier
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/box/queens-university-belfast-two-stroke-engines-motorcycle-grand-prix-racing-legends-ray-mccullough-jeremy-mcwilliams">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-box/images/RayMcCullough.jpg');"></div>
@@ -41,7 +52,7 @@ layout: layouts/home.njk
 <div class="card">
     <a href="eolvis">
         <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-software/images/eolvis.webp');background-size:100%;"></div>
+            <div class="card-header-image" style="background-image:url('/content-software/images/eolvis-screenshot.webp');background-size:100%;"></div>
         </div>
         <div class="card-body">
             <strong>eolvis</strong>
