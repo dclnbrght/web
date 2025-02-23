@@ -5,7 +5,7 @@ title: Declan Bright
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>Declan Bright | {{ title }}</title>
     <meta charset="utf-8">
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ keywords }}">
@@ -19,13 +19,13 @@ title: Declan Bright
   <body>
     <header>
       <div id="title">
-          <a href="/index">declan bright</a>
+          <a href="/">declan bright</a>
       </div>
     </header>
-    <nav id="menu" class="menu-container hidden">
+    <nav id="menu" class="menu-container">
         <a class="menu-toggle">- Menu -</a>
         <ul class="menu-item-list animate-duration-medium animate-fade-in" role="menubar">
-            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/index' | url }}">Home</a></li>
+            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/' | url }}">Home</a></li>
             <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/software' | url }}">Software</a></li>
             <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/electronics' | url }}">Electronics</a></li>
             <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/cv' | url }}">CV</a></li>

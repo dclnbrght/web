@@ -1,5 +1,5 @@
 ---
-title: Declan Bright
+title: Home
 description: Declan Bright - Chief Technology Officer based in Dublin, Ireland.
 keywords: "Declan Bright, Chief Technology Officer"
 author: Declan Bright

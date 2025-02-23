@@ -1,12 +1,12 @@
 ---
-title: Declan Bright - CV
+title: CV
 description: Declan Bright - Chief Technology Officer based in Dublin, Ireland.
 keywords: "Declan Bright,CV,Curriculum Vitae,Resume,CTO,Chief Technology Officer,Chief Software Architect,AI Officer,ArchiMate,IASA,ITABok,Dublin"
 ---
 
 # Curriculum Vitae
 
-I am a Chief Technology Officer living and working in Dublin, Ireland with over 26 years experience in the delivery of enterprise software systems for the healthcare, aviation, financial services and telecommunications sectors.
+I am a Chief Technology Officer living and working in Dublin, Ireland with over <span id="years-experience">20</span> years experience in the delivery of enterprise software systems for the healthcare, aviation, financial services and telecommunications sectors.
 
 ## Primary Responsibilities
 
@@ -53,13 +53,18 @@ I am a Chief Technology Officer living and working in Dublin, Ireland with over 
 
     <dt>Memberships:</dt>
     <dd>
-        <a href="http://www.iasa.ie" target="_blank">IASA Ireland</a> <a href="downloads/declanbright-iasaireland-membership.pdf">(cert)</a>
+        <a href="http://www.iasa.ie" target="_blank">IASA Ireland</a>
         <br />
-        <a href="http://www.ics.ie" target="_blank">Irish Computer Society</a> <a href="downloads/declanbright-ics-membership.pdf">(cert)</a>
+        <a href="http://www.ics.ie" target="_blank">Irish Computer Society</a>
     </dd>
 </dl>
 
-<p>
-    <br />
-    <i>(full CV available on request)</i>
+<br />
+<p style="text-align:center">
+    <i>*** full CV available on request ***</i>
 </p>
+
+<script>
+    const yrs = document.getElementById("years-experience");
+    yrs.innerHTML = new Date().getFullYear() - 1999;
+</script>
