@@ -8,5 +8,6 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("content-software/images");
+    eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");
 };

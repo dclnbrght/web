@@ -24,6 +24,17 @@
 			menuClasses.toggle("menu-expand");	
 		});
 	}
+
+	// Table of Contents
+	window.onload = () => {
+        const toc = document.getElementById('toc');
+        if (toc !== null)
+            generateTOC(toc);
+		
+        const comments = document.getElementById('comments');
+		if (comments !== null)
+			setupComments(comments);
+    }
 }
 
 function hasClass(el, className) {
@@ -87,7 +98,25 @@ function setupBackToTopButton() {
 }
 
 // Load disqus comments
-function setupComments(anchorId) {
+function setupComments(commentsElement) {
+	var cb = document.createElement('a');
+	cb.id="comments-button";
+	cb.className="footer-button-primary block";
+	cb.href="javascript:setupCommentsAnchor('comments-button');";
+	cb.innerHTML="View Comments";
+	commentsElement.appendChild(cb);
+
+	var disq = document.createElement('div');
+	disq.id="disqus_thread";
+	commentsElement.appendChild(disq);
+	
+    window.onscroll = () => {
+        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
+            setupCommentsAnchor('comments-button');
+        }
+    };
+}
+function setupCommentsAnchor(anchorId) {
 	var a = document.getElementById(anchorId);
 	if (a.style.display != 'none') {
 		a.style.display = 'none';

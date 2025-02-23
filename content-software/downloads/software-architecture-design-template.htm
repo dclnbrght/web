@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js"> 
+	<head>
+		<title>Software Architecture Design Template</title>		
+		<meta name="description" content="" />
+		<meta name="keywords" content="software architecture, attribute driven design, ADD 3.0, ADD 3.1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=1.5, user-scalable=yes">
+		<meta charset="utf-8" />
+		<meta name="author" content="Declan Bright" />
+		<meta name="dcterms.created" content="2018-06-15" />
+		<style>
+			body { font-family: "Segoe UI", 'Istok Web', 'Courier New', "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; } 
+			.column-id { white-space: nowrap; text-align: center; background-color: #efefef; }
+		</style>
+	</head>	
+	<body>
+		<p><em>{{ Based on <a href="https://resources.sei.cmu.edu/asset_files/Presentation/2015_017_101_438648.pdf">ADD 3.0 (Attribute Driven Design)</a> software architecture design process from the SEI. <b>Replace text in curly brackets</b>.}}</em></p>
+		<p></p>
+		<h1>Design Objective</h1>
+		<p>{{ Describe the purpose and scope of the project, including links to functional requirement documents or any other artifacts which provide background information. }}</p>
+		<p></p>
+		<p><b>{ TABLE OF CONTENTS }</b></p>
+		
+		<br />
+		
+		<h1>Definitions &amp; Acronyms</h1>
+		<ul>
+		<li><strong>{term}</strong> - {description}</li>
+		</ul>
+		
+		<br />
+		
+		<h1 style="font-weight: bold;">Design<span>&nbsp;Inputs</span></h1>
+		<h2>Use Cases</h2>
+		<p>The architecturally significant technical &amp; functional, use cases &amp; requirements:</p>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead>
+			<tr style="background-color: #efefef;">
+			<th style="width: 7%;" class="column-id">Id</th>
+			<th style="width: 50%;">Use Case</th>
+			<th style="width: 43%;">Notes</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td style="width: 7%;" class="column-id">UC-10</td>
+			<td style="width: 50%;">{{ i.e. a downstream system can request X from Y }}</td>
+			<td style="width: 43%;"></td>
+			</tr>
+			</tbody>
+		</table>
+		<p></p>
+		<h2>Quality Attribute Scenarios</h2>
+		<p>The <a href="https://en.wikipedia.org/wiki/List_of_system_quality_attributes" target="_blank">quality attributes</a>&nbsp;/ <a href="https://en.wikipedia.org/wiki/Non-functional_requirement">non-functional requirements (NFRs)</a> relevant to this design and how they relate to the use cases listed above:</p>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead>
+			<tr style="background-color: #efefef;">
+			<th style="width: 7%;" class="column-id">Id</th>
+			<th style="width: 19%;">Quality Attribute</th>
+			<th style="width: 50%;">Scenario</th>
+			<th style="width: 24%;">Associated Use Case Ids</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td style="width: 7%;" class="column-id">QA-10</td>
+			<td style="width: 19%;">{{ i.e. Security }}</td>
+			<td style="width: 50%;">{{ i.e. all requests must be authorised }}</td>
+			<td style="width: 24%;">UC-10</td>
+			</tr>
+			</tbody>
+		</table>
+		<p></p>
+		<h2>Constraints</h2>
+		<p>Limitations or restrictions on this design:</p>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead>
+			<tr style="background-color: #efefef;">
+			<th style="width: 7%;" class="column-id">Id</th>
+			<th style="width: 50%;">Constraint</th>
+			<th style="width: 43%;">Notes</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td style="width: 7%;" class="column-id">CON-10</td>
+			<td style="width: 50%;">{{ i.e. Must be compatible with X }}</td>
+			<td style="width: 43%;"></td>
+			</tr>
+			</tbody>
+		</table>
+		<p></p>
+		<h2>Architectural Concerns</h2>
+		<p>Other concerns, external drivers etc</p>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead style="border: inherit solid inherit;">
+			<tr style="background-color: #efefef;">
+			<th style="width: 7%;" class="column-id">Id</th>
+			<th style="width: 50%;">Concern</th>
+			<th style="width: 43%;">Notes</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td style="width: 7%;" class="column-id">CRN-10</td>
+			<td style="width: 50%;">{{ i.e. Limited developer resources available }}</td>
+			<td style="width: 43%;"></td>
+			</tr>
+			</tbody>
+		</table>
+		<p></p>
+		<h2>Current State Architecture</h2>
+		<p>{{ description / diagrams / links where applicable }}</p>
+		
+		<br />
+		<br />
+		
+		<h1>Design Iterations</h1>
+		
+		<h2>1. {{ Iteration Title }}</h2>
+		<p>{{ Description of the problem tackled in this iteration, multiple iteration sections can be added here as required or created as separate documents }}</p>
+		<p></p>
+		<h3>Decision &amp; Rationale</h3>
+		<p><strong>{{ DATE }} | {{ OPTION ID }}</strong> - {{ The rational for making the decision }}</p>
+		<p></p>
+		<h3>Option 1.1 - {{ Option Title }}</h3>
+		<p>{{ Detailed description of the option explored; patterns/data flows/frameworks etc. Use component/class/sequence diagrams where appropriate }}</p>
+		<p></p>
+		<h3>Option 1.2 - {{ Option Title }}</h3>
+		<p>{{ Detailed description of the option explored; patterns/data flows/frameworks etc. Use component/class/sequence diagrams where appropriate }}</p>
+		<p></p>
+		<h3>Option Comparison</h3>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead>
+				<tr style="background-color: #efefef;">
+				<th style="width: 8%; text-align: center;">Id</th>
+				<th style="width: 31%;">Pros</th>
+				<th style="width: 31%;">Cons</th>
+				<th style="width: 30%;">Notes</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td style="width: 8%;" class="column-id">OPT-1.1</td>
+				<td style="width: 31%;">
+				<ul>
+				<li></li>
+				</ul>
+				</td>
+				<td style="width: 31%;">
+				<ul>
+				<li></li>
+				</ul>
+				</td>
+				<td style="width: 30%;"></td>
+				</tr>
+				<tr>
+				<td style="width: 8%;" class="column-id">OPT-1.2</td>
+				<td style="width: 31%;">
+				<ul>
+				<li></li>
+				</ul>
+				</td>
+				<td style="width: 31%;">
+				<ul>
+				<li></li>
+				</ul>
+				</td>
+				<td style="width: 30%;"></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br />
+		<br />
+		<br />		
+		
+		<h2>2. {{ Iteration Title }}</h2>
+		<p>{{ Design Iteration template which can be used when selecting a technology, component, service or framework as part of a solution design. }}</p>
+		<p></p>
+		<h3>Decision &amp; Rationale</h3>
+		<p><strong>{{ DATE }} | {{ OPTION ID }}</strong> - {{ The rational for making the decision }}</p>
+		<p></p>
+		
+		<h3>Option Comparison</h3>
+		<p>{{ Matrix of the options being evaluted, based on their capabilities or characteristics. }}</p>
+		<table class="" style="border: 1px solid #c6c6c6;" width="100%">
+			<thead>
+			<tr style="background-color: #efefef;">
+				<th style="width: 20%; text-align: center;">Capability</th>
+				<th style="width: 20%;">{{ i.e. Technology A }}</th>
+				<th style="width: 20%;">{{ i.e. Technology B }}</th>
+				<th style="width: 20%;">{{ i.e. Technology C }}</th>
+				<th style="width: 20%;">{{ i.e. Technology ... }}</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td style="width: 20%;" class="column-id">{{ i.e. Interface Type }}</td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;">{{ i.e. RESTful API }}</td>
+				<td style="width: 20%;">{{ i.e. SDK }}</td>
+				<td style="width: 20%;"></td>
+			</tr>
+			<tr>
+				<td style="width: 20%;" class="column-id">{{ i.e. Licensing Model }}</td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;">{{ i.e. Commercial }}</td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;">{{ i.e. MIT }}</td>
+			</tr>
+			<tr>
+				<td style="width: 20%;" class="column-id">{{ i.e. Documentation }}</td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;"></td>
+				<td style="width: 20%;">{{ i.e. Comprehensive on-line docs }}</td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<br />
+		<br />
+		
+		<h1>Resources</h1>
+		<p>Links to relevant material:</p>
+		<ul>
+		<li></li>
+		</ul>
+	</body>
+</html>

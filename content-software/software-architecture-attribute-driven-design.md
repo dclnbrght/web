@@ -61,12 +61,80 @@ If this design is related to existing system/s, provide a description or referen
 
 As an optional activity, Design Inputs can be prioritised in consultation with the project sponsor/s and based on the architectural significance of each design input. This is a useful exercise in larger projects where the design activities span across multiple Design Iterations and the sequence of development work needs to be agreed.
 
+
 ## Design Iterations
 
+### Step 1. Review Design Inputs
+All of the Design Inputs must be reviewed (and updated if required) at the start of each Design Iteration.
 
+### Step 2. Establish the iteration goal based on the (prioritised) Design Inputs
+The iteration goal is determined based on a number of factors; the size and complexity of the project, the clarity of the requirements etc.
 
-<script>
-    window.onload = () => { 
-        generateTOC(document.getElementById('toc'));
-    }
-</script>
+### Step 3. Choose one or more elements / aspects of the system to refine
+For small projects which can be covered by a single Design Iteration, all elements of the system are considered together. For larger projects, the first iteration is generally scoped to considering the system design at a high level of abstraction, such as choosing a reference architecture, or choosing the primary technology platform or application framework. Subsequent Design Iterations then focus on more specific areas of the system.
+
+### Step 4. Choose one or more design concepts which satisfy the Design Inputs
+At least two options should always be explored. Listing the Pro's and Con's of each helps to highlight the most suitable option. Where appropriate, a Proof-Of-Concept (POC) should be developed to validate the design assumptions, if possible, the output of POC should include quantitative metrics.
+
+### Step 5. Document the design for each concept; sketches / diagrams, data flows, interfaces etc.
+This will vary based on the elements being designed. Simple diagrams or (photographs of) white board sketches are often sufficient to describe each concept at an early stage.
+
+### Step 6. Peer review, record design decisions and rationale
+Discussion and validation of the design concepts with other architects and the development team, once consensus has been reached on the best option/s, record the decision/s and the rationale for making those decision/s.
+
+### Step 7. Review iteration goal and coverage of Design Inputs
+Review how well the Design Inputs have been satisfied, to determine if another Design Iteration is required.
+
+#### _Go to Step 1 if all Design Inputs have not been satisfied, otherwise proceed to the Design Outputs._
+
+## Design Outputs
+### Step 8. Document the architecture and communicate to stakeholders
+See the Documentation section below.
+
+<br>
+
+## Documentation
+
+All design documentation should be readily available to anyone in the organization. Openness promotes trust and collaboration across teams.
+
+The following documentation is produced during the process:
+
+### Architecture Design Documentation
+
+The Design Inputs and the Design Iterations are captured in the Architecture Design Documentation. This can be a single document or, for larger projects, the Design Inputs and each Design Iteration can be captured in separate linked documents. The primary stakeholders in the creation of Architecture Design documents are architects, technical leads, senior software engineers, and project sponsors.
+
+### Development Specification Documentation
+
+The primary stakeholders for Development Specification documents are the development team/s that will build the software. These documents are optional; however, the main reason to create separate development specifications is to avoid confusion. These documents only include the option/s chosen during the Architecture Design, and the other options are excluded. Where appropriate, more details can be added, i.e., negative test scenarios or additional sequence diagrams, to aid the understanding of the development team. The Development Specification Document must include a link back to the Architecture Design Document for reference.
+
+### Architecture Description Documentation
+
+The Architecture Description documentation, including release documentation, architecture models, etc., must be updated to reflect the changes made as a result of the design and development processes. Content can be copied and pasted from the development specification, but the text must be changed from future tense to present tense to reflect the current state of the system. Specific details about the implementation should also be added, i.e., the location of the code in the source code repository.
+
+## Size Matters
+
+There isn't a "one size fits all" when it comes to performing a software architecture design. Here are some guidelines describing what you should aim for:
+
+- **Small Project**
+    - The ADD process may not be required for very small projects.
+    - Capture Design Inputs and Decisions in the development team's task management system.
+    - Or create a short Development Specification document.
+- **Medium Project**
+    - Capture Design Inputs, Design Iterations, and Decisions in a single Architecture Design document.
+    - Perform one or two design iterations.
+- **Large Project**
+    - Capture Design Inputs, Design Iterations, and Decisions in multiple Architecture Design documents.
+    - Perform two or more design iterations.
+
+## Design Document Template
+
+Ideally, the Design Document is created in a team wiki to promote collaboration. These templates in HTML and MS Word formats will give you a starting point:
+
+- [software-architecture-design-template.htm](/content-software/downloads/software-architecture-design-template.htm)
+- [Software-Architecture-Design-Template.docx](/content-software/downloads/Software-Architecture-Design-Template.docx)
+
+## Further Reading
+
+- [Attribute Driven Design with Threat Modelling](software-architecture-attribute-driven-design-threat-modelling)
+
+<div id="comments" class="comments"></div>
