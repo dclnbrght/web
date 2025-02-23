@@ -35,6 +35,9 @@
 		if (comments !== null)
 			setupComments(comments);
     }
+
+	// Setup image dialog box
+	$('img').imageDialog();
 }
 
 function hasClass(el, className) {
