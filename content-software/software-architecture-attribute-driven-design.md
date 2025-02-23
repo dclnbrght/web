@@ -135,6 +135,6 @@ Ideally, the Design Document is created in a team wiki to promote collaboration.
 
 ## Further Reading
 
-- [Attribute Driven Design with Threat Modelling](software-architecture-attribute-driven-design-threat-modelling)
+- [Attribute Driven Design with Threat Modelling](/software-architecture-attribute-driven-design-threat-modelling)
 
 <div id="comments" class="comments"></div>
