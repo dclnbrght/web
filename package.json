@@ -12,5 +12,6 @@
     },
     "repository": {
         "url": "https://github.com/dclnbrght/web"
-    }
+    },
+    "type": "module"
 }
