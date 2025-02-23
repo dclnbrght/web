@@ -85,7 +85,7 @@
             "latestPatch": "6.0.16",
             "latestPatchReleased": "2023-04-11",
             "useFrom": "2022-01-01",
-            "useTo": "2024-10-30",
+            "useTo": "2025-10-30",
             "link": "https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core",
             "notes": "https://devblogs.microsoft.com/dotnet/april-2023-updates/",
             "lts": true,

@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Eleventy output
+_site/
+
+# Temporary files
+*.tmp
+*.log
+
+# MacOS files
+.DS_Store
+
+# VSCode files
+.vscode/

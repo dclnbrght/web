@@ -1,0 +1,50 @@
+---
+title: Declan Bright
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="author" content="{{ author }}">
+    <meta name="dcterms.created" content="{{ date }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2, user-scalable=yes">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ '/styles/2025.2.css' | url }}">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anton%7CIstok+Web:400,700">
+  </head>
+  <body>
+    <header>
+      <div id="title">
+          <a href="/index">declan bright</a>
+      </div>
+    </header>
+    <nav id="menu" class="menu-container hidden">
+        <a class="menu-toggle">- Menu -</a>
+        <ul class="menu-item-list animate-duration-medium animate-fade-in" role="menubar">
+            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/index' | url }}">Home</a></li>
+            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/software' | url }}">Software</a></li>
+            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/electronics' | url }}">Electronics</a></li>
+            <li class="menu-item" role="presentation"><a role="menuitem" href="{{ '/cv' | url }}">CV</a></li>
+        </ul>
+    </nav>
+    <noscript>
+        <p>This page may not function correctly, your browser does not support JavaScript or JavaScript has been disabled.</p>
+    </noscript>
+    <article class="reader" role="main">
+      {{ content | safe }}
+		</article>
+    <a id="footer-button-navtop" href="#title" class="footer-button-primary hidden block">Back to Top</a>
+    <footer class="footer-bar animate-duration-medium animate-delay-medium animate-fade-in">
+        <div id="footer-github" class="footer-item"></div>
+        <div id="footer-copyright" class="footer-item">© 2025 Declan Bright</div>
+        <div id="footer-contact" class="footer-item"></div>
+    </footer>
+		<script src="{{ '/scripts/modernizr-3.2.0.js' | url }}"></script>
+		<script src="{{ '/scripts/2025.2.js' | url }}"></script>
+		<script>setupPage();</script>
+  </body>
+</html>

@@ -570,7 +570,9 @@ article ul li {
         margin: -0.8em 0;
     }
 	
-    #footer-copyright { margin: 0 3em }
+    #footer-github,
+    #footer-copyright,
+    #footer-contact { margin: 0 1em }
 	
     .thumb {
         width: 6.6em;
@@ -600,7 +602,9 @@ article ul li {
 	
     .footer-bar { padding-top: 3em }
 	
-    #footer-copyright { margin: 0 10em }
+    #footer-github,
+    #footer-copyright,
+    #footer-contact { margin: 0 4em }
 	
     #galleryouter { margin-top: -0.6em }
     #image-tags ul { margin: -0.7em 1em 1.2em 1em }
