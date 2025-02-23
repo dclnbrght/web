@@ -5,7 +5,7 @@
     "scripts": {
         "start": "npx @11ty/eleventy --serve",
         "build-dev": "npx @11ty/eleventy",
-        "build": "NODE_ENV=production eleventy --pathprefix='web'"
+        "build": "NODE_ENV=production eleventy"
     },
     "devDependencies": {
         "@11ty/eleventy": "^3.0.0"
