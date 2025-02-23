@@ -4,10 +4,12 @@ export default function(eleventyConfig) {
     eleventyConfig.addGlobalData('layout', 'layouts/default.njk');
 
     eleventyConfig.addPassthroughCopy("styles/2025.2.css");
-    eleventyConfig.addPassthroughCopy("app/");
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("app/");
+    eleventyConfig.addPassthroughCopy("content-box/images");
     eleventyConfig.addPassthroughCopy("content-software/images");
     eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");
+
 };
