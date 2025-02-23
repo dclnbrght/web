@@ -1,7 +1,7 @@
 ---
 title: Queens University Belfast, Two-Stroke Engines and Motorcycle Grand Prix Racing Legends
 description: A story of motorcycle racing legends
-keywords: "Queens University Belfast, Ray McCollough, Jeremy McWilliams, Robert Fleck, QUB Team Optimum, Honda 250cc, dual ignition"
+keywords: "Queens University Belfast, Ray McCullough, Jeremy McWilliams, Robert Fleck, QUB Team Optimum, Honda 250cc, dual ignition"
 date: 2014-07-11
 permalink: "box/queens-university-belfast-two-stroke-engines-motorcycle-grand-prix-racing-legends-ray-mccullough-jeremy-mcwilliams/"
 ---
@@ -9,7 +9,7 @@ permalink: "box/queens-university-belfast-two-stroke-engines-motorcycle-grand-pr
 # {{ title }}
 
 			<p>
-				While in school I decided that I wanted to become a mechanical engineer. I always had an interest in machines and engines and I managed to get myself into the <a href="https://www.qub.ac.uk/schools/SchoolofMechanicalandAerospaceEngineering/" target="_blank">mechanical engineering degree course</a> at the <a href="https://www.qub.ac.uk/" target="_blank">Queen's University Belfast</a>. While there I found myself working in the engine lab with a guy called <a href="https://www.facebook.com/RoadracingLegendSupermac/" target="_blank">Ray McCullough</a>. 
+				When I was at school I decided that I wanted to become a mechanical engineer. I always had an interest in machines and engines and I managed to get myself into the <a href="https://www.qub.ac.uk/schools/SchoolofMechanicalandAerospaceEngineering/" target="_blank">mechanical engineering degree course</a> at the <a href="https://www.qub.ac.uk/" target="_blank">Queen's University Belfast</a>. While there I found myself working in the engine lab with a guy called <a href="https://www.facebook.com/RoadracingLegendSupermac/" target="_blank">Ray McCullough</a>. 
 			</p>
 
 			<figure class="photoFigure">
