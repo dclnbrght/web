@@ -2,7 +2,6 @@
 title: Attribute Driven Design with Threat Modelling
 description: Aligning threat modelling with the software design process.
 keywords: "software architecture, attribute driven design, ADD 3.0, ADD 3.1, threat modelling, STRIDE"
-author: Declan Bright
 date: 2019-08-25
 permalink: "software-architecture-attribute-driven-design-threat-modelling/"
 ---

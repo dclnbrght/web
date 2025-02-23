@@ -12,6 +12,9 @@ A light-weight, structured approach to software design.
 [Attribute Driven Design with Threat Modelling](/software-architecture-attribute-driven-design-threat-modelling/) \
 Incorporate Threat Modelling into the software design process.
 
+[The ArchiMate Series](/archimate-series/) \
+A series of articles on the ArchiMate modelling language.
+
 ## Tools
 
 [eolvis - Software End Of Life Timeline Visualisation](/eolvis/) \

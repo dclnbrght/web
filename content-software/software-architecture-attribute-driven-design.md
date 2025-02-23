@@ -2,7 +2,6 @@
 title: Software Architecture - Attribute Driven Design
 description: A light-weight, structured approach to software design
 keywords: "software architecture, attribute driven design, ADD 3.0, ADD 3.1"
-author: Declan Bright
 date: 2019-03-01
 permalink: "software-architecture-attribute-driven-design/"
 ---

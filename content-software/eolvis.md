@@ -2,7 +2,6 @@
 title: eolvis
 description: A web application that creates visualisations of component End-of-Life (EOL) information.
 keywords: "eolvis, Software Lifecycle, EOL, visualisation"
-author: Declan Bright
 date: 2023-09-30
 permalink: "eolvis/"
 ---

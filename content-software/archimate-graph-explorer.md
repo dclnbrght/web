@@ -2,7 +2,6 @@
 title: ArchiMate Graph Explorer
 description: A web application that renders an interactive force directed graph of an ArchiMate model.
 keywords: "ArchiMate, Enterprise Architecture, Archi, graph, D3.js"
-author: Declan Bright
 date: 2021-09-25
 permalink: "archimate-graph-explorer/"
 ---
