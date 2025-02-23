@@ -14,5 +14,8 @@ Incorporate Threat Modelling into the software design process.
 
 ## Tools
 
-[eolvis - Software End Of Life Timeline Visualization](/eolvis/) \
+[eolvis - Software End Of Life Timeline Visualisation](/eolvis/) \
 Visualise the lifecycle of software components on a timeline.
+
+[ArchiMate Graph Explorer](/archimate-graph-explorer/) \
+Browse ArchiMate models with a graph explorer application
