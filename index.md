@@ -7,9 +7,20 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/box/guitar-pedal-copper-drive-design-build">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Copper Drive - Custom Guitar Pedal, Design &amp; Build</strong>
+        </div>
+    </a>
+</div>
+
+<div class="card">
     <a href="/box/marantz-pm66se-amplifier-repair">
         <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-electronics/images/marantz-pm66se-reassembled.webp');background-size:114%;"></div>
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/marantz-pm66se/marantz-pm66se-reassembled.webp');background-size:114%;"></div>
         </div>
         <div class="card-body">
             <strong>Marantz PM66SE Amplifier Repair</strong>

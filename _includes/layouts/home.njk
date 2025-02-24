@@ -93,9 +93,8 @@ title: Declan Bright
         <p>This page may not function correctly, your browser does not support JavaScript or JavaScript has been disabled.</p>
     </noscript>
     <section>
-      <div style="text-align:center"><h2>*** Website re-platforming in progress, back soon! ***</h2></div>
 			<div class="card-container">
-        {{ content | safe }}
+        	{{ content | safe }}
 			</div>
 		</section>
     <a id="footer-button-navtop" href="#title" class="footer-button-primary hidden block">Back to Top</a>
@@ -104,8 +103,16 @@ title: Declan Bright
         <div id="footer-copyright" class="footer-item">© 2025 Declan Bright</div>
         <div id="footer-contact" class="footer-item"></div>
     </footer>
-		<script src="{{ '/scripts/modernizr-3.2.0.js' | url }}"></script>
-		<script src="{{ '/scripts/2025.2.js' | url }}"></script>
-		<script>setupPage();</script>
+	<script src="{{ '/scripts/modernizr-3.2.0.js' | url }}"></script>
+	<script src="{{ '/scripts/2025.2.js' | url }}"></script>
+	<script>setupPage();</script>
+	    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SNEG35G2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-92SNEG35G2');
+    </script>
   </body>
 </html>
