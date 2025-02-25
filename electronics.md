@@ -18,6 +18,10 @@ Building a Musikding Der Muff American Guitar Pedal kit which is based on the fa
 [Musikding Germanium Fuzz Guitar Pedal Kit](/box/musikding-germanium-fuzz-guitar-pedal-kit/) \
 Building a Musikding Germanium Fuzz Guitar Pedal kit which is based on the Fuzz Factory circuit.
 
+## Guitar Mods
+[Treble bleed mod](/box/treble-bleed-mod-gretsch-double-jet/) \
+Adding a treble bleed to a Gretsch Double Jet.
+
 ## Restoration
 [Marantz PM66SE Amplifier Repair](/box/marantz-pm66se-amplifier-repair) \
 A project to restore an old Marantz hi-fi amplifier.
