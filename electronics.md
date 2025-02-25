@@ -15,6 +15,9 @@ Building a Run Off Groove Supreaux Deux amp simulator guitar pedal, based on the
 [Musikding Der Muff American Guitar Pedal Kit](/box/musikding-der-muff-guitar-pedal-kit/) \
 Building a Musikding Der Muff American Guitar Pedal kit which is based on the famous EHX Big Muff.
 
+[Musikding Germanium Fuzz Guitar Pedal Kit](/box/musikding-germanium-fuzz-guitar-pedal-kit/) \
+Building a Musikding Germanium Fuzz Guitar Pedal kit which is based on the Fuzz Factory circuit.
+
 ## Restoration
 [Marantz PM66SE Amplifier Repair](/box/marantz-pm66se-amplifier-repair) \
 A project to restore an old Marantz hi-fi amplifier.

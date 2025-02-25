@@ -39,6 +39,16 @@ layout: layouts/home.njk
 
 
 <div class="card">
+    <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-germanium-fuzz/guitar-pedal-assembled.webp');background-size:114%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Building a Musikding Germanium Fuzz Guitar Pedal Kit</strong>
+        </div>
+    </a>
+</div>	
+<div class="card">
     <a href="/box/marantz-pm66se-amplifier-repair">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-electronics/images/marantz-pm66se/marantz-pm66se-reassembled.webp');background-size:114%;"></div>
