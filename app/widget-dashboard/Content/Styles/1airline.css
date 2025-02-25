@@ -1,0 +1,63 @@
+﻿/********************************************************** 
+                Customer specific styles
+**********************************************************/
+
+.headerTop {
+    background-color: #ffffff;
+}
+
+.mainMenuOuter {
+    background: rgb(100, 100, 100);
+}
+
+.mainMenuSeparator {
+    color: #fff;
+}
+
+.mainMenu a {
+    color: #fff;
+}
+
+.mainMenu a:hover {
+    color: #ddd;
+    background: rgb(80, 80, 80);
+}
+
+.mainMenu > li > a:hover {
+    background: rgb(80, 80, 80);
+    background: rgba(80, 80, 80, 0.85);
+}
+
+.mainMenu li li a {
+    border-top: 1px solid #888;
+    background: rgb(80, 80, 80);
+    background: rgba(80, 80, 80, 0.85);
+}
+
+.mainMenuToggle {
+    background: rgb(100, 100, 100);
+    color: #fff;
+}
+
+.headerText {
+    color: rgb(100, 100, 100);
+}
+
+@media screen and (max-width: 480px) {
+    .mainMenu {
+        background: rgb(100, 100, 100);
+    }
+    .mainMenu li li a {
+        background: rgb(80, 80, 80);
+    }
+}
+
+.aboutPanel {
+    background: rgb(120, 120, 120);
+    background-color: rgba(120, 120, 120, 0.85);
+}
+
+.calendar,
+.ajax__calendar .ajax__calendar_container   { border: solid 1px #0063A1 !important; }
+.calendar table td                          { background-color: #0063A1; border: solid 5px #0063A1; }
+.ajax__calendar .ajax__calendar_header      { background-color: #0063A1; }

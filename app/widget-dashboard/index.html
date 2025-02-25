@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="shortcut icon" href="Content/Images/favicon.ico">
+    <script>
+        var serverLocale = 'en-GB';
+        var contentUrl = 'Content/';
+    </script>
+    <link href="Content/Styles/0main.css" rel="stylesheet"/>
+	<link href="Content/Styles/1airline.css" rel="stylesheet"/>
+	<link href="Content/Styles/dashboard.css" rel="stylesheet"/>
+	<link href="Content/Styles/jPushMenu.css" rel="stylesheet"/>
+	<link href="Content/Styles/leaflet.css" rel="stylesheet"/>
+</head>
+<body style="margin: 0px; color: rgb(0, 0, 0);">
+    <div id="masterHeader">
+        <div class="headerTop">
+            <a id="LogoLink" href="/" class="headerHome">
+                <div class="headerText">Dashboard</div>
+                <div class="headerLogo"></div>
+            </a>
+                <div id="HeaderMenuOuter" class="mainMenuOuter">
+                    <a class="mainMenuToggle" href="#">Menu</a>
+                    <ul class="mainMenu">
+                        <li>
+                            <a id="MenuLinkPrimary">Dashboard</a>
+                            <ul>
+                            </ul>
+                        </li>
+                        <li class="mainMenuSeparator">|</li>
+                        <li>
+                            <a id="MenuLinkOptions">Options</a>
+                            <ul>
+                                <li>
+                                    <a href="/Authentication/Logout">Logout (admin)</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <div id="masterBody">
+        <div id="masterBodyInner">
+			<button class="toggle-menu menu-left filterbar-button">
+				Filters
+			</button>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left filterbar">
+				<h3>Filters</h3>
+				<div class="filterbar-items"></div>
+				<input type="submit" class="primaryButton filterbar-apply" value="Apply" onclick="dashboardApplyFilters();" />
+			</nav>
+			<div id="informationPanel" class="informationPanel informationPanelWarning" style="display:none;"></div>
+			<div id="dashboard"></div>
+        </div>
+    </div>
+    <script src="Content/Scripts/jquery-1.11.3.min.js"></script>
+	<script src="Content/Scripts/jquery.validate.min.js"></script>
+	<script src="Content/Scripts/jquery.validate.unobtrusive.min.js"></script>
+	<script src="Content/Scripts/modernizr-2.6.2.js"></script>
+	<script src="Content/Scripts/jquery.responsivetable.min.js"></script>
+	<script src="Content/Scripts/moment.min.js"></script>
+	<script src="Content/Scripts/moment-en-gb.js"></script>
+	<script src="Content/Scripts/main.js"></script>
+	<script src="Content/Scripts/d3.min.js"></script>
+	<script src="Content/Scripts/jquery.fittext.js"></script>
+	<script src="Content/Scripts/jPushMenu.js"></script>
+	<script src="Content/Scripts/dashboard.utility.js"></script>
+	<script src="Content/Scripts/dashboard.data.js"></script>
+	<script src="Content/Scripts/dashboard.js"></script>
+	<script src="Content/Scripts/dashlet.performanceindicator.js"></script>
+	<script src="Content/Scripts/dashlet.defaultchart.js"></script>
+	<script src="Content/Scripts/dashlet.heatmap.js"></script>
+	<script src="Content/Scripts/dashlet.treemap.js"></script>
+	<script src="Content/Scripts/dashlet.scatterplot.js"></script>
+	<script src="Content/Scripts/leaflet.js"></script>
+	<script src="Content/Scripts/dashlet.geomap.js"></script>
+	<script src="Content/Scripts/dashlet.table.js"></script>
+    <script type="text/javascript">
+        window.dashboardId = "CrewDemo1";
+        window.sid = "fci13fihjpssujlt1yses2xu";
+        window.baseUrl = "";
+        window.actionLoggingEnabled = false;
+
+        dashboardLoadConfiguration(dashboardId);
+        $('.toggle-menu').jPushMenu();
+    </script>
+</body>
+</html>
+

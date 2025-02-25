@@ -1,0 +1,3361 @@
+﻿{
+    "Name": "Crew Analytics Dashboard",
+    "Zones": [
+        {
+            "Id": "zone-rosterimpact",
+            "Dashlets": [
+                {
+                    "Id": "RosterImpact-PrgOprPlndKpi",
+                    "Value": 79,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": 2.09
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-PrgOprPlndKpi-Series1",
+                            "MinimumY": "0",
+                            "MaximumY": "100",
+                            "Data": [
+                                {
+                                    "Y": "58",
+                                    "X": "2015-01-01"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-02"
+                                },
+                                {
+                                    "Y": "52",
+                                    "X": "2015-01-03"
+                                },
+                                {
+                                    "Y": "60",
+                                    "X": "2015-01-04"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-05"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-06"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-07"
+                                },
+                                {
+                                    "Y": "78",
+                                    "X": "2015-01-08"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-ImpactCostKpi",
+                    "Value": 1.967,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": 3.41
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-ImpactCostKpi",
+                            "MinimumY": "0",
+                            "MaximumY": "2.2",
+                            "IsSparkline": true,
+                            "Data": [
+                                {
+                                    "Y": "1.67",
+                                    "X": "2014-01-01"
+                                },
+                                {
+                                    "Y": "1.984",
+                                    "X": "2014-02-01"
+                                },
+                                {
+                                    "Y": "1.92",
+                                    "X": "2014-03-01"
+                                },
+                                {
+                                    "Y": "1.86",
+                                    "X": "2014-04-01"
+                                },
+                                {
+                                    "Y": "1.81",
+                                    "X": "2014-05-01"
+                                },
+                                {
+                                    "Y": "1.984",
+                                    "X": "2014-06-01"
+                                },
+                                {
+                                    "Y": "1.67",
+                                    "X": "2014-07-01"
+                                },
+                                {
+                                    "Y": "1.97",
+                                    "X": "2014-08-01"
+                                },
+                                {
+                                    "Y": "1.9",
+                                    "X": "2014-09-01"
+                                },
+                                {
+                                    "Y": "1.88",
+                                    "X": "2014-10-01"
+                                },
+                                {
+                                    "Y": "1.85",
+                                    "X": "2014-11-01"
+                                },
+                                {
+                                    "Y": "1.954",
+                                    "X": "2014-12-01"
+                                },
+                                {
+                                    "Y": "1.967",
+                                    "X": "2015-01-07"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-PrgOprAwayKpi",
+                    "Value": 23,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": -2.94
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-PrgOprAwayKpi-Series1",
+                            "Data": [
+                                {
+                                    "Y": "58",
+                                    "X": "2015-01-01"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-02"
+                                },
+                                {
+                                    "Y": "52",
+                                    "X": "2015-01-03"
+                                },
+                                {
+                                    "Y": "60",
+                                    "X": "2015-01-04"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-05"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-06"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-07"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalImpactsKpi",
+                    "Value": 2487,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": 5.19
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalImpactsKpi-Series1",
+                            "Data": [
+                                {
+                                    "Y": "58",
+                                    "X": "2015-01-01"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-02"
+                                },
+                                {
+                                    "Y": "52",
+                                    "X": "2015-01-03"
+                                },
+                                {
+                                    "Y": "60",
+                                    "X": "2015-01-04"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-05"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-06"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-07"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalChangesKpi",
+                    "Value": 5109,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": 7.81
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalChangesKpi-Series1",
+                            "Data": [
+                                {
+                                    "Y": "58",
+                                    "X": "2015-01-01"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-02"
+                                },
+                                {
+                                    "Y": "52",
+                                    "X": "2015-01-03"
+                                },
+                                {
+                                    "Y": "60",
+                                    "X": "2015-01-04"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-05"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-06"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-07"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalSwapsKpi",
+                    "Value": 3461,
+                    "Attributes": [
+                        {
+                            "Name": "MPY",
+                            "Value": 4.72
+                        }
+                    ],
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalSwapsKpi-Series1",
+                            "Data": [
+                                {
+                                    "Y": "58",
+                                    "X": "2015-01-01"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-02"
+                                },
+                                {
+                                    "Y": "52",
+                                    "X": "2015-01-03"
+                                },
+                                {
+                                    "Y": "60",
+                                    "X": "2015-01-04"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-05"
+                                },
+                                {
+                                    "Y": "54",
+                                    "X": "2015-01-06"
+                                },
+                                {
+                                    "Y": "56",
+                                    "X": "2015-01-07"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-Triggers",
+                    "Series": [
+                        {
+                            "Id": "Table1",
+                            "Data": [
+                                {
+                                    "Trigger Event Name": "Open Time Swaps",
+                                    "Impact Cost": "$914,959"
+                                },
+                                {
+                                    "Trigger Event Name": "No Trigger",
+                                    "Impact Cost": "$306,514"
+                                },
+                                {
+                                    "Trigger Event Name": "Operational",
+                                    "Impact Cost": "$108,257"
+                                },
+                                {
+                                    "Trigger Event Name": "CM Absence",
+                                    "Impact Cost": "$97,393"
+                                },
+                                {
+                                    "Trigger Event Name": "Additional Time off",
+                                    "Impact Cost": "$85,628"
+                                },
+                                {
+                                    "Trigger Event Name": "CM Lack of Planning Absence",
+                                    "Impact Cost": "$78,207"
+                                },
+                                {
+                                    "Trigger Event Name": "Unplanned Training",
+                                    "Impact Cost": "$68,584"
+                                },
+                                {
+                                    "Trigger Event Name": "CM Operational Absence",
+                                    "Impact Cost": "-$733"
+                                },
+                                {
+                                    "Trigger Event Name": "Other Management Intervention",
+                                    "Impact Cost": "-$75,145"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-WorstPairings",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-WorstPairings-Series1",
+                            "Data": [
+                                {
+                                    "T": "DFW-POS-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 87,
+                                    "Z": 31093,
+                                    "Y": 6,
+                                    "X": 45.43
+                                },
+                                {
+                                    "T": "DFW-POS-DFW",
+                                    "I": "Pilot",
+                                    "A": 54,
+                                    "Z": 68879,
+                                    "Y": 3.7,
+                                    "X": 336.76
+                                },
+                                {
+                                    "T": "IAD-AUA-IAD",
+                                    "I": "Pilot",
+                                    "A": 51,
+                                    "Z": 81533,
+                                    "Y": 6,
+                                    "X": 299.24
+                                },
+                                {
+                                    "T": "IAD-AUA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 111,
+                                    "Z": 47247,
+                                    "Y": -1.8,
+                                    "X": 44.1
+                                },
+                                {
+                                    "T": "IAD-AUS-DFW-PAP-DFW-NAS-DFW-DCA-TPA-BDL-DCA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 14,
+                                    "Z": 12854,
+                                    "Y": 18.9,
+                                    "X": 48.73
+                                },
+                                {
+                                    "T": "IAD-AUS-DFW-PAP-DFW-NAS-DFW-DCA-TPA-BDL-DCA-IAD",
+                                    "I": "Pilot",
+                                    "A": 13,
+                                    "Z": 39018,
+                                    "Y": 5,
+                                    "X": 191.19
+                                },
+                                {
+                                    "T": "IAD-BUF-IAD-ATL-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 22,
+                                    "Z": 3699,
+                                    "Y": 1.7,
+                                    "X": 38.65
+                                },
+                                {
+                                    "T": "IAD-BUF-IAD-ATL-IAD",
+                                    "I": "Pilot",
+                                    "A": 23,
+                                    "Z": 15022,
+                                    "Y": -6.5,
+                                    "X": 188.36
+                                },
+                                {
+                                    "T": "IAD-BWI-IAD-BUF-IAD",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 10566,
+                                    "Y": 14,
+                                    "X": 197.86
+                                },
+                                {
+                                    "T": "IAD-BWI-IAD-BUF-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 15,
+                                    "Z": 2912,
+                                    "Y": 5.8,
+                                    "X": 40.9
+                                },
+                                {
+                                    "T": "IAD-BWI-IAD-RDU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 38,
+                                    "Z": 9349,
+                                    "Y": -2.8,
+                                    "X": 37.73
+                                },
+                                {
+                                    "T": "IAD-BWI-IAD-RDU-IAD",
+                                    "I": "Pilot",
+                                    "A": 37,
+                                    "Z": 33982,
+                                    "Y": -11.1,
+                                    "X": 176.32
+                                },
+                                {
+                                    "T": "IAD-CLT-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 37,
+                                    "Z": 6642,
+                                    "Y": 0.7,
+                                    "X": 42.47
+                                },
+                                {
+                                    "T": "IAD-CLT-IAD",
+                                    "I": "Pilot",
+                                    "A": 36,
+                                    "Z": 23560,
+                                    "Y": -3.8,
+                                    "X": 229.26
+                                },
+                                {
+                                    "T": "IAD-CUN-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 23,
+                                    "Z": 7639,
+                                    "Y": 7.7,
+                                    "X": 39.85
+                                },
+                                {
+                                    "T": "IAD-CUN-IAD",
+                                    "I": "Pilot",
+                                    "A": 24,
+                                    "Z": 34372,
+                                    "Y": 6.7,
+                                    "X": 465.86
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-DCA-PHX-DCA-IAD-PHL-IAD",
+                                    "I": "Pilot",
+                                    "A": 15,
+                                    "Z": 31121,
+                                    "Y": 17.3,
+                                    "X": 185.46
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-DCA-PHX-DCA-IAD-PHL-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 14,
+                                    "Z": 8907,
+                                    "Y": 11.5,
+                                    "X": 57.91
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-DCA-PHX-DCA-DFW-DCA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 18,
+                                    "Z": 11654,
+                                    "Y": 13.6,
+                                    "X": 55.54
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-DCA-PHX-DCA-DFW-DCA-IAD",
+                                    "I": "Pilot",
+                                    "A": 17,
+                                    "Z": 36114,
+                                    "Y": 7.8,
+                                    "X": 180.28
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-TPA-DCA-CHS-DCA-IAD-BWI-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 28,
+                                    "Z": 15161,
+                                    "Y": 10.7,
+                                    "X": 43.06
+                                },
+                                {
+                                    "T": "IAD-DCA-BDL-TPA-DCA-CHS-DCA-IAD-BWI-IAD",
+                                    "I": "Pilot",
+                                    "A": 31,
+                                    "Z": 62540,
+                                    "Y": 5.6,
+                                    "X": 218.52
+                                },
+                                {
+                                    "T": "IAD-DCA-RSW-DCA-IAD-DTW-IAD-CLT-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 11414,
+                                    "Y": 3.4,
+                                    "X": 56.13
+                                },
+                                {
+                                    "T": "IAD-DCA-RSW-DCA-IAD-DTW-IAD-CLT-IAD",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 35309,
+                                    "Y": -7.5,
+                                    "X": 260.45
+                                },
+                                {
+                                    "T": "IAD-DCA-TPA-HPN-PHX-IAD-PHL-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 13,
+                                    "Z": 8260,
+                                    "Y": 10,
+                                    "X": 48.72
+                                },
+                                {
+                                    "T": "IAD-DCA-TPA-HPN-PHX-IAD-PHL-IAD",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 26299,
+                                    "Y": 8.5,
+                                    "X": 211.97
+                                },
+                                {
+                                    "T": "IAD-DEN-IAD",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 40154,
+                                    "Y": 0.2,
+                                    "X": 404.85
+                                },
+                                {
+                                    "T": "IAD-DEN-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 123,
+                                    "Z": 42114,
+                                    "Y": -1.7,
+                                    "X": 40.94
+                                },
+                                {
+                                    "T": "IAD-DFW-IAD",
+                                    "I": "Pilot",
+                                    "A": 81,
+                                    "Z": 87789,
+                                    "Y": -0.9,
+                                    "X": 225.51
+                                },
+                                {
+                                    "T": "IAD-DFW-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 89,
+                                    "Z": 29044,
+                                    "Y": -6.8,
+                                    "X": 41.55
+                                },
+                                {
+                                    "T": "IAD-DTW-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 92,
+                                    "Z": 17068,
+                                    "Y": 4.7,
+                                    "X": 48.4
+                                },
+                                {
+                                    "T": "IAD-DTW-IAD",
+                                    "I": "Pilot",
+                                    "A": 91,
+                                    "Z": 60363,
+                                    "Y": 1,
+                                    "X": 237.4
+                                },
+                                {
+                                    "T": "IAD-EWR-IAD-CHS-DCA-JAX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 28,
+                                    "Z": 11924,
+                                    "Y": 5.4,
+                                    "X": 39.08
+                                },
+                                {
+                                    "T": "IAD-EWR-IAD-CHS-DCA-JAX-IAD",
+                                    "I": "Pilot",
+                                    "A": 28,
+                                    "Z": 39595,
+                                    "Y": 0,
+                                    "X": 194.67
+                                },
+                                {
+                                    "T": "IAD-DFW-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 5427,
+                                    "Y": 8.4,
+                                    "X": 40.31
+                                },
+                                {
+                                    "T": "IAD-DFW-IAD",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 16899,
+                                    "Y": 5.1,
+                                    "X": 251.79
+                                },
+                                {
+                                    "T": "IAD-IAD-ATL-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 14,
+                                    "Z": 2312,
+                                    "Y": 3.4,
+                                    "X": 41.76
+                                },
+                                {
+                                    "T": "IAD-IAD-ATL-IAD",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 9234,
+                                    "Y": -17.8,
+                                    "X": 333.55
+                                },
+                                {
+                                    "T": "IAD-ATL-IAD-IAD-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 26,
+                                    "Z": 4577,
+                                    "Y": 14.3,
+                                    "X": 35.45
+                                },
+                                {
+                                    "T": "IAD-ATL-IAD-IAD-IAD",
+                                    "I": "Pilot",
+                                    "A": 26,
+                                    "Z": 19076,
+                                    "Y": 5.3,
+                                    "X": 213.3
+                                },
+                                {
+                                    "T": "IAD-ATL-ORD-IAD-BUF-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 14,
+                                    "Z": 5188,
+                                    "Y": 5.7,
+                                    "X": 46.4
+                                },
+                                {
+                                    "T": "IAD-ATL-ORD-IAD-BUF-IAD",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 17285,
+                                    "Y": 5.1,
+                                    "X": 231.91
+                                },
+                                {
+                                    "T": "IAD-LAS-IAD",
+                                    "I": "Pilot",
+                                    "A": 24,
+                                    "Z": 41059,
+                                    "Y": -3,
+                                    "X": 259.19
+                                },
+                                {
+                                    "T": "IAD-LAS-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 126,
+                                    "Z": 58493,
+                                    "Y": -3.9,
+                                    "X": 43.12
+                                },
+                                {
+                                    "T": "IAD-LAX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 140,
+                                    "Z": 68068,
+                                    "Y": 2.1,
+                                    "X": 42.44
+                                },
+                                {
+                                    "T": "IAD-LAX-IAD",
+                                    "I": "Pilot",
+                                    "A": 68,
+                                    "Z": 127562,
+                                    "Y": 0,
+                                    "X": 221.02
+                                },
+                                {
+                                    "T": "IAD-MBJ-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 3842,
+                                    "Y": 27.4,
+                                    "X": 40.93
+                                },
+                                {
+                                    "T": "IAD-MBJ-IAD",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 16063,
+                                    "Y": 9.9,
+                                    "X": 371.82
+                                },
+                                {
+                                    "T": "IAD-IAH-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 68,
+                                    "Z": 15724,
+                                    "Y": 7.3,
+                                    "X": 39.09
+                                },
+                                {
+                                    "T": "IAD-IAH-IAD",
+                                    "I": "Pilot",
+                                    "A": 125,
+                                    "Z": 119673,
+                                    "Y": -7.8,
+                                    "X": 253.99
+                                },
+                                {
+                                    "T": "IAD-MSY-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 6636,
+                                    "Y": 14.3,
+                                    "X": 39.39
+                                },
+                                {
+                                    "T": "IAD-MSY-IAD",
+                                    "I": "Pilot",
+                                    "A": 48,
+                                    "Z": 51800,
+                                    "Y": -2.3,
+                                    "X": 273.04
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 35,
+                                    "Z": 7262,
+                                    "Y": 4.5,
+                                    "X": 42.28
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD",
+                                    "I": "Pilot",
+                                    "A": 36,
+                                    "Z": 25663,
+                                    "Y": 0.5,
+                                    "X": 205.33
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD-BUF-IAD",
+                                    "I": "Pilot",
+                                    "A": 11,
+                                    "Z": 12417,
+                                    "Y": -8.4,
+                                    "X": 218.87
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD-BUF-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 3632,
+                                    "Y": -13.9,
+                                    "X": 44.84
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD-JAX-DFW-SJU-DFW-JAX-DCA-CHS-IAD",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 27963,
+                                    "Y": 14.6,
+                                    "X": 259.8
+                                },
+                                {
+                                    "T": "IAD-ORD-IAD-JAX-DFW-SJU-DFW-JAX-DCA-CHS-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 10365,
+                                    "Y": -0.6,
+                                    "X": 43.77
+                                },
+                                {
+                                    "T": "IAD-PHX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 81,
+                                    "Z": 17896,
+                                    "Y": 2.4,
+                                    "X": 39.86
+                                },
+                                {
+                                    "T": "IAD-PHX-IAD",
+                                    "I": "Pilot",
+                                    "A": 64,
+                                    "Z": 61827,
+                                    "Y": -11,
+                                    "X": 271.49
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-DCA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 2364,
+                                    "Y": -0.8,
+                                    "X": 38.24
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-DCA-IAD",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 9045,
+                                    "Y": -1.3,
+                                    "X": 208.97
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-PHX-HPN-TPA-DCA-DFW-DCA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 16,
+                                    "Z": 14889,
+                                    "Y": 8.8,
+                                    "X": 51.62
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-PHX-HPN-TPA-DCA-DFW-DCA-IAD",
+                                    "I": "Pilot",
+                                    "A": 17,
+                                    "Z": 50979,
+                                    "Y": 7.8,
+                                    "X": 224.17
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-RDU-IAD",
+                                    "I": "Pilot",
+                                    "A": 11,
+                                    "Z": 9998,
+                                    "Y": 22.7,
+                                    "X": 243.86
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-RDU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 10,
+                                    "Z": 2488,
+                                    "Y": 4.5,
+                                    "X": 45.5
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-RIC-IAD-PIT-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 19,
+                                    "Z": 7659,
+                                    "Y": 22.1,
+                                    "X": 43.57
+                                },
+                                {
+                                    "T": "IAD-PHL-IAD-RIC-IAD-PIT-IAD",
+                                    "I": "Pilot",
+                                    "A": 19,
+                                    "Z": 24917,
+                                    "Y": 4.6,
+                                    "X": 231.93
+                                },
+                                {
+                                    "T": "IAD-PHX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 77,
+                                    "Z": 34300,
+                                    "Y": 2.8,
+                                    "X": 43.32
+                                },
+                                {
+                                    "T": "IAD-PHX-IAD",
+                                    "I": "Pilot",
+                                    "A": 6,
+                                    "Z": 10101,
+                                    "Y": -11.5,
+                                    "X": 212.89
+                                },
+                                {
+                                    "T": "IAD-PIT-IAD-DCA-IAD-RIC-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 17,
+                                    "Z": 7516,
+                                    "Y": -9.4,
+                                    "X": 47.01
+                                },
+                                {
+                                    "T": "IAD-PIT-IAD-DCA-IAD-RIC-IAD",
+                                    "I": "Pilot",
+                                    "A": 17,
+                                    "Z": 21963,
+                                    "Y": -15.3,
+                                    "X": 244.22
+                                },
+                                {
+                                    "T": "IAD-PIT-IAD-ATL-ORD-IAD-BUF-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 5464,
+                                    "Y": 14.5,
+                                    "X": 35.48
+                                },
+                                {
+                                    "T": "IAD-PIT-IAD-ATL-ORD-IAD-BUF-IAD",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 20030,
+                                    "Y": 11.4,
+                                    "X": 222.97
+                                },
+                                {
+                                    "T": "IAD-PLS-IAD",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 15771,
+                                    "Y": 42.7,
+                                    "X": 295.24
+                                },
+                                {
+                                    "T": "IAD-PLS-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 18,
+                                    "Z": 5170,
+                                    "Y": 11.4,
+                                    "X": 42.36
+                                },
+                                {
+                                    "T": "IAD-PUJ-IAD",
+                                    "I": "Pilot",
+                                    "A": 18,
+                                    "Z": 22532,
+                                    "Y": 25,
+                                    "X": 247.37
+                                },
+                                {
+                                    "T": "IAD-PUJ-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 27,
+                                    "Z": 7643,
+                                    "Y": 12.2,
+                                    "X": 36.97
+                                },
+                                {
+                                    "T": "IAD-RDU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 28,
+                                    "Z": 5321,
+                                    "Y": -2.4,
+                                    "X": 49.89
+                                },
+                                {
+                                    "T": "IAD-RDU-IAD",
+                                    "I": "Pilot",
+                                    "A": 28,
+                                    "Z": 18644,
+                                    "Y": -8.1,
+                                    "X": 196.67
+                                },
+                                {
+                                    "T": "IAD-RDU-DFW-RDU-IAD",
+                                    "I": "Pilot",
+                                    "A": 34,
+                                    "Z": 38079,
+                                    "Y": 5.4,
+                                    "X": 201.9
+                                },
+                                {
+                                    "T": "IAD-RDU-DFW-RDU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 34,
+                                    "Z": 11025,
+                                    "Y": 2.7,
+                                    "X": 43.37
+                                },
+                                {
+                                    "T": "IAD-RDU-ATL-BUF-ATL-RDU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 18,
+                                    "Z": 6834,
+                                    "Y": 31.4,
+                                    "X": 42.78
+                                },
+                                {
+                                    "T": "IAD-RDU-ATL-BUF-ATL-RDU-IAD",
+                                    "I": "Pilot",
+                                    "A": 19,
+                                    "Z": 25087,
+                                    "Y": 15.1,
+                                    "X": 209.41
+                                },
+                                {
+                                    "T": "IAD-RIC-IAH-SJU-STX-SJU-STT-SJU-IAH-RIC-IAD-SAV-IAD",
+                                    "I": "Pilot",
+                                    "A": 19,
+                                    "Z": 55634,
+                                    "Y": 14.3,
+                                    "X": 222.18
+                                },
+                                {
+                                    "T": "IAD-RIC-IAH-SJU-STX-SJU-STT-SJU-IAH-RIC-IAD-SAV-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 17,
+                                    "Z": 15830,
+                                    "Y": 8.6,
+                                    "X": 54.19
+                                },
+                                {
+                                    "T": "IAD-RSW-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 171,
+                                    "Z": 43454,
+                                    "Y": -0.2,
+                                    "X": 38.97
+                                },
+                                {
+                                    "T": "IAD-RSW-IAD",
+                                    "I": "Pilot",
+                                    "A": 173,
+                                    "Z": 175075,
+                                    "Y": -1.7,
+                                    "X": 238.31
+                                },
+                                {
+                                    "T": "IAD-SAN-IAD",
+                                    "I": "Pilot",
+                                    "A": 35,
+                                    "Z": 73552,
+                                    "Y": 1.2,
+                                    "X": 333.5
+                                },
+                                {
+                                    "T": "IAD-SAN-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 108,
+                                    "Z": 61277,
+                                    "Y": -2.7,
+                                    "X": 51.75
+                                },
+                                {
+                                    "T": "IAD-SAN-ATL-SEA-IAD",
+                                    "I": "Pilot",
+                                    "A": 30,
+                                    "Z": 110012,
+                                    "Y": 0.7,
+                                    "X": 246.68
+                                },
+                                {
+                                    "T": "IAD-SDQ-IAD",
+                                    "I": "Pilot",
+                                    "A": 31,
+                                    "Z": 44023,
+                                    "Y": 3.9,
+                                    "X": 288.36
+                                },
+                                {
+                                    "T": "IAD-SDQ-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 87,
+                                    "Z": 25183,
+                                    "Y": -8.6,
+                                    "X": 40.45
+                                },
+                                {
+                                    "T": "IAD-SEA-IAD",
+                                    "I": "Pilot",
+                                    "A": 28,
+                                    "Z": 51899,
+                                    "Y": 5.6,
+                                    "X": 239.46
+                                },
+                                {
+                                    "T": "IAD-SEA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 140,
+                                    "Z": 66543,
+                                    "Y": -0.7,
+                                    "X": 42.7
+                                },
+                                {
+                                    "T": "IAD-SFO-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 60,
+                                    "Z": 32076,
+                                    "Y": 3.9,
+                                    "X": 45.93
+                                },
+                                {
+                                    "T": "IAD-SFO-IAD",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 28563,
+                                    "Y": -16.6,
+                                    "X": 202.96
+                                },
+                                {
+                                    "T": "IAD-SFO-SAN-SFO-IAD",
+                                    "I": "Pilot",
+                                    "A": 17,
+                                    "Z": 42189,
+                                    "Y": 20,
+                                    "X": 198.91
+                                },
+                                {
+                                    "T": "IAD-SFO-SAN-SFO-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 6,
+                                    "Z": 4060,
+                                    "Y": 2.9,
+                                    "X": 44.74
+                                },
+                                {
+                                    "T": "IAD-SJU-IAD",
+                                    "I": "Pilot",
+                                    "A": 27,
+                                    "Z": 32429,
+                                    "Y": 5.3,
+                                    "X": 251.03
+                                },
+                                {
+                                    "T": "IAD-SJU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 175,
+                                    "Z": 52564,
+                                    "Y": -0.4,
+                                    "X": 45.73
+                                },
+                                {
+                                    "T": "IAD-SJU-IAH-BUF-DFW-IAD",
+                                    "I": "Pilot",
+                                    "A": 27,
+                                    "Z": 66206,
+                                    "Y": 9.5,
+                                    "X": 220.64
+                                },
+                                {
+                                    "T": "IAD-SRQ-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 56,
+                                    "Z": 13378,
+                                    "Y": -3,
+                                    "X": 41.35
+                                },
+                                {
+                                    "T": "IAD-SRQ-IAD",
+                                    "I": "Pilot",
+                                    "A": 56,
+                                    "Z": 50223,
+                                    "Y": -9.9,
+                                    "X": 211.11
+                                },
+                                {
+                                    "T": "IAD-STI-IAD",
+                                    "I": "Pilot",
+                                    "A": 9,
+                                    "Z": 10476,
+                                    "Y": 14.6,
+                                    "X": 384.93
+                                },
+                                {
+                                    "T": "IAD-STI-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 69,
+                                    "Z": 18027,
+                                    "Y": 4.7,
+                                    "X": 37.13
+                                },
+                                {
+                                    "T": "IAD-STT-SJU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 66,
+                                    "Z": 23666,
+                                    "Y": 3.5,
+                                    "X": 41.39
+                                },
+                                {
+                                    "T": "IAD-STT-SJU-IAD",
+                                    "I": "Pilot",
+                                    "A": 31,
+                                    "Z": 51282,
+                                    "Y": -2.2,
+                                    "X": 261.49
+                                },
+                                {
+                                    "T": "IAD-SXM-IAD",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 29945,
+                                    "Y": 6.5,
+                                    "X": 525.34
+                                },
+                                {
+                                    "T": "IAD-SXM-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 7281,
+                                    "Y": 4.5,
+                                    "X": 40.02
+                                },
+                                {
+                                    "T": "IAD-TPA-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 76,
+                                    "Z": 17468,
+                                    "Y": 5.6,
+                                    "X": 39.91
+                                },
+                                {
+                                    "T": "IAD-TPA-IAD",
+                                    "I": "Pilot",
+                                    "A": 40,
+                                    "Z": 39387,
+                                    "Y": -2.8,
+                                    "X": 325.55
+                                },
+                                {
+                                    "T": "IAD-TPA-SJU-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 66,
+                                    "Z": 28684,
+                                    "Y": 7.3,
+                                    "X": 46.12
+                                },
+                                {
+                                    "T": "IAD-TPA-SJU-IAD",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 16373,
+                                    "Y": 1.8,
+                                    "X": 222.06
+                                },
+                                {
+                                    "T": "IAD-UVF-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 4814,
+                                    "Y": 15.5,
+                                    "X": 45.04
+                                },
+                                {
+                                    "T": "IAD-UVF-IAD",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 14759,
+                                    "Y": 11.8,
+                                    "X": 423.3
+                                },
+                                {
+                                    "T": "DFW-BOG-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 146,
+                                    "Z": 56055,
+                                    "Y": 3.1,
+                                    "X": 55.64
+                                },
+                                {
+                                    "T": "DFW-BOG-DFW",
+                                    "I": "Pilot",
+                                    "A": 66,
+                                    "Z": 81977,
+                                    "Y": 2.8,
+                                    "X": 276.05
+                                },
+                                {
+                                    "T": "DFW-IAD-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 6,
+                                    "Z": 1744,
+                                    "Y": 13.8,
+                                    "X": 43.82
+                                },
+                                {
+                                    "T": "DFW-IAD-DFW",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 16469,
+                                    "Y": -3,
+                                    "X": 275.87
+                                },
+                                {
+                                    "T": "DFW-IAD-RSW-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 5,
+                                    "Z": 2937,
+                                    "Y": 5.2,
+                                    "X": 46.89
+                                },
+                                {
+                                    "T": "DFW-IAD-RSW-PHL-DFW",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 31660,
+                                    "Y": 1.9,
+                                    "X": 229.69
+                                },
+                                {
+                                    "T": "DFW-BUF-IAH-BDL-DFW",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 17568,
+                                    "Y": 64.5,
+                                    "X": 171.48
+                                },
+                                {
+                                    "T": "DFW-BUF-IAH-BDL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 30,
+                                    "Z": 14240,
+                                    "Y": -4.1,
+                                    "X": 46.33
+                                },
+                                {
+                                    "T": "DFW-CTG-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 21404,
+                                    "Y": 2,
+                                    "X": 45.93
+                                },
+                                {
+                                    "T": "DFW-CTG-DFW",
+                                    "I": "Pilot",
+                                    "A": 46,
+                                    "Z": 42474,
+                                    "Y": 0.7,
+                                    "X": 298.94
+                                },
+                                {
+                                    "T": "DFW-EWR-DFW",
+                                    "I": "Pilot",
+                                    "A": 78,
+                                    "Z": 71102,
+                                    "Y": 1.9,
+                                    "X": 223.34
+                                },
+                                {
+                                    "T": "DFW-EWR-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 132,
+                                    "Z": 33724,
+                                    "Y": 1.1,
+                                    "X": 47.41
+                                },
+                                {
+                                    "T": "DFW-ATL-DFW",
+                                    "I": "Pilot",
+                                    "A": 100,
+                                    "Z": 88449,
+                                    "Y": 4.8,
+                                    "X": 220.4
+                                },
+                                {
+                                    "T": "DFW-ATL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 94,
+                                    "Z": 22372,
+                                    "Y": -6.2,
+                                    "X": 44.61
+                                },
+                                {
+                                    "T": "DFW-LAX-DFW",
+                                    "I": "Pilot",
+                                    "A": 8,
+                                    "Z": 13175,
+                                    "Y": 5.5,
+                                    "X": 156.11
+                                },
+                                {
+                                    "T": "DFW-LAX-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 162,
+                                    "Z": 73931,
+                                    "Y": 2.5,
+                                    "X": 44.32
+                                },
+                                {
+                                    "T": "DFW-PHL-DFW",
+                                    "I": "Pilot",
+                                    "A": 114,
+                                    "Z": 100727,
+                                    "Y": 2,
+                                    "X": 201.13
+                                },
+                                {
+                                    "T": "DFW-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 50,
+                                    "Z": 12433,
+                                    "Y": 0.1,
+                                    "X": 45.78
+                                },
+                                {
+                                    "T": "DFW-LIM-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 86,
+                                    "Z": 44719,
+                                    "Y": 10.3,
+                                    "X": 48.45
+                                },
+                                {
+                                    "T": "DFW-LIM-DFW",
+                                    "I": "Pilot",
+                                    "A": 39,
+                                    "Z": 68277,
+                                    "Y": 2.3,
+                                    "X": 259.74
+                                },
+                                {
+                                    "T": "DFW-MDE-DFW",
+                                    "I": "Pilot",
+                                    "A": 49,
+                                    "Z": 76729,
+                                    "Y": 2.8,
+                                    "X": 365.38
+                                },
+                                {
+                                    "T": "DFW-MDE-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 6,
+                                    "Z": 2745,
+                                    "Y": -5.6,
+                                    "X": 65.37
+                                },
+                                {
+                                    "T": "DFW-PUJ-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 3,
+                                    "Z": 509,
+                                    "Y": 17.1,
+                                    "X": 32.75
+                                },
+                                {
+                                    "T": "DFW-PUJ-DFW",
+                                    "I": "Pilot",
+                                    "A": 56,
+                                    "Z": 42930,
+                                    "Y": 2.6,
+                                    "X": 207.06
+                                },
+                                {
+                                    "T": "DFW-PVD-DFW",
+                                    "I": "Pilot",
+                                    "A": 27,
+                                    "Z": 26131,
+                                    "Y": 6,
+                                    "X": 249.94
+                                },
+                                {
+                                    "T": "DFW-SDQ-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 89,
+                                    "Z": 18398,
+                                    "Y": 6.3,
+                                    "X": 48
+                                },
+                                {
+                                    "T": "DFW-SDQ-DFW",
+                                    "I": "Pilot",
+                                    "A": 55,
+                                    "Z": 42314,
+                                    "Y": -2.6,
+                                    "X": 295.53
+                                },
+                                {
+                                    "T": "DFW-SFO-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 68,
+                                    "Z": 38351,
+                                    "Y": 7.4,
+                                    "X": 50.65
+                                },
+                                {
+                                    "T": "DFW-SFO-DFW",
+                                    "I": "Pilot",
+                                    "A": 39,
+                                    "Z": 73847,
+                                    "Y": 6.6,
+                                    "X": 204.38
+                                },
+                                {
+                                    "T": "DFW-SJO-DFW",
+                                    "I": "Pilot",
+                                    "A": 60,
+                                    "Z": 53303,
+                                    "Y": 3.4,
+                                    "X": 253.52
+                                },
+                                {
+                                    "T": "DFW-SJO-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 22390,
+                                    "Y": 1.6,
+                                    "X": 46.92
+                                },
+                                {
+                                    "T": "DFW-SJU-DCA-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 6101,
+                                    "Y": 0.8,
+                                    "X": 73.81
+                                },
+                                {
+                                    "T": "DFW-SJU-DCA-DFW",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 19057,
+                                    "Y": -2.7,
+                                    "X": 300.27
+                                },
+                                {
+                                    "T": "DFW-SJU-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 18,
+                                    "Z": 4269,
+                                    "Y": 1.9,
+                                    "X": 44.75
+                                },
+                                {
+                                    "T": "DFW-SJU-DFW",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 11267,
+                                    "Y": -14.6,
+                                    "X": 212.05
+                                },
+                                {
+                                    "T": "DFW-SJU-TPA-EWR-IAH-SJO-IAH-BDL-DFW",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 75604,
+                                    "Y": 1.6,
+                                    "X": 236.68
+                                },
+                                {
+                                    "T": "ATL-ABQ-ATL",
+                                    "I": "Pilot",
+                                    "A": 42,
+                                    "Z": 62136,
+                                    "Y": -5.7,
+                                    "X": 319
+                                },
+                                {
+                                    "T": "ATL-ABQ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 62,
+                                    "Z": 23011,
+                                    "Y": -6.3,
+                                    "X": 42.12
+                                },
+                                {
+                                    "T": "ATL-AUA-ATL",
+                                    "I": "Pilot",
+                                    "A": 23,
+                                    "Z": 34056,
+                                    "Y": 4.9,
+                                    "X": 426.58
+                                },
+                                {
+                                    "T": "ATL-AUA-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 153,
+                                    "Z": 63769,
+                                    "Y": 1.8,
+                                    "X": 46
+                                },
+                                {
+                                    "T": "ATL-AUS-ATL",
+                                    "I": "Pilot",
+                                    "A": 53,
+                                    "Z": 65455,
+                                    "Y": 20,
+                                    "X": 205.73
+                                },
+                                {
+                                    "T": "ATL-AUS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 46,
+                                    "Z": 18424,
+                                    "Y": 4.1,
+                                    "X": 60.07
+                                },
+                                {
+                                    "T": "ATL-AZS-ATL",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 16779,
+                                    "Y": 0.8,
+                                    "X": 221.26
+                                },
+                                {
+                                    "T": "ATL-AZS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 23,
+                                    "Z": 7004,
+                                    "Y": -2.3,
+                                    "X": 40.18
+                                },
+                                {
+                                    "T": "ATL-BGI-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 174,
+                                    "Z": 76500,
+                                    "Y": -1.4,
+                                    "X": 45.22
+                                },
+                                {
+                                    "T": "ATL-BGI-ATL",
+                                    "I": "Pilot",
+                                    "A": 80,
+                                    "Z": 128236,
+                                    "Y": -3.1,
+                                    "X": 254.98
+                                },
+                                {
+                                    "T": "ATL-BQN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 102,
+                                    "Z": 29827,
+                                    "Y": 0.6,
+                                    "X": 42.97
+                                },
+                                {
+                                    "T": "ATL-BQN-ATL",
+                                    "I": "Pilot",
+                                    "A": 36,
+                                    "Z": 50538,
+                                    "Y": -0.5,
+                                    "X": 383.3
+                                },
+                                {
+                                    "T": "ATL-BUF-ATL",
+                                    "I": "Pilot",
+                                    "A": 8,
+                                    "Z": 5037,
+                                    "Y": 6.8,
+                                    "X": 297.46
+                                },
+                                {
+                                    "T": "ATL-BUF-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 65,
+                                    "Z": 13412,
+                                    "Y": 5.1,
+                                    "X": 73.57
+                                },
+                                {
+                                    "T": "ATL-BUF-ATL-BUF-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 9,
+                                    "Z": 2056,
+                                    "Y": 31.7,
+                                    "X": 50.65
+                                },
+                                {
+                                    "T": "ATL-BUF-ATL-BUF-ATL",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 10722,
+                                    "Y": 13.5,
+                                    "X": 231.08
+                                },
+                                {
+                                    "T": "ATL-BUR-ATL",
+                                    "I": "Pilot",
+                                    "A": 42,
+                                    "Z": 70529,
+                                    "Y": 7.6,
+                                    "X": 194.07
+                                },
+                                {
+                                    "T": "ATL-BUR-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 45747,
+                                    "Y": -2.3,
+                                    "X": 45.14
+                                },
+                                {
+                                    "T": "ATL-CHS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 96,
+                                    "Z": 18445,
+                                    "Y": 5,
+                                    "X": 52.91
+                                },
+                                {
+                                    "T": "ATL-CHS-ATL",
+                                    "I": "Pilot",
+                                    "A": 4,
+                                    "Z": 2782,
+                                    "Y": -10.1,
+                                    "X": 238.76
+                                },
+                                {
+                                    "T": "ATL-CTG-ATL",
+                                    "I": "Pilot",
+                                    "A": 24,
+                                    "Z": 38287,
+                                    "Y": 2.6,
+                                    "X": 475.12
+                                },
+                                {
+                                    "T": "ATL-CTG-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 69,
+                                    "Z": 31526,
+                                    "Y": 2.5,
+                                    "X": 46.04
+                                },
+                                {
+                                    "T": "ATL-CUN-ATL",
+                                    "I": "Pilot",
+                                    "A": 82,
+                                    "Z": 105509,
+                                    "Y": 11.7,
+                                    "X": 273.48
+                                },
+                                {
+                                    "T": "ATL-CUN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 141,
+                                    "Z": 48577,
+                                    "Y": 2.7,
+                                    "X": 44.12
+                                },
+                                {
+                                    "T": "ATL-CUR-ATL",
+                                    "I": "Pilot",
+                                    "A": 30,
+                                    "Z": 43633,
+                                    "Y": -3.9,
+                                    "X": 463.85
+                                },
+                                {
+                                    "T": "ATL-CUR-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 10017,
+                                    "Y": -14,
+                                    "X": 44.36
+                                },
+                                {
+                                    "T": "ATL-DEN-ATL",
+                                    "I": "Pilot",
+                                    "A": 4,
+                                    "Z": 4406,
+                                    "Y": -0.5,
+                                    "X": 253.73
+                                },
+                                {
+                                    "T": "ATL-DEN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 66,
+                                    "Z": 20972,
+                                    "Y": -1.9,
+                                    "X": 41.59
+                                },
+                                {
+                                    "T": "ATL-DFW-ATL",
+                                    "I": "Pilot",
+                                    "A": 66,
+                                    "Z": 59850,
+                                    "Y": 0.4,
+                                    "X": 227.32
+                                },
+                                {
+                                    "T": "ATL-DFW-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 331,
+                                    "Z": 70417,
+                                    "Y": -0.2,
+                                    "X": 39.64
+                                },
+                                {
+                                    "T": "ATL-GCM-ATL",
+                                    "I": "Pilot",
+                                    "A": 44,
+                                    "Z": 53242,
+                                    "Y": 22.8,
+                                    "X": 196.79
+                                },
+                                {
+                                    "T": "ATL-GCM-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 59,
+                                    "Z": 19329,
+                                    "Y": -6.6,
+                                    "X": 43.87
+                                },
+                                {
+                                    "T": "ATL-HOU-ATL",
+                                    "I": "Pilot",
+                                    "A": 18,
+                                    "Z": 18007,
+                                    "Y": 17.5,
+                                    "X": 218.98
+                                },
+                                {
+                                    "T": "ATL-HOU-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 18,
+                                    "Z": 5036,
+                                    "Y": 8.3,
+                                    "X": 39.78
+                                },
+                                {
+                                    "T": "ATL-HPN-DFW-KIN-DFW-NAS-DFW-HPN-RSW-HPN-ATL",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 31068,
+                                    "Y": 2.7,
+                                    "X": 195.77
+                                },
+                                {
+                                    "T": "ATL-HPN-DFW-KIN-DFW-NAS-DFW-HPN-RSW-HPN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 12,
+                                    "Z": 14051,
+                                    "Y": -6,
+                                    "X": 72.44
+                                },
+                                {
+                                    "T": "ATL-HPN-IAH-HPN-ATL",
+                                    "I": "Pilot",
+                                    "A": 24,
+                                    "Z": 23609,
+                                    "Y": 35.2,
+                                    "X": 288.61
+                                },
+                                {
+                                    "T": "ATL-HPN-IAH-HPN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 23,
+                                    "Z": 6873,
+                                    "Y": 15,
+                                    "X": 57.3
+                                },
+                                {
+                                    "T": "ATL-HPN-PHX-HPN-ATL",
+                                    "I": "Pilot",
+                                    "A": 23,
+                                    "Z": 25851,
+                                    "Y": 8.5,
+                                    "X": 267.57
+                                },
+                                {
+                                    "T": "ATL-HPN-PHX-HPN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 7787,
+                                    "Y": 7.6,
+                                    "X": 57.09
+                                },
+                                {
+                                    "T": "ATL-IAD-IAD-PHL-IAD-IAD-ATL-IAD-ATL",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 17448,
+                                    "Y": -1.3,
+                                    "X": 199.45
+                                },
+                                {
+                                    "T": "ATL-IAD-IAD-PHL-IAD-IAD-ATL-IAD-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 13,
+                                    "Z": 5066,
+                                    "Y": -8.3,
+                                    "X": 42.11
+                                },
+                                {
+                                    "T": "ATL-JAX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 86,
+                                    "Z": 15453,
+                                    "Y": 7.2,
+                                    "X": 43.31
+                                },
+                                {
+                                    "T": "ATL-JAX-ATL",
+                                    "I": "Pilot",
+                                    "A": 20,
+                                    "Z": 15089,
+                                    "Y": 3.1,
+                                    "X": 257.63
+                                },
+                                {
+                                    "T": "ATL-KIN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 100,
+                                    "Z": 27912,
+                                    "Y": 10.8,
+                                    "X": 37.57
+                                },
+                                {
+                                    "T": "ATL-KIN-ATL",
+                                    "I": "Pilot",
+                                    "A": 30,
+                                    "Z": 39087,
+                                    "Y": 2.3,
+                                    "X": 240.83
+                                },
+                                {
+                                    "T": "ATL-LAS-DFW-LAS-ATL",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 74142,
+                                    "Y": 3.8,
+                                    "X": 267.23
+                                },
+                                {
+                                    "T": "ATL-LAS-ATL",
+                                    "I": "Pilot",
+                                    "A": 31,
+                                    "Z": 50753,
+                                    "Y": -0.3,
+                                    "X": 252.04
+                                },
+                                {
+                                    "T": "ATL-LAS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 182,
+                                    "Z": 89181,
+                                    "Y": -1.2,
+                                    "X": 48.14
+                                },
+                                {
+                                    "T": "ATL-LAX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 737,
+                                    "Z": 302097,
+                                    "Y": 5.4,
+                                    "X": 51.65
+                                },
+                                {
+                                    "T": "ATL-LAX-ATL",
+                                    "I": "Pilot",
+                                    "A": 74,
+                                    "Z": 128735,
+                                    "Y": 1.1,
+                                    "X": 273.09
+                                },
+                                {
+                                    "T": "ATL-SAN-PDX-ATL",
+                                    "I": "Pilot",
+                                    "A": 2,
+                                    "Z": 4662,
+                                    "Y": 6.2,
+                                    "X": 637.19
+                                },
+                                {
+                                    "T": "ATL-SAN-PDX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 25,
+                                    "Z": 16922,
+                                    "Y": -4.3,
+                                    "X": 49.53
+                                },
+                                {
+                                    "T": "ATL-LRM-ATL",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 19699,
+                                    "Y": 8.5,
+                                    "X": 251.26
+                                },
+                                {
+                                    "T": "ATL-LRM-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 26,
+                                    "Z": 7871,
+                                    "Y": 5.4,
+                                    "X": 41.82
+                                },
+                                {
+                                    "T": "ATL-MBJ-ATL",
+                                    "I": "Pilot",
+                                    "A": 70,
+                                    "Z": 85927,
+                                    "Y": 15.6,
+                                    "X": 229.32
+                                },
+                                {
+                                    "T": "ATL-MBJ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 107,
+                                    "Z": 34042,
+                                    "Y": 8.9,
+                                    "X": 44.97
+                                },
+                                {
+                                    "T": "ATL-IAH-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 107,
+                                    "Z": 20172,
+                                    "Y": 0.8,
+                                    "X": 39.33
+                                },
+                                {
+                                    "T": "ATL-IAH-ATL",
+                                    "I": "Pilot",
+                                    "A": 37,
+                                    "Z": 27831,
+                                    "Y": -0.5,
+                                    "X": 271.35
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 46,
+                                    "Z": 11346,
+                                    "Y": 1.9,
+                                    "X": 45.17
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL",
+                                    "I": "Pilot",
+                                    "A": 44,
+                                    "Z": 35326,
+                                    "Y": 1.9,
+                                    "X": 181.45
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-BTV-ATL",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 17692,
+                                    "Y": 12.7,
+                                    "X": 248.95
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-BTV-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 19,
+                                    "Z": 9030,
+                                    "Y": 4.8,
+                                    "X": 56.35
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-BTV-ATL-BDA-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 12323,
+                                    "Y": 8.6,
+                                    "X": 40.21
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-BTV-ATL-BDA-ATL",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 36100,
+                                    "Y": 6.9,
+                                    "X": 188.23
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-ROC-ATL-CLT-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 13,
+                                    "Z": 7349,
+                                    "Y": -1.6,
+                                    "X": 45.06
+                                },
+                                {
+                                    "T": "ATL-MSY-ATL-ROC-ATL-CLT-ATL",
+                                    "I": "Pilot",
+                                    "A": 14,
+                                    "Z": 22593,
+                                    "Y": -2.4,
+                                    "X": 150.49
+                                },
+                                {
+                                    "T": "ATL-NAS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 169,
+                                    "Z": 40251,
+                                    "Y": 9.4,
+                                    "X": 43.9
+                                },
+                                {
+                                    "T": "ATL-NAS-ATL",
+                                    "I": "Pilot",
+                                    "A": 67,
+                                    "Z": 59699,
+                                    "Y": 2.8,
+                                    "X": 259.47
+                                },
+                                {
+                                    "T": "ATL-OAK-ATL",
+                                    "I": "Pilot",
+                                    "A": 4,
+                                    "Z": 8163,
+                                    "Y": 22.3,
+                                    "X": 230.04
+                                },
+                                {
+                                    "T": "ATL-OAK-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 42,
+                                    "Z": 24160,
+                                    "Y": -0.4,
+                                    "X": 49.84
+                                },
+                                {
+                                    "T": "ATL-ORD-SJU-ORD-ATL",
+                                    "I": "Pilot",
+                                    "A": 4,
+                                    "Z": 9292,
+                                    "Y": 5.7,
+                                    "X": 313.57
+                                },
+                                {
+                                    "T": "ATL-ORD-SJU-ORD-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 88,
+                                    "Z": 64166,
+                                    "Y": -0.4,
+                                    "X": 53.16
+                                },
+                                {
+                                    "T": "ATL-PAP-ATL",
+                                    "I": "Pilot",
+                                    "A": 50,
+                                    "Z": 60997,
+                                    "Y": 8,
+                                    "X": 211.28
+                                },
+                                {
+                                    "T": "ATL-PAP-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 80,
+                                    "Z": 28347,
+                                    "Y": -0.2,
+                                    "X": 45.39
+                                },
+                                {
+                                    "T": "ATL-PHX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 78,
+                                    "Z": 14907,
+                                    "Y": 13.7,
+                                    "X": 37.8
+                                },
+                                {
+                                    "T": "ATL-PHX-ATL",
+                                    "I": "Pilot",
+                                    "A": 59,
+                                    "Z": 48533,
+                                    "Y": 1.8,
+                                    "X": 228.89
+                                },
+                                {
+                                    "T": "ATL-PHX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 38895,
+                                    "Y": -2.6,
+                                    "X": 42.28
+                                },
+                                {
+                                    "T": "ATL-PHX-ATL",
+                                    "I": "Pilot",
+                                    "A": 20,
+                                    "Z": 30522,
+                                    "Y": -6.4,
+                                    "X": 291.15
+                                },
+                                {
+                                    "T": "ATL-PLS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 63,
+                                    "Z": 18013,
+                                    "Y": 8.9,
+                                    "X": 41.66
+                                },
+                                {
+                                    "T": "ATL-PLS-ATL",
+                                    "I": "Pilot",
+                                    "A": 60,
+                                    "Z": 66145,
+                                    "Y": -0.5,
+                                    "X": 233.56
+                                },
+                                {
+                                    "T": "ATL-POP-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 27613,
+                                    "Y": 9.5,
+                                    "X": 41.5
+                                },
+                                {
+                                    "T": "ATL-POP-ATL",
+                                    "I": "Pilot",
+                                    "A": 58,
+                                    "Z": 67509,
+                                    "Y": 6.4,
+                                    "X": 253.73
+                                },
+                                {
+                                    "T": "ATL-POS-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 41487,
+                                    "Y": 1.7,
+                                    "X": 44.9
+                                },
+                                {
+                                    "T": "ATL-POS-ATL",
+                                    "I": "Pilot",
+                                    "A": 10,
+                                    "Z": 15505,
+                                    "Y": -12.2,
+                                    "X": 231.42
+                                },
+                                {
+                                    "T": "ATL-PSE-ATL",
+                                    "I": "Pilot",
+                                    "A": 43,
+                                    "Z": 60157,
+                                    "Y": 8.8,
+                                    "X": 315.76
+                                },
+                                {
+                                    "T": "ATL-PSE-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 86,
+                                    "Z": 25391,
+                                    "Y": 0.4,
+                                    "X": 40.71
+                                },
+                                {
+                                    "T": "ATL-PUJ-ATL",
+                                    "I": "Pilot",
+                                    "A": 58,
+                                    "Z": 73739,
+                                    "Y": 12.7,
+                                    "X": 256.14
+                                },
+                                {
+                                    "T": "ATL-PUJ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 87,
+                                    "Z": 29104,
+                                    "Y": 5.3,
+                                    "X": 44.91
+                                },
+                                {
+                                    "T": "ATL-RSW-ATL",
+                                    "I": "Pilot",
+                                    "A": 84,
+                                    "Z": 69512,
+                                    "Y": -3.6,
+                                    "X": 209.81
+                                },
+                                {
+                                    "T": "ATL-RSW-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 114,
+                                    "Z": 26025,
+                                    "Y": -3.6,
+                                    "X": 39.98
+                                },
+                                {
+                                    "T": "ATL-SAN-IAD-SEA-ATL",
+                                    "I": "Pilot",
+                                    "A": 24,
+                                    "Z": 100700,
+                                    "Y": 2.6,
+                                    "X": 315.71
+                                },
+                                {
+                                    "T": "ATL-SAN-ATL",
+                                    "I": "Pilot",
+                                    "A": 62,
+                                    "Z": 121609,
+                                    "Y": 3.3,
+                                    "X": 356.26
+                                },
+                                {
+                                    "T": "ATL-SAN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 144,
+                                    "Z": 72811,
+                                    "Y": 0.1,
+                                    "X": 47.27
+                                },
+                                {
+                                    "T": "ATL-SAV-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 69,
+                                    "Z": 13048,
+                                    "Y": 0.8,
+                                    "X": 46.61
+                                },
+                                {
+                                    "T": "ATL-SAV-ATL",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 9101,
+                                    "Y": -14,
+                                    "X": 352.28
+                                },
+                                {
+                                    "T": "ATL-SDQ-ATL",
+                                    "I": "Pilot",
+                                    "A": 80,
+                                    "Z": 107414,
+                                    "Y": -2.1,
+                                    "X": 278.56
+                                },
+                                {
+                                    "T": "ATL-SDQ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 429,
+                                    "Z": 124755,
+                                    "Y": -3.2,
+                                    "X": 41.03
+                                },
+                                {
+                                    "T": "ATL-SFO-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 428,
+                                    "Z": 213942,
+                                    "Y": 6.8,
+                                    "X": 57.88
+                                },
+                                {
+                                    "T": "ATL-SFO-ATL",
+                                    "I": "Pilot",
+                                    "A": 51,
+                                    "Z": 96348,
+                                    "Y": -2.1,
+                                    "X": 248.77
+                                },
+                                {
+                                    "T": "ATL-SJC-ATL",
+                                    "I": "Pilot",
+                                    "A": 13,
+                                    "Z": 26228,
+                                    "Y": -1.6,
+                                    "X": 495.65
+                                },
+                                {
+                                    "T": "ATL-SJC-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 57,
+                                    "Z": 28804,
+                                    "Y": -6,
+                                    "X": 44.01
+                                },
+                                {
+                                    "T": "ATL-SJU-BDL-SJU-ATL",
+                                    "I": "Pilot",
+                                    "A": 5,
+                                    "Z": 12077,
+                                    "Y": 10.8,
+                                    "X": 255.6
+                                },
+                                {
+                                    "T": "ATL-SJU-BDL-SJU-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 29,
+                                    "Z": 21424,
+                                    "Y": -3.1,
+                                    "X": 55.24
+                                },
+                                {
+                                    "T": "ATL-SJU-ATL",
+                                    "I": "Pilot",
+                                    "A": 105,
+                                    "Z": 129797,
+                                    "Y": 5.5,
+                                    "X": 272.55
+                                },
+                                {
+                                    "T": "ATL-SJU-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 341,
+                                    "Z": 107321,
+                                    "Y": 2.3,
+                                    "X": 42.98
+                                },
+                                {
+                                    "T": "ATL-SMF-ATL",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 27090,
+                                    "Y": 5.9,
+                                    "X": 235.43
+                                },
+                                {
+                                    "T": "ATL-SMF-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 56,
+                                    "Z": 26854,
+                                    "Y": -5,
+                                    "X": 41.22
+                                },
+                                {
+                                    "T": "ATL-SRQ-ATL",
+                                    "I": "Pilot",
+                                    "A": 57,
+                                    "Z": 50554,
+                                    "Y": -5.1,
+                                    "X": 233.09
+                                },
+                                {
+                                    "T": "ATL-SRQ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 79,
+                                    "Z": 17589,
+                                    "Y": -7.5,
+                                    "X": 42.77
+                                },
+                                {
+                                    "T": "ATL-STI-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 518,
+                                    "Z": 147892,
+                                    "Y": 1.7,
+                                    "X": 43.65
+                                },
+                                {
+                                    "T": "ATL-STI-ATL",
+                                    "I": "Pilot",
+                                    "A": 130,
+                                    "Z": 148036,
+                                    "Y": -0.2,
+                                    "X": 253.72
+                                },
+                                {
+                                    "T": "ATL-SXM-ATL",
+                                    "I": "Pilot",
+                                    "A": 12,
+                                    "Z": 16359,
+                                    "Y": 5.6,
+                                    "X": 523.48
+                                },
+                                {
+                                    "T": "ATL-SXM-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 81,
+                                    "Z": 30314,
+                                    "Y": 4.8,
+                                    "X": 44.19
+                                },
+                                {
+                                    "T": "ATL-SXM-ATL-SJU-PUJ-ATL",
+                                    "I": "Pilot",
+                                    "A": 22,
+                                    "Z": 57901,
+                                    "Y": 13.3,
+                                    "X": 189.16
+                                },
+                                {
+                                    "T": "ATL-TPA-IAD-PHX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 19,
+                                    "Z": 9137,
+                                    "Y": 13.7,
+                                    "X": 43.05
+                                },
+                                {
+                                    "T": "ATL-TPA-IAD-PHX-ATL",
+                                    "I": "Pilot",
+                                    "A": 2,
+                                    "Z": 3824,
+                                    "Y": 3.5,
+                                    "X": 158.25
+                                },
+                                {
+                                    "T": "ATL-TPA-ATL",
+                                    "I": "Pilot",
+                                    "A": 33,
+                                    "Z": 27627,
+                                    "Y": -4.5,
+                                    "X": 255.69
+                                },
+                                {
+                                    "T": "ATL-TPA-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 60,
+                                    "Z": 13861,
+                                    "Y": -13.2,
+                                    "X": 44.63
+                                },
+                                {
+                                    "T": "ATL-UVF-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 84,
+                                    "Z": 36622,
+                                    "Y": -0.1,
+                                    "X": 45.86
+                                },
+                                {
+                                    "T": "ATL-UVF-ATL",
+                                    "I": "Pilot",
+                                    "A": 50,
+                                    "Z": 85135,
+                                    "Y": -3.6,
+                                    "X": 257.53
+                                },
+                                {
+                                    "T": "LAX-IAD-LAX",
+                                    "I": "Pilot",
+                                    "A": 7,
+                                    "Z": 12958,
+                                    "Y": 11.3,
+                                    "X": 315.93
+                                },
+                                {
+                                    "T": "LAX-IAD-LAX",
+                                    "I": "Cabin Crew",
+                                    "A": 27,
+                                    "Z": 12694,
+                                    "Y": 4.1,
+                                    "X": 53.62
+                                },
+                                {
+                                    "T": "LAX-DFW-LAX",
+                                    "I": "Pilot",
+                                    "A": 65,
+                                    "Z": 111219,
+                                    "Y": 3.9,
+                                    "X": 224.08
+                                },
+                                {
+                                    "T": "LAX-ATL-LAX",
+                                    "I": "Pilot",
+                                    "A": 82,
+                                    "Z": 154412,
+                                    "Y": 0.2,
+                                    "X": 288.37
+                                },
+                                {
+                                    "T": "LAX-ATL-MBJ-DFW-MBJ-ATL-LAX",
+                                    "I": "Pilot",
+                                    "A": 58,
+                                    "Z": 213928,
+                                    "Y": 6.1,
+                                    "X": 310.28
+                                },
+                                {
+                                    "T": "LAX-ATL-NAS-ATL-LAX",
+                                    "I": "Pilot",
+                                    "A": 52,
+                                    "Z": 151078,
+                                    "Y": 7.7,
+                                    "X": 346.59
+                                },
+                                {
+                                    "T": "PHL-DFW-EWR-DFW-PHL",
+                                    "I": "Pilot",
+                                    "A": 21,
+                                    "Z": 38415,
+                                    "Y": 5.5,
+                                    "X": 236.21
+                                },
+                                {
+                                    "T": "PHL-IAH-PHL",
+                                    "I": "Pilot",
+                                    "A": 25,
+                                    "Z": 20301,
+                                    "Y": 7.7,
+                                    "X": 284.79
+                                },
+                                {
+                                    "T": "PHL-SRQ-PHL",
+                                    "I": "Pilot",
+                                    "A": 31,
+                                    "Z": 27279,
+                                    "Y": 12.2,
+                                    "X": 262.8
+                                },
+                                {
+                                    "T": "PHL-TPA-ATL-PHL",
+                                    "I": "Pilot",
+                                    "A": 27,
+                                    "Z": 25602,
+                                    "Y": 30.8,
+                                    "X": 318.69
+                                },
+                                {
+                                    "T": "PHL-TPA-PHL",
+                                    "I": "Pilot",
+                                    "A": 44,
+                                    "Z": 36626,
+                                    "Y": 14.3,
+                                    "X": 292.93
+                                },
+                                {
+                                    "T": "SAN-IAD-LAX-SAN",
+                                    "I": "Pilot",
+                                    "A": 25,
+                                    "Z": 50380,
+                                    "Y": 17.5,
+                                    "X": 237.86
+                                },
+                                {
+                                    "T": "SAN-ATL-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 13077,
+                                    "Y": 7.7,
+                                    "X": 71.44
+                                },
+                                {
+                                    "T": "SAN-ATL-SAN",
+                                    "I": "Pilot",
+                                    "A": 4,
+                                    "Z": 7476,
+                                    "Y": 3.6,
+                                    "X": 328.36
+                                },
+                                {
+                                    "T": "SAN-OAK-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 33,
+                                    "Z": 9815,
+                                    "Y": 9.3,
+                                    "X": 182.77
+                                },
+                                {
+                                    "T": "SAN-OAK-SAN",
+                                    "I": "Pilot",
+                                    "A": 53,
+                                    "Z": 41805,
+                                    "Y": 2.4,
+                                    "X": 530.52
+                                },
+                                {
+                                    "T": "SAN-SEA-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 105,
+                                    "Z": 22206,
+                                    "Y": 9.1,
+                                    "X": 41.16
+                                },
+                                {
+                                    "T": "SAN-SEA-SAN",
+                                    "I": "Pilot",
+                                    "A": 35,
+                                    "Z": 28680,
+                                    "Y": 0.6,
+                                    "X": 224.38
+                                },
+                                {
+                                    "T": "SAN-SMF-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 138,
+                                    "Z": 28323,
+                                    "Y": 4.1,
+                                    "X": 76.52
+                                },
+                                {
+                                    "T": "SAN-SMF-SAN",
+                                    "I": "Pilot",
+                                    "A": 42,
+                                    "Z": 33066,
+                                    "Y": 2.7,
+                                    "X": 743.61
+                                },
+                                {
+                                    "T": "IAH-BDL-RSW-IAD-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 15,
+                                    "Z": 8905,
+                                    "Y": 21.3,
+                                    "X": 47.75
+                                },
+                                {
+                                    "T": "IAH-BDL-RSW-IAD-IAH",
+                                    "I": "Pilot",
+                                    "A": 6,
+                                    "Z": 12019,
+                                    "Y": -29.2,
+                                    "X": 322.67
+                                },
+                                {
+                                    "T": "IAH-IAD-IAH",
+                                    "I": "Pilot",
+                                    "A": 83,
+                                    "Z": 81736,
+                                    "Y": 6.3,
+                                    "X": 203.08
+                                },
+                                {
+                                    "T": "IAH-IAD-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 60,
+                                    "Z": 16646,
+                                    "Y": -4.3,
+                                    "X": 44.64
+                                },
+                                {
+                                    "T": "IAH-BQN-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 96,
+                                    "Z": 19201,
+                                    "Y": 20.3,
+                                    "X": 45.02
+                                },
+                                {
+                                    "T": "IAH-BQN-IAH",
+                                    "I": "Pilot",
+                                    "A": 67,
+                                    "Z": 60438,
+                                    "Y": -1.5,
+                                    "X": 371.62
+                                },
+                                {
+                                    "T": "IAH-BUF-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 6,
+                                    "Z": 1356,
+                                    "Y": 16.2,
+                                    "X": 42.23
+                                },
+                                {
+                                    "T": "IAH-BUF-IAH",
+                                    "I": "Pilot",
+                                    "A": 16,
+                                    "Z": 13601,
+                                    "Y": -8.1,
+                                    "X": 253.29
+                                },
+                                {
+                                    "T": "IAH-CUN-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 83,
+                                    "Z": 18296,
+                                    "Y": 7.1,
+                                    "X": 58.42
+                                },
+                                {
+                                    "T": "IAH-CUN-IAH",
+                                    "I": "Pilot",
+                                    "A": 32,
+                                    "Z": 26057,
+                                    "Y": -11.9,
+                                    "X": 272.76
+                                },
+                                {
+                                    "T": "IAH-EWR-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 3,
+                                    "Z": 655,
+                                    "Y": 10,
+                                    "X": 40.54
+                                },
+                                {
+                                    "T": "IAH-EWR-IAH",
+                                    "I": "Pilot",
+                                    "A": 55,
+                                    "Z": 46664,
+                                    "Y": -3.8,
+                                    "X": 353.74
+                                },
+                                {
+                                    "T": "IAH-ATL-IAH",
+                                    "I": "Pilot",
+                                    "A": 11,
+                                    "Z": 9212,
+                                    "Y": 14.8,
+                                    "X": 209.85
+                                },
+                                {
+                                    "T": "IAH-ATL-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 30,
+                                    "Z": 5987,
+                                    "Y": 8.1,
+                                    "X": 47.68
+                                },
+                                {
+                                    "T": "IAH-PHL-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 57,
+                                    "Z": 12163,
+                                    "Y": 18.2,
+                                    "X": 43.5
+                                },
+                                {
+                                    "T": "IAH-PHL-IAH",
+                                    "I": "Pilot",
+                                    "A": 94,
+                                    "Z": 81460,
+                                    "Y": -2.9,
+                                    "X": 316.7
+                                },
+                                {
+                                    "T": "IAH-NAS-DCA-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 30,
+                                    "Z": 7389,
+                                    "Y": 10.1,
+                                    "X": 44.38
+                                },
+                                {
+                                    "T": "IAH-NAS-DCA-IAH",
+                                    "I": "Pilot",
+                                    "A": 28,
+                                    "Z": 24119,
+                                    "Y": -0.3,
+                                    "X": 186.24
+                                },
+                                {
+                                    "T": "IAH-ORH-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 19,
+                                    "Z": 4889,
+                                    "Y": -9.7,
+                                    "X": 49.83
+                                },
+                                {
+                                    "T": "IAH-ORH-IAH",
+                                    "I": "Pilot",
+                                    "A": 20,
+                                    "Z": 16164,
+                                    "Y": -13.5,
+                                    "X": 175.03
+                                },
+                                {
+                                    "T": "IAH-PSE-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 83,
+                                    "Z": 19539,
+                                    "Y": 8,
+                                    "X": 45.88
+                                },
+                                {
+                                    "T": "IAH-PSE-IAH",
+                                    "I": "Pilot",
+                                    "A": 53,
+                                    "Z": 44332,
+                                    "Y": 6.8,
+                                    "X": 292.04
+                                },
+                                {
+                                    "T": "IAH-SJU-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 101,
+                                    "Z": 23215,
+                                    "Y": 4.1,
+                                    "X": 45.04
+                                },
+                                {
+                                    "T": "IAH-SJU-IAH",
+                                    "I": "Pilot",
+                                    "A": 47,
+                                    "Z": 44258,
+                                    "Y": -12.8,
+                                    "X": 201.33
+                                },
+                                {
+                                    "T": "IAH-SJU-SXM-SJU-STT-SJU-IAH",
+                                    "I": "Pilot",
+                                    "A": 28,
+                                    "Z": 44200,
+                                    "Y": 1.5,
+                                    "X": 282.09
+                                },
+                                {
+                                    "T": "IAH-SJU-SXM-SJU-STT-SJU-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 28,
+                                    "Z": 16396,
+                                    "Y": -4.7,
+                                    "X": 63.54
+                                },
+                                {
+                                    "T": "IAH-SLC-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 86,
+                                    "Z": 33548,
+                                    "Y": 2.9,
+                                    "X": 42.48
+                                },
+                                {
+                                    "T": "IAH-SLC-IAH",
+                                    "I": "Pilot",
+                                    "A": 2,
+                                    "Z": 1676,
+                                    "Y": -23.2,
+                                    "X": 169.32
+                                },
+                                {
+                                    "T": "IAH-SWF-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 57,
+                                    "Z": 12526,
+                                    "Y": 9.5,
+                                    "X": 41.72
+                                },
+                                {
+                                    "T": "IAH-SWF-IAH",
+                                    "I": "Pilot",
+                                    "A": 57,
+                                    "Z": 45305,
+                                    "Y": -9.1,
+                                    "X": 210.51
+                                },
+                                {
+                                    "T": "IAH-SYR-IAH",
+                                    "I": "Pilot",
+                                    "A": 54,
+                                    "Z": 46498,
+                                    "Y": 1.6,
+                                    "X": 199.05
+                                },
+                                {
+                                    "T": "IAH-SYR-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 64,
+                                    "Z": 14372,
+                                    "Y": -5.3,
+                                    "X": 45.39
+                                },
+                                {
+                                    "T": "PHX-IAD-DFW-PHX",
+                                    "I": "Pilot",
+                                    "A": 42,
+                                    "Z": 48250,
+                                    "Y": 11.3,
+                                    "X": 300.19
+                                },
+                                {
+                                    "T": "PHX-EWR-PHX",
+                                    "I": "Pilot",
+                                    "A": 38,
+                                    "Z": 32919,
+                                    "Y": 2.8,
+                                    "X": 308.47
+                                },
+                                {
+                                    "T": "PHX-PHL-PHX",
+                                    "I": "Pilot",
+                                    "A": 40,
+                                    "Z": 36935,
+                                    "Y": 7.1,
+                                    "X": 301.64
+                                },
+                                {
+                                    "T": "IAD-SAN-SFO-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 11778,
+                                    "Y": 9.1,
+                                    "X": 47.75
+                                },
+                                {
+                                    "T": "IAD-SAN-SLC-SAN-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 11586,
+                                    "Y": 0.1,
+                                    "X": 49.52
+                                },
+                                {
+                                    "T": "IAD-PHX-BDL-PHX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 69,
+                                    "Z": 34288,
+                                    "Y": 1.7,
+                                    "X": 44.28
+                                },
+                                {
+                                    "T": "IAD-PHX-IAD-DFW-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 38,
+                                    "Z": 20094,
+                                    "Y": 2.6,
+                                    "X": 48.81
+                                },
+                                {
+                                    "T": "IAD-RSW-ATL-PHX-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 12052,
+                                    "Y": 9.4,
+                                    "X": 51.48
+                                },
+                                {
+                                    "T": "IAD-SFO-SAN-SLC-SAN-PDX-SAN-LAS-SFO-SAN-SFO-IAD",
+                                    "I": "Cabin Crew",
+                                    "A": 36,
+                                    "Z": 45684,
+                                    "Y": 10.3,
+                                    "X": 51.82
+                                },
+                                {
+                                    "T": "DFW-BDL-RSW-IAD-RSW-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 17177,
+                                    "Y": 3.9,
+                                    "X": 49.52
+                                },
+                                {
+                                    "T": "DFW-IAD-PIT-DFW-PUJ-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 38,
+                                    "Z": 20115,
+                                    "Y": 9.6,
+                                    "X": 58.14
+                                },
+                                {
+                                    "T": "DFW-IAD-SFO-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 33,
+                                    "Z": 21196,
+                                    "Y": 9,
+                                    "X": 46.58
+                                },
+                                {
+                                    "T": "DFW-EWR-IAH-DCA-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 34,
+                                    "Z": 15796,
+                                    "Y": 1.7,
+                                    "X": 52.54
+                                },
+                                {
+                                    "T": "DFW-ATL-RSW-IAD-RSW-BDL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 21345,
+                                    "Y": 0.5,
+                                    "X": 47.39
+                                },
+                                {
+                                    "T": "DFW-ATL-SJU-BDL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 25,
+                                    "Z": 16952,
+                                    "Y": 1.8,
+                                    "X": 55.5
+                                },
+                                {
+                                    "T": "DFW-ATL-SJU-IAH-BUF-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 33,
+                                    "Z": 23089,
+                                    "Y": 2.4,
+                                    "X": 56.52
+                                },
+                                {
+                                    "T": "DFW-LAS-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 87,
+                                    "Z": 34813,
+                                    "Y": 4.9,
+                                    "X": 45.82
+                                },
+                                {
+                                    "T": "DFW-PHL-IAH-PHL-TPA-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 28,
+                                    "Z": 21834,
+                                    "Y": 8.7,
+                                    "X": 53.13
+                                },
+                                {
+                                    "T": "DFW-PHL-PHX-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 63,
+                                    "Z": 33492,
+                                    "Y": 23.1,
+                                    "X": 57.58
+                                },
+                                {
+                                    "T": "DFW-PHL-TPA-PHL-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 34,
+                                    "Z": 18160,
+                                    "Y": 10.4,
+                                    "X": 53.43
+                                },
+                                {
+                                    "T": "DFW-PVD-DFW-MDE-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 83,
+                                    "Z": 45026,
+                                    "Y": 5.4,
+                                    "X": 44.94
+                                },
+                                {
+                                    "T": "DFW-SFO-LAS-SFO-IAD-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 17689,
+                                    "Y": -3.7,
+                                    "X": 51.72
+                                },
+                                {
+                                    "T": "DFW-SJU-TPA-SJU-DFW",
+                                    "I": "Cabin Crew",
+                                    "A": 72,
+                                    "Z": 35965,
+                                    "Y": -0.6,
+                                    "X": 51.71
+                                },
+                                {
+                                    "T": "ATL-AUS-ATL-IAH-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 29,
+                                    "Z": 13985,
+                                    "Y": 14.8,
+                                    "X": 47.02
+                                },
+                                {
+                                    "T": "ATL-DFW-PHL-PHX-EWR-IAH-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 27,
+                                    "Z": 18642,
+                                    "Y": 7.8,
+                                    "X": 43.64
+                                },
+                                {
+                                    "T": "ATL-DFW-MBJ-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 44,
+                                    "Z": 15878,
+                                    "Y": 7.1,
+                                    "X": 42.76
+                                },
+                                {
+                                    "T": "ATL-LIR-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 42934,
+                                    "Y": 0.5,
+                                    "X": 46.08
+                                },
+                                {
+                                    "T": "ATL-IAH-DCA-SJU-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 22,
+                                    "Z": 18848,
+                                    "Y": 2.9,
+                                    "X": 66.5
+                                },
+                                {
+                                    "T": "ATL-IAH-PHL-SRQ-PHL-IAH-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 39,
+                                    "Z": 31302,
+                                    "Y": 17.9,
+                                    "X": 52.77
+                                },
+                                {
+                                    "T": "ATL-PHX-EWR-TPA-PHL-DFW-CUN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 38,
+                                    "Z": 38499,
+                                    "Y": 7,
+                                    "X": 60.51
+                                },
+                                {
+                                    "T": "ATL-PDX-SAN-SFO-SAN-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 15225,
+                                    "Y": 15.9,
+                                    "X": 46.35
+                                },
+                                {
+                                    "T": "ATL-ROC-ATL-PHX-PHL-RSW-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 16263,
+                                    "Y": -4.7,
+                                    "X": 48.82
+                                },
+                                {
+                                    "T": "ATL-SDQ-IAH-EWR-STI-SJU-STI-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 20155,
+                                    "Y": -0.1,
+                                    "X": 57.27
+                                },
+                                {
+                                    "T": "ATL-SEA-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 44584,
+                                    "Y": 1.8,
+                                    "X": 44.4
+                                },
+                                {
+                                    "T": "ATL-SLC-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 90,
+                                    "Z": 35131,
+                                    "Y": 1.7,
+                                    "X": 42.84
+                                },
+                                {
+                                    "T": "ATL-SXM-ATL-HPN-PHX-ATL",
+                                    "I": "Cabin Crew",
+                                    "A": 23,
+                                    "Z": 14872,
+                                    "Y": 9.6,
+                                    "X": 52.02
+                                },
+                                {
+                                    "T": "LAX-IAD-IAH-IAD-LAX",
+                                    "I": "Cabin Crew",
+                                    "A": 63,
+                                    "Z": 58006,
+                                    "Y": 0.2,
+                                    "X": 51.69
+                                },
+                                {
+                                    "T": "SAN-AUS-IAH-AUS-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 87,
+                                    "Z": 45062,
+                                    "Y": 8.6,
+                                    "X": 53.54
+                                },
+                                {
+                                    "T": "SAN-OAK-SAN-PDX-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 21,
+                                    "Z": 15527,
+                                    "Y": -0.5,
+                                    "X": 104.95
+                                },
+                                {
+                                    "T": "SAN-OAK-SAN-SLC-SAN",
+                                    "I": "Cabin Crew",
+                                    "A": 40,
+                                    "Z": 20673,
+                                    "Y": 2.4,
+                                    "X": 89.13
+                                },
+                                {
+                                    "T": "IAH-BDL-IAH-IAD-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 31,
+                                    "Z": 15931,
+                                    "Y": -0.5,
+                                    "X": 46.58
+                                },
+                                {
+                                    "T": "IAH-BOG-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 72,
+                                    "Z": 35323,
+                                    "Y": 7.9,
+                                    "X": 62.86
+                                },
+                                {
+                                    "T": "IAH-EWR-DFW-PHL-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 30,
+                                    "Z": 13603,
+                                    "Y": 40.5,
+                                    "X": 43.96
+                                },
+                                {
+                                    "T": "IAH-EWR-PHX-ATL-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 31,
+                                    "Z": 15824,
+                                    "Y": 3.9,
+                                    "X": 48.15
+                                },
+                                {
+                                    "T": "IAH-ATL-PUJ-SJU-DFW-PHL-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 24,
+                                    "Z": 19515,
+                                    "Y": 0.6,
+                                    "X": 51.96
+                                },
+                                {
+                                    "T": "IAH-PHL-IAH-PVD-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 23,
+                                    "Z": 10428,
+                                    "Y": -9.8,
+                                    "X": 44.21
+                                },
+                                {
+                                    "T": "IAH-PHL-IAH-PVD-IAH-HPN-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 37,
+                                    "Z": 26378,
+                                    "Y": 6.7,
+                                    "X": 44.18
+                                },
+                                {
+                                    "T": "IAH-SDQ-ATL-IAH-BOG-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 37,
+                                    "Z": 34657,
+                                    "Y": 7.6,
+                                    "X": 59.53
+                                },
+                                {
+                                    "T": "IAH-SJO-IAH",
+                                    "I": "Cabin Crew",
+                                    "A": 179,
+                                    "Z": 46729,
+                                    "Y": 1.8,
+                                    "X": 43.52
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

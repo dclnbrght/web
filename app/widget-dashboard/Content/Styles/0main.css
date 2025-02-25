@@ -1,0 +1,627 @@
+﻿/********************************************************** 
+                DO NOT MODIFY PER CUSTOMER
+        Customer specific styles are in airline.css
+**********************************************************/
+
+@font-face {
+  font-family: 'WebfontNormal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('OpenSans-Normal-400.woff') format('woff');
+}
+
+BODY                                    { margin: 0; border: 0; }
+BODY, INPUT, TEXTAREA, SELECT, TABLE    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; }
+
+H1, H2, H3                              { margin: 0; color: #505050; }
+H1                                      { font-size: 1.8em; letter-spacing: 0.02em; margin: 0.1em; }
+H2                                      { font-size: medium; }
+H3                                      { font-size: small; }
+TEXTAREA                                { padding: 0 3px; }
+HR.divider                              { height: 1px; color: #b5bbc0; background-color: #b5bbc0; width: 100%; margin: 1px; border: 0; }
+ul, li  		                        { margin: 0; padding: 0; }
+a, 
+a:link, 
+a:active                                { color: Navy; }
+a:visited                               { color: #333; }
+a:hover                                 { color: #666; }
+
+H1,
+.mainMenuOuter,
+.mainMenu,
+.headerText,
+.aboutSection,
+.mainMenuSeparator,
+.aboutPanelTitle                        { font-family: WebfontNormal, Verdana, Arial, Helvetica, sans-serif; }
+
+
+/* MasterPage */
+#masterBody                             { margin-bottom: 3em; }
+#masterBodyInner                        { padding: 3px 7px 3px 5px; }
+
+/* Header */
+#masterHeader		                    { margin-bottom: 2px; box-shadow: 0 2px 6px #666; border-radius: 0 0 4% 4%;
+                                            /* For IE 8 */
+                                            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#666666')";
+                                            /* For IE 5.5 - 7 */
+                                            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#666666'); 
+                                        }
+
+.headerTop             		        { width: 100%; overflow-x: hidden; }
+.headerLogo					        { width: 250px; height: 60px; float: left; 
+                                        background-image: url(logo.png); cursor: pointer; }
+.headerText					        { display: none; color: rgb(35, 107, 185); }
+.headerMessage                      { max-width: 60em; padding: 0.3em; margin: 0 auto; 
+                                      text-align: center; color: #b70909; font-size: 110%; }
+@media screen and (max-width: 1580px) and (min-width: 480px) {
+      .headerMessage                { margin-top: 2.2em; } 
+}
+
+/* Menu */
+.mainMenuOuter		                { position: absolute; right: 0; top: 0;
+                                        padding: 0 0 0 0.4em;
+                                        background: rgb(35, 107, 185); 
+                                        border-bottom-left-radius: 0.4em; }
+.mainMenuSeparator	                { font-size: 125%; padding: 0 0.1em; color: #ccc; }
+.mainMenu 					        { z-index: 100000; font-size: 120%; white-space: nowrap; }							
+.mainMenuToggle 			        { font-size: 130%; display:  none; background: rgb(35, 107, 185);
+                                        padding: 0.4em 0.6em 0 0.6em; color: #fff; height: 1.85em; }
+.mainMenuOuter a,
+.mainMenu a			                { color: #fff; text-decoration: none; cursor: pointer; }
+                            
+.mainMenu 			                { list-style: none; *zoom: 1; }			
+.mainMenu ul 		                { list-style: none; }
+.mainMenu a 			            { padding: 0.4em 0.6em; }
+.mainMenu a:hover,
+.mainMenuActive a	                { color: #ddd; background: rgb(80, 80, 80); }
+.mainMenu > li > a:hover 	        { background: rgb(80, 80, 80); background: rgba(80, 80, 80, 0.85);  }
+.mainMenu li 		                { position: relative; }
+.mainMenu > li 		                { float: left; }
+.mainMenu > li > a 	                { display: block; padding: 0.3em 0.6em 0.4em 0.6em; }
+.mainMenu > li:last-child > a       { margin-right: 0.4em; }
+.mainMenu li ul 		            { position: absolute; right: 99999em; }
+
+.mainMenu li li a 	                { display: block; position: relative; min-width: 7em;
+                                        border-top: 1px solid #888; z-index: 100001;
+                                        background: rgb(80, 80, 80); background: rgba(80, 80, 80, 0.85); }
+
+@media screen and (max-width: 680px) {
+    H1                              { font-size: 1.5em; }
+    .mainMenuOuter		            { top: 60px; width: 100%; padding: 0; 
+                                        border-bottom-left-radius: 0; }
+    .headerTop				        { height: -webkit-calc(60px + 2.4em); height: calc(60px + 2.4em); }
+    .mainMenu					    { text-align: center; height: 2.1em; }
+    .mainMenu > li				    { float: none; display: inline-block; }
+    .mainMenuShow 				    { position: fixed!important; left: 0; width: 100%; }
+    
+    .mainMenu > li > a			    { z-index: 100009; }
+    .mainMenu > li > ul			    { z-index: 100010; }
+}
+
+@media screen and (max-width: 480px) {
+    .mainMenuOuter		            { width: 0; top: 0; } 
+    .headerTop				        { height: 2.9em; }
+    .headerText				        { display: inline; font-size: 16pt; line-height: 1.8em; padding: 0 0.2em; }
+    .headerHome				        { text-decoration: none; }
+    .headerHome:link		        { font-size: large; color: #222; font-weight: bold; }
+    .headerLogo  			        { display: none; }				
+    .mainMenuToggle 			    { display: block; position: absolute; right: 0; top: 0; }
+    .mainMenu					    { height: inherit; top: 2.3em; background: rgb(35, 107, 185); 
+                                        display: none; }
+    .mainMenu > li 				    { width: 100%; display: block;
+                                        border-top: 1px solid #999; width: 100%; }
+    .mainMenu > .mainMenuSeparator	{ display: none; }
+    .mainMenu li li a 			    { background: rgb(80, 80, 80); }
+}	
+
+.mainMenuShow		                { right: 0!important; }
+.mainMenuToggleShow		            { right: 0; display: block; position: fixed; left: 0; }
+
+
+/* Buttons */
+/* submitButton70, submitButton100, submitButton130 & submitButton160 have been left in for 
+    backwards compatability, only primaryButton & submitButton should be used going forward */
+INPUT.primaryButton,
+DIV.primaryButton input,
+.submitButton,
+.submitButton70,
+.submitButton100,
+.submitButton130,
+.submitButton160                        { border: 1px solid #888; cursor: pointer; text-decoration: none;
+                                            font-weight: bold; color: #333; padding: 0.1em 1em 0.2em 1em; margin: 0; 
+                                            border-radius: 0.4em;
+                                            background-color: #d2d2d2; 
+                                            background-image: -webkit-linear-gradient(top, #efefef, #bebebe);
+                                            background-image: -ms-linear-gradient(top, #efefef, #bebebe);
+                                            background-image: linear-gradient(to bottom, #efefef, #bebebe); 
+                                            box-shadow: 0 1px 1px #fff inset; }
+
+INPUT.primaryButton,
+DIV.primaryButton                       { margin: 0.2em 0.1em; display: inline-block; }
+INPUT.primaryButton,
+DIV.primaryButton input                 { height: 2.2em; padding: 0em 1em 0.2em 1em; }
+
+.submitButton,
+.submitButton70,
+.submitButton100,
+.submitButton130,
+.submitButton160                        { font-size: 90%; }
+
+.submitButton70                         { width: 70px; }
+.submitButton100                        { width: 100px; }
+.submitButton130                        { width: 130px; }
+.submitButton160                        { width: 160px; }
+
+.submitButton:link,
+.primaryButton:link                     { color: #333; }
+
+INPUT.primaryButton:hover:enabled,
+DIV.primaryButton input:hover:enabled,
+.submitButton:hover:enabled,
+.submitButton70:hover:enabled,
+.submitButton100:hover:enabled,
+.submitButton130:hover:enabled,
+.submitButton160:hover:enabled          { color: #111; background-color: #ccc; background-image: none; }
+
+input[type=submit],
+input[type=button]                      { -webkit-appearance: none; }
+
+/* Button Group */
+.buttonGroup                            { margin: auto 0.1em; white-space: nowrap; }
+.buttonGroup input                      { border-radius: 0; border-left: none; margin-left: 0; margin-right: 0; }
+.buttonGroup .submitButton:first-child,
+.buttonGroup .primaryButton:first-child { border-top-left-radius: 0.4em; border-bottom-left-radius: 0.4em; border-left: 1px solid #888; }
+.buttonGroup .submitButton:last-child,
+.buttonGroup .primaryButton:last-child  { border-top-right-radius: 0.4em; border-bottom-right-radius: 0.4em; }
+
+.primaryButton:disabled,
+.submitButton:disabled,
+.submitButton70:disabled,
+.submitButton100:disabled,
+.submitButton130:disabled,
+.submitButton160:disabled               { border: 1px solid #aaa!important; color: #aaa; }
+
+/* Label */
+.controlLabel                           { font-weight: bold; padding: 0px 4px 0px 4px; text-align: right; 
+                                         	color: #333; white-space: nowrap; float: right; }
+
+
+/* Name/value pairs such as Label and TextBox or Label and DropDownList */
+.nameValueColumn,
+.nameValuePair,
+.nameValueLabel     { display: inline-block; vertical-align: text-top; }
+.nameValueColumn    { max-width: 26em;}
+.nameValuePair      { min-width: 22em; padding: 0.3em 0.1em; }
+.nameValueLabel     { min-width: 10em; white-space: nowrap; font-weight: bold; text-align: right; padding: 0 0.2em; }
+.nameValueInput     { display: inline-block; min-width: 12em; }
+@media screen and (max-width: 30em) {
+    .nameValuePair,
+    .nameValueLabel,
+    .nameValueInput {
+        display: block;
+        height: auto;
+    }
+    .nameValueLabel {
+        text-align: left;
+    }
+}
+@media screen and (min-width: 44em) {  
+    .dateRangePickerInput   { min-width: 35.2em; } 
+}
+/* IE6 hack to get inline-block behaviour */
+.nameValuePair, .nameValueLabel, .nameValueInput    { zoom: 1; *display: inline; }  
+
+
+
+/* GridView, Table */
+.gridViewMain                           { border-collapse: collapse; border-width: 0px; width: 100%; }
+.gridViewRowStyle, 
+.gridViewSelectedRowStyle,
+.gridViewAlternatingRowStyle,
+.dataTable tr td                        { border-bottom: 1px solid #D8DBDB; text-align: center; }
+.gridViewRowStyle td a,
+.gridViewRowStyle td a:link,
+.gridViewSelectedRowStyle td a,
+.gridViewSelectedRowStyle td a:link,
+.gridViewAlternatingRowStyle td a,
+.gridViewAlternatingRowStyle td a:link,
+.gridViewHeaderStyle th a,
+.gridViewHeaderStyle th a:link,
+.gridViewHeaderStyle th a:visited,
+.gridViewReportHeaderStyle th a,
+.gridViewReportHeaderStyle th a:link,
+.gridViewReportHeaderStyle th a:visited { color: #000; cursor: pointer; }
+.gridViewRowStyle                       { background-color: #ffffff; }
+.gridViewSelectedRowStyle               { background-color: #fff5bd; border-top: solid 1px #f6c572; border-bottom: solid 1px #f6c572; }
+.gridViewAlternatingRowStyle            { background-color: #f3f5f6; }
+.gridViewHeaderStyle, 
+.dataTable tr th                        { background-color: #efefef; border-bottom: 1px solid #bbb; text-align: center; }
+.gridViewReportHeaderStyle th           { background-color: #eee; border: 1px solid #bbb; text-align: center; }
+.gridViewRowStyle td a:hover    
+.gridViewSelectedRowStyle td a:hover,
+.gridViewAlternatingRowStyle td a:hover,
+.gridViewHeaderStyle th a:hover,
+.gridViewReportHeaderStyle th a:hover   { color: #333; } 
+.gridViewFooterStyle                    { background-color: #efefef; font-weight: bold; text-align: center; }
+.gridViewPagerStyle                     { background-color: #efefef; }
+.gridViewNoData                         { width: 90%; margin: auto; padding: 30px; border: none; text-align: center; color: #888; }
+.gridViewMain td                        { line-height: 2.1em; }
+.gridViewMain th, .gridViewMain td      { white-space: nowrap; }
+.gridViewMainListPagerOuter             { border-bottom: solid 1px #B5BBC0; }
+
+
+/* List Pager */
+.listPager                              { color: #888; font-family: Arial, Helvetica, sans-serif; display: block; padding: 0.2em 0.1em; }
+.listPagerSection                       { margin: 0 1.6em 0 0; display: inline-block; }
+.listPagerSection:first-child           { margin: 0 1.6em 0 0.1em; }
+.listPager input                        { font-size: 80%; color: #888; width: 6em; }
+.listPager select                       { font-size: 80%; color: #888; margin: 0px; border: solid 1px #ccc; background-color: #efefef; }
+.listPagerSectionGroup                  { display: inline-block; }
+
+@media screen and (max-width: 590px) {  
+    .listPagerSectionGroup              { display: block; }
+    .listPagerSectionGroup:not(:first-child)    { margin: 0.3em 0 0 0; }
+}
+
+/* Legacy WebForms Date Range Picker */
+.rangePickerControl             { white-space: nowrap; }
+.rangePickerOuter               { color: #555; display: inline-block; }
+.rangePicker                    { z-index: 10000000; }
+.rangePicker, 
+.rangePicker ul                 { list-style-image: none; list-style-position: outside; list-style-type: none; margin: 0; padding: 0; z-index: 10000000; }
+.rangePicker ul li              { padding: 0; width: 7em; background-color: #f8f8f8; }
+.rangePicker ul li a            { border-right: 0 none; color: #333; padding: 4px 6px; border-top: solid 1px #f1f1f1; border-bottom: solid 1px #f1f1f1; }
+.rangePicker a                  { display: block; padding: 1px 3px 1px 3px; }
+.rangePicker a.trigger,
+.rangePicker a.trigger:link, 
+.rangePicker a.trigger:hover, 
+.rangePicker a.trigger:active, 
+.rangePicker a.trigger:visited  { color: #e6e6e6; }
+.rangePicker a.trigger:hover, 
+.rangePicker a.trigger:active   { color: #fff; }
+.rangePicker a.trigger          { cursor: pointer; height: 20px; width: 28px; margin: -2px 0px -4px 0px; padding: 0px; background-image: url(Buttons/dateRangePicker.png); }
+.rangePicker li                 { float: left; position: relative; position: static; width: auto; }
+.rangePicker li ul, 
+.rangePicker li ul              { border: 1px solid #888888; background-color: #ffffff; display: none; position: absolute; }
+.rangePicker li:hover a, 
+.rangePicker a:focus, 
+.rangePicker a:active, 
+.rangePicker li.p7hvr a         { color: #000; text-decoration: none; }
+.rangePicker li:hover a.trigger { color: #fff; background-position: 0 20px; }
+.rangePicker li:hover ul, 
+.rangePicker li.p7hvr ul        { display: block; }
+.rangePicker li:hover ul a, 
+.rangePicker li.p7hvr ul a      { background-color: transparent; color: #222; }
+.rangePicker ul a:hover         { background-color: #fff5bd !important; color: #000 !important; border-top: solid 1px #f6c572; border-bottom: solid 1px #f6c572; }
+.rangePicker                    { float: left; }
+.rangePicker ul li a            { padding-left: 3px; }
+.rangePicker li ul              { margin-top: 3px; }
+.rangePickerControl INPUT       { width: 6.4em!important; }
+
+
+/* Date Range Picker */
+.date-range-picker                      { white-space: nowrap; }
+.date-range-picker-label                { padding: 0 0.1em; }
+.date-range-picker-trigger              { background-image: url("../../Areas/Shared/Content/Images/dateRangePicker.png");
+                                            cursor: pointer; height: 20px; width: 28px; display: inline-block; 
+                                            margin: 1px 0 0 0; vertical-align: top; }
+.date-range-picker-options              { position: fixed; display: none; z-index: 10000000; border: solid 0.1em #999; 
+                                            min-width: 15em; min-height: 21.6em; box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5) }
+.date-range-picker-row                  { display: table; text-align: center; }
+.date-range-picker-option-2,
+.date-range-picker-option-3             { display: table-cell; text-align: center; vertical-align: middle; height: 3.5em; 
+                                        border: inset; border: solid 0.1em #eee; background-color: rgba(255, 255, 255, 0.8); }
+.date-range-picker-option-2             { width: 7.57em; }
+.date-range-picker-option-3             { width: 5em; }
+.date-range-picker-option-2:hover,
+.date-range-picker-option-3:hover       { background-color: rgba(236, 236, 236, 0.8); }
+
+
+/* TimeTextBox & DurationTextBox & NumberTextBox & DropDownCheckBoxList */
+.dateTimeTextBoxControl,
+.dateTimeTextBoxDropDown,
+.durationTextBoxControl,
+.numberTextBoxControl,
+.dropDownCheckBoxListControl    { white-space: nowrap; }
+.dateTimeTextBoxTimeButton,
+.dateTimeTextBoxDateButton,
+.durationTextBoxButton,
+.numberTextBoxButton,
+.dropDownCheckBoxListButton     { border: none; cursor: pointer; margin: 0px 0px -4px 0px; }
+.dropDownCheckBoxListDropDown   { background-color: #f8f8f8; border: solid 1px #888; margin: 0px 0px 0px 1px; z-index: 10000000; overflow: auto; }
+.dropDownCheckBoxListSelectAll  { padding: 2px 0px 0px 3px; }
+.dateTimeTextBoxDaysDiff        { color: #666; font-size: 80%; }
+.dateTimeTextBoxDropDown        { background-color: #eee; border: solid 1px #888; padding: 0px 2px 2px 2px; margin: 0px 0px 0px 1px; z-index: 10000000; }
+.dateTimeTextBoxDate            { background-color: #eee; border: none; }
+.dateTimeTextBoxLeftAlign       { background-color:#eee; border: solid 1px #888; padding: 0px 2px 2px 2px; margin: 0px 8px 0px 1px; float:left; display:inline-block;}
+
+/* Information Panel */
+.informationPanel               { border: solid 1px #b5bbc0; margin: 0.3em 0; min-height: 12px; padding: 5px 6px 6px 30px;
+                                    -webkit-border-radius: 4px; border-radius: 4px; }
+.informationPanelInfo           { background: #eef8ff url(Icons/info.png) no-repeat 5px 5px; }
+.informationPanelWarning        { background: #ffffb3 url(Icons/warning.png) no-repeat 5px 5px; }
+.informationPanelError          { background: #ffddad url(Icons/error.png) no-repeat 5px 5px; }
+
+/* UpdatePanelProgressIndicator */
+.updateProgressOverlay          { position: absolute; z-index: 100000000; left: 0; top: 0; display: block; 
+                                    background-color: #fff; filter: alpha(opacity=40); opacity: 0.4; }
+.updateProgress                 { position: absolute; z-index: 100000001; border: solid 2px #aaa; }
+
+/* Client Dialog */
+.dialogLink                     { border-bottom: double 3px #888; cursor: pointer; }
+.dialogOverLay                  { position: absolute; z-index: 100000000; left: 0; top: 0; display: block; 
+                                    background-color: #ccc; filter: alpha(opacity=40); opacity: 0.4; }
+
+/* Panel */
+.panel                      	{ margin: 0.3em 0em 0.5em 0em; display: table; width: 100%; }
+.panelHeader			        { color: #333; height: 2.2em; } 
+.panelHeader                	{ border: solid 1px #b5bbc0; padding-left: 0.5em; 
+                                    background-color: #e8e8e8; 
+                                    background-image: -webkit-linear-gradient(top, #f8f8f8, #e1e1e1);
+                                    background-image: -ms-linear-gradient(top, #f8f8f8, #e1e1e1);
+                                    background-image: linear-gradient(to bottom, #f8f8f8, #e1e1e1);
+                                    border-radius: 0.3em 0.3em 0 0;
+                                }
+.panelHeaderLeft            	{ display: none; }
+.panelHeaderTitle           	{ float: left; margin: 5px 4px 4px 2px; font-weight: bold; }
+.panelHeaderContent             { float: left; margin: 5px 4px 4px 2px; }
+.panelHeaderButtons             { float: right; margin: 7px 10px 1px 1px; }
+.panelHeaderSubmitButtons       { float: right; margin: 0.3em 0.3em 0 0; }
+.panelHeaderButtons input       { padding: 0 .25em; }
+.panelHeaderCloseButton,
+.panelHeaderMinimiseButton,
+.panelHeaderMaximiseButton,
+.panelHeaderHelpButton,
+.panelHeaderEditButton          { width: 13px; height: 13px; float: left; margin: 0px 0px 0px 2px; cursor: pointer; border: 0; }
+.panelHeaderCloseButton:hover,
+.panelHeaderMinimiseButton:hover,
+.panelHeaderMaximiseButton:hover,
+.panelHeaderHelpButton:hover,
+.panelHeaderEditButton:hover    { background-position: 50% -13px; }
+.panelHeaderCloseButton         { background-image: url(Buttons/widgetClose.png); }
+.panelHeaderMinimiseButton      { background-image: url(Buttons/widgetMinimise.png); }
+.panelHeaderMaximiseButton      { background-image: url(Buttons/widgetMaximise.png); }
+.panelHeaderHelpButton          { background-image: url(Buttons/widgetHelp.png); }
+.panelHeaderEditButton          { background-image: url(Buttons/widgetEdit.png); }
+
+.subPanelHeader                 { background-color: #f8f8f8; color: #333; font-weight: bold; padding: 3px 10px 5px 10px; min-height: 17px; }
+.subPanelHeaderTitle            { float: left; margin: 1px 4px 1px 2px; font-weight: bold; color: #555; text-decoration: underline; }
+.subPanelHeader,
+.panelBody                      { border-right: solid 1px #b5bbc0; border-left: solid 1px #b5bbc0; }
+.panelBody                      { clear: both; 
+                                    background-color: #fdfdfd;
+                                    background-image: -webkit-linear-gradient(top, #f8f8f8, #fff 4em);
+                                    background-image: -ms-linear-gradient(top, #f8f8f8, #fff 4em);
+                                    background-image: linear-gradient(to bottom, #f8f8f8, #fff 4em);
+                                }
+.panelBodyContent               { padding: 3px; }                           
+               
+.panelFooter,
+.panelFooterSmall,
+.panelFooterLarge               { border: solid 1px #b5bbc0; border-top: none;
+                                    background-color: #f1f1f1;
+									background-image: repeating-linear-gradient(0deg, #eee, #eee 2px, #fafafa 2px, #fafafa 4px);
+                                    background-image: -webkit-repeating-linear-gradient(90deg, #eee, #eee 2px, #fafafa 2px, #fafafa 4px);
+                                    border-radius: 0 0 0.3em 0.3em;
+         						}
+.panelFooter,
+.panelFooterSmall,
+.panelFooterLarge,
+.panelFooterLeft                { color: #333; height: 2.65em; } 
+.panelFooterLeft                { display: none; }
+.panelFooterSmall,
+.panelFooterSmall .panelFooterLeft       { height: 1em; }
+.panelFooterLarge,
+.panelFooterLarge .panelFooterLeft       { height: 4.1em; }
+.panelFooterContent             { padding: 3px; float: left; }
+.panelFooterButtons             { float: right; padding: 0 0.2em 0 0; }
+
+/* SubPanel */
+.subPanel                       { border: solid 1px #b5bbc0; background-color:#f7f7f7; padding: 0.3em; margin: 0.3em 0; border-radius: 0.3em; }
+
+/* Tabs */
+.tabsBar, .tabsBarLeft      { color: #333; height: 2.1em; background-repeat: repeat-y; } 
+.tabsBar                    { padding-left: 9px; border-bottom: solid 1px #b5bbc0; }
+.tabsBarLeft                { display: none; }
+.tab,
+.tabActive                  { color: #333; background-repeat: no-repeat; float: left; }
+.tab, .tabActive            { border: solid 1px #b5bbc0; padding: 0em 0.4em; margin: 1px 2px 0px 1px; 
+                                    background-color: #e8e8e8; 
+                                    background-image: -webkit-linear-gradient(top, #f8f8f8, #e1e1e1);
+                                    background-image: -ms-linear-gradient(top, #f8f8f8, #e1e1e1);
+                                    background-image: linear-gradient(to bottom, #f8f8f8, #e1e1e1);
+                                    border-radius: 0.3em 0.3em 0 0; }
+.tab                        { margin: 3px 2px 0px 6px; }
+.tabLeft                    { display: none; }
+.tabActive, 
+.tabActive .tabLeft         { height: 1.95em; border-bottom: solid 1px #e7e9eb; }
+.tab, 
+.tab .tabLeft               { height: 1.8em; }
+.tabTitle                   { float: left; margin: 5px 4px 4px 1px; }
+.tabActive .tabTitle a,
+.tabActive .tabTitle a:link { color: #333; font-weight: bold; white-space: nowrap; }
+.tab .tabTitle a,
+.tab .tabTitle a:link       { color: #666; white-space: nowrap; }
+.tab .tabTitle a:hover      { color: #000; }
+.tabActive .tabTitle        { cursor: default; }
+.tab .tabTitle              { cursor: pointer; }
+
+
+/* Hide some search filters on smaller screens, display a button to show the filters  */
+#filtersMoreButton 	{ color: #333; text-decoration: underline; margin: 0.5em 0 0 0.5em; float: left; display: none; }
+#filtersMore        { display: inline; }
+@media screen and (max-width: 870px) {  
+    #filtersMoreButton 	    { display: block; }
+    #filtersMore		    { display: none; }	
+}
+
+/* Use this on search screens to make better use of wide screens, change the filter bar 
+    to a narrow column on the left and the results to a wide column on the right */
+@media screen and (min-width: 1800px) {	  
+    .searchFilters		    { float: left; margin-right: 0.5em; width: 36.5em; }
+    .searchResults		    { float: right; width: -webkit-calc(100% - 37em); width: calc(100% - 37em); }
+    .nameValuePair          { float: none; }
+    .dateRangePickerInput   { min-width: 0; } 
+
+    :root .searchFilters    { width: 100% \0/IE9; }  /* IE9 Hack */
+    :root .searchResults    { width: 100% \0/IE9; }  /* IE9 Hack */
+}
+
+/* Legacy WebForms Calendar */
+.calendarTitle              { color: #e6e6e6 !important; margin: 0px !important; font-weight: bold; }
+.calendarNextPrev a:link,
+.calendarNextPrev a:active, 
+.calendarNextPrev a:visited,
+.ajax__calendar .ajax__calendar_title,
+.ajax__calendar .ajax__calendar_title:link,
+.ajax__calendar .ajax__calendar_title:active, 
+.ajax__calendar .ajax__calendar_title:visited       { color: #e6e6e6 !important; text-decoration: none; line-height: initial; }
+.calendarNextPrev a:hover   { font-weight: bold; color: #ffffff !important; }
+.calendarDayHeader,
+.ajax__calendar .ajax__calendar_days table thead td    { background-color: #d1d1d1; font-weight: bold; color: #333333; line-height: initial; }
+.calendarDay,
+.ajax__calendar .ajax__calendar_day { background-color: #f5f5f5; margin: 0px; line-height: initial; }
+.calendarDay                { padding: 4px 6px 4px 6px; }
+.calendarSelectedDay        { background-color: #999999 !important; color: #fff; font-weight: bold !important; }
+.calendarSelector           { background-color: #8C8EAA; }
+.calendarWeekendDay         { background-color: #ebebeb; padding: 4px 6px 4px 6px; } 
+.calendarMonthDayStyle      { background-color: #ededed; padding: 4px 6px 4px 6px; }
+.calendarTodayDay           { background-color: #D2D5DE; color: #222222; }
+.ajax__calendar .ajax__calendar_container   { margin: 0px; padding: 0px; }
+.ajax__calendar .ajax__calendar_header      { padding-top: 5px; }
+.ajax__calendar .ajax__calendar_title:hover { font-weight: bold; color: #ffffff !important; }
+.ajax__calendar_footer      { line-height: initial; }
+
+/* DatePicker */
+.date-picker-date           { max-width: 10em; }
+.date-picker-date-nonnative { width: 7.4em; }
+
+/* Icon Sprite */
+.iconDocument1,
+.iconDocumentPencil1,
+.iconDocument2,
+.iconDocument3,
+.iconClipboard,
+.iconClipboardPencil,
+.iconClipboardTick,
+.iconClipboardX,
+.iconClipboardSearch,
+.iconClipboardNumbers,
+.iconReport1,
+.iconChartLine,
+.iconChartBar,
+.iconChartPie,
+.iconSearch,
+.iconRefresh,
+.iconPrinter,
+.iconComment,
+.iconClock,
+.iconPerson,
+.iconTickbox,
+.iconTickboxTicked,
+.iconPlane,
+.iconAirport,
+.iconHotel,
+.iconClipboardPlus,
+.iconCaptain,
+.iconEuro,
+.iconDollar,
+.iconCube,
+.iconPlaneTakeOff      	        { width: 16px; height: 16px; display: inline-block; background: url(Icons/iconSprite.png) no-repeat 0 0; }
+
+.iconDocument1                  { background-position: -2px -2px;}
+.iconDocumentPencil1            { background-position: -2px -22px; }
+.iconDocument2                  { background-position: -2px -42px; }
+.iconDocument3                  { background-position: -2px -62px; }
+
+.iconClipboard                  { background-position: -2px -82px; }
+.iconClipboardPencil            { background-position: -2px -102px; }
+.iconClipboardTick              { background-position: -2px -122px; }
+.iconClipboardX                 { background-position: -2px -142px; }
+.iconClipboardSearch            { background-position: -2px -162px; }
+.iconClipboardNumbers           { background-position: -2px -182px; }
+
+.iconReport1                    { background-position: -2px -202px; }
+.iconChartLine                  { background-position: -2px -222px; }
+.iconChartBar                   { background-position: -2px -242px; }
+.iconChartPie                   { background-position: -2px -262px; }
+
+.iconSearch                     { background-position: -2px -282px; }
+.iconRefresh                    { background-position: -2px -302px; }
+.iconPrinter                    { background-position: -2px -322px; }
+.iconComment                    { background-position: -2px -342px; }
+.iconClock                      { background-position: -2px -362px; }
+.iconPerson                     { background-position: -2px -382px; }
+
+.iconTickbox                    { background-position: -2px -402px; }
+.iconTickboxTicked              { background-position: -2px -422px; }
+
+.iconPlane            	        { background-position: -2px -442px; }
+.iconAirport            	    { background-position: -2px -462px; }
+.iconHotel            	        { background-position: -2px -482px; }
+.iconClipboardPlus              { background-position: -2px -502px; }
+.iconCaptain                    { background-position: -2px -522px; }
+.iconEuro                       { background-position: -2px -542px; }
+.iconDollar                     { background-position: -2px -562px; }
+.iconCube                       { background-position: -2px -582px; }
+.iconPlaneTakeOff               { background-position: -2px -602px; }
+
+/* About */
+.aboutSection                   { padding: 2em; min-height: 80em;
+                                  background: url(cloudglobe.png) no-repeat center center fixed; 
+                                      -webkit-background-size: cover;
+                                      -moz-background-size: cover;
+                                      -o-background-size: cover;
+                                      background-size: cover; }
+.aboutPanel                     { min-width: 24em; min-height: 12em; background: rgb(71, 110, 186); background-color: rgba(71, 110, 186, 0.85);  
+                                  padding: 3em; margin: 1em; border-radius: 0.3em;
+                                  color: #555; float: left; }
+.aboutPanelTitle                { font-size: 200%; color: #fff; display: block; padding-bottom: 0.6em; }
+.aboutPanelText                 { font-size: 120%; color: #fff; display: block; }
+.aboutPanelText:link,
+.aboutPanelText:visited         { color: #fff; }
+
+/* Misc */
+.visible                        { display: block; }
+.invisible                      { display: none; }
+.nowrap                         { white-space: nowrap; }
+.nopadding                      { padding: 0; }
+.message                        { color: #f00; font-weight: bold; }
+
+
+/* Printing */
+@media print 
+{
+    a, 
+    a:link, 
+    a:active,
+    a:visited                   { text-decoration: none; }   
+    
+    #masterHeader,
+    .printHide,
+    .pagerLinks,
+    .primaryButton,
+    .submitButton70,
+    .submitButton100,
+    .submitButton130,
+    .submitButton160,
+    .listPagerLinks             { display: none; }
+
+    .panelHeader,
+    .panelHeaderTitle,
+    .panelBody,
+    .panelFooter,
+    .panelFooterSmall,
+    .panelFooterLarge           { background-image: none; border: none; border-radius: 0; }    
+
+    .panel                      { border: solid 1px #000; }
+    .panelHeader,
+    .subPanelHeader             { border-bottom: solid 1px #000; }
+    .panelFooter,
+    .panelFooterSmall,
+    .panelFooterLarge           { border-top: solid 1px #000; }    
+        
+    .dialogLink                 { border-bottom: none; }
+}
+
+

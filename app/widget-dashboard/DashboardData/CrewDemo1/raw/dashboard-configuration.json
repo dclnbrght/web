@@ -1,0 +1,628 @@
+﻿{
+    "Name": "Crew Analytics Dashboard",
+    "ActionLoggingEnabled": true,
+    "Resources": [
+        {
+            "Type": "filter",
+            "Uri": "DashboardData/CrewDemo1/raw/dashboard-filters.json",
+            "RefreshSeconds": 0
+        },
+        {
+            "Type": "zone",
+            "Uri": "DashboardData/CrewDemo1/raw/crew-analytics-overview.json",
+            "RefreshSeconds": 0
+        },
+        {
+            "Type": "zone",
+            "Uri": "DashboardData/CrewDemo1/raw/crew-analytics-productivity.json",
+            "RefreshSeconds": 0
+        },
+        {
+            "Type": "zone",
+            "Uri": "DashboardData/CrewDemo1/raw/crew-analytics-cost.json",
+            "RefreshSeconds": 0
+        },
+        {
+            "Type": "zone",
+            "Uri": "DashboardData/CrewDemo1/raw/crew-analytics-rosterimpact.json",
+            "RefreshSeconds": 0
+        }
+    ],
+    "Zones": [
+        {
+            "Id": "zone-crewanalyticsoverview",
+            "Name": "Crew Analytics Overview",
+            "Resources": [
+                {
+                    "Name": "Data Explorer",
+                    "Uri": "/CrewPayAnalyzer/dataset/CrewOverview"
+                }
+            ],
+            "Dashlets": [
+                {
+                    "Id": "Overview-PayCostCrewBlockKpi",
+                    "Name": "Pay Cost/Crew Blk",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Suffix": "/hr",
+                    "DisplayLegend": true,
+                    "Series": [
+                        {
+                            "Id": "Overview-PayCostCrewBlockKpi-Series-Performed",
+                            "Name": "Performed",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "$ / Hour",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": " / hour",
+                            "MinimumY": 0,
+                            "IsSparkline": true
+                        },
+                        {
+                            "Id": "Overview-PayCostCrewBlockKpi-Series-Published",
+                            "Name": "Published",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "$ / Hour",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": " / hour",
+                            "MinimumY": 0
+                        }
+                    ],
+                    "Links": [
+                        {
+                            "Name": "Crew Variable Cost Reports",
+                            "Url": "http://Default.aspx?category=CVCReports"
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-AverageBlockPerCrewKpi",
+                    "Name": "Blk/Active Crew",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "hrs",
+                    "Series": [
+                        {
+                            "Id": "Overview-AverageBlockPerCrewKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-CreditBlockKpi",
+                    "Name": "Credit/Blk",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "Overview-CreditBlockKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Credit/Blk",
+                            "ValueYSuffix": " Credit / Blk"
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-PayPremiumCreditKpi",
+                    "Name": "Prem % Credit",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "%",
+                    "Series": [
+                        {
+                            "Id": "Overview-PayPremiumCreditKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Prem % Credit",
+                            "ValueYSuffix": "%",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-CrewCountKpi",
+                    "Name": "Crew Count",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "Overview-CrewCountKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Crew Count",
+                            "ValueYSuffix": " Crew",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-DeadheadCreditBlockKpi",
+                    "Name": "DHD Credit % Blk",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "%",
+                    "Series": [
+                        {
+                            "Id": "Overview-DeadheadCreditBlockKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "DHD Credit % Blk",
+                            "ValueYSuffix": "%",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "Overview-PayCostCrewBlockChart",
+                    "Name": "Pay Cost/Crew Block Hour Perf/Pub %Var",
+                    "Type": "HeatMap",
+                    "Series": [
+                        {
+                            "Id": "Overview-PayCostCrewBlock-Series",
+                            "Name": "Series 1",
+                            "MinimumZ": 0,
+                            "ValueZSuffix": "%",
+                            "DisplayValues": true
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "Id": "zone-crewproductivity",
+            "Name": "Crew Productivity",
+            "Resources": [
+                {
+                    "Name": "Data Explorer",
+                    "Uri": "/CrewDayStats/dataset/CrewProductivity"
+                }
+            ],
+            "Dashlets": [
+                {
+                    "Id": "CrewProductivity-AverageBlockPerCrewKpi",
+                    "Name": "Blk/Crew",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "hrs",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-AverageBlockPerCrewKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "DisplayYGrid": true,
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-SickDaysKpi",
+                    "Name": "Sick Days/Crew",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-SickDaysKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "MinimumY": 0,
+                            "DisplayYGrid": true,
+                            "LabelY": "Sick Days Per Crew",
+                            "ValueYSuffix": " sick days per crew"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-FlightBlockKpi",
+                    "Name": "Flight Blk",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "hrs",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-FlightBlockKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "MinimumY": 0,
+                            "DisplayYGrid": true,
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-VacationKpi",
+                    "Name": "Vacation Days",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-VacationKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "MinimumY": 0,
+                            "DisplayYGrid": true,
+                            "LabelY": "Days",
+                            "ValueYSuffix": " vacation days"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-FlightDutyDaysKpi",
+                    "Name": "Flt Dty Days",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-FlightDutyDaysKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "MinimumY": 0,
+                            "DisplayYGrid": true,
+                            "LabelY": "Days",
+                            "ValueYSuffix": " flight duty days"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-TrainingKpi",
+                    "Name": "Training Days",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-TrainingKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "MinimumY": 0,
+                            "DisplayYGrid": true,
+                            "LabelY": "Days",
+                            "ValueYSuffix": " training days"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-AverageBlockPerReserveKpi",
+                    "Name": "Avg Blk/Rsv",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "hrs",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-AverageBlockPerReserveKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "DisplayYGrid": true,
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-UnusedReserveDaysKpi",
+                    "Name": "Unused Rsv Days",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-UnusedReserveDaysKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "DisplayYGrid": true,
+                            "LabelY": "Days",
+                            "ValueYSuffix": " unused reserve days"
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewProductivity-CrewProductivityChart",
+                    "Name": "Crew Productivity",
+                    "Type": "DefaultChart",
+                    "DisplayLegend": true,
+                    "Series": [
+                        {
+                            "Id": "CrewProductivity-Block-Series",
+                            "Name": "Block Hours",
+                            "Type": "Line",
+                            "ScaleXType": "ordinal",
+                            "AxisYOrient": "left",
+                            "DisplayYGrid": true,
+                            "MinimumY": "0",
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        },
+                        {
+                            "Id": "CrewProductivity-Credit-Series",
+                            "Name": "Credit Hours",
+                            "Type": "Line",
+                            "ScaleXType": "ordinal",
+                            "AxisYOrient": "left",
+                            "MinimumY": "0",
+                            "LabelY": "Hours",
+                            "ValueYSuffix": " hours"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "Id": "zone-crewcost",
+            "Name": "Crew Cost",
+            "Resources": [
+                {
+                    "Name": "Data Explorer",
+                    "Uri": "/CrewDayStats/dataset/CrewCost"
+                }
+            ],
+            "Dashlets": [
+                {
+                    "Id": "CrewCost-TotalCrewCostKpi",
+                    "Name": "Total Crew Cost",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-TotalCrewCostKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Cost $",
+                            "ValueYPrefix": "$",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-CrewPayCostKpi",
+                    "Name": "Crew Pay Cost",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-CrewPayCostKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Cost $",
+                            "ValueYPrefix": "$",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-CostPerCrewBlockKpi",
+                    "Name": "Cost/Crew Blk",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Suffix": "/hr",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-CostPerCrewBlockKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "$ / Hour",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": " / hour",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-HotelCostKpi",
+                    "Name": "Hotel Cost",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-HotelCostKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Cost $",
+                            "ValueYPrefix": "$",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-CostPerFlightBlockKpi",
+                    "Name": "Cost/Flt Blk",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Suffix": "/hr",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-CostPerFlightBlockKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "$ / Hour",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": " / hour",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-TransportCostKpi",
+                    "Name": "Transport Cost",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-TransportCostKpi-Series-Performed",
+                            "Name": "Series 1",
+                            "ScaleXType": "ordinal",
+                            "DisplayYGrid": true,
+                            "LabelY": "Cost $",
+                            "ValueYPrefix": "$",
+                            "MinimumY": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-CostPerFlightChart",
+                    "Name": "Avg Cost/Flight",
+                    "Type": "Scatterplot",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-AverageCostPerFlight-Series",
+                            "Name": "AverageCostPerFlight",
+                            "LabelX": "Avg Cost Per Block Hour $",
+                            "LabelY": "Avg Cost Variance %",
+                            "ValueXPrefix": "Avg Cost per Block Hour: $",
+                            "ValueYPrefix": "Avg of Cost Variance: ",
+                            "ValueYSuffix": "%",
+                            "ValueZPrefix": "Flights: ",
+                            "ValueIPrefix": "Average Flight Block per CM: ",
+                            "ValueISuffix": " hrs",
+                            "DisplayXGrid": true,
+                            "DisplayYGrid": true,
+                            "MinimumZ": 0
+                        }
+                    ]
+                },
+                {
+                    "Id": "CrewCost-CrewCostPlannedVarianceChart",
+                    "Name": "Crew Cost Perf/Plan",
+                    "Type": "HeatMap",
+                    "ValueSuffix": "% Perf/Pln",
+                    "Series": [
+                        {
+                            "Id": "CrewCost-CrewCostPlannedVariance-Series",
+                            "Name": "CrewCostPlannedVariance",
+                            "ScaleXType": "ordinal",
+                            "ScaleYType": "ordinal",
+                            "ValueZSuffix": "%",
+                            "BubbleSizeFactor": 16,
+                            "Colour": "#98ef98",
+                            "ColourNegative": "#ff5f5b"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "Id": "zone-rosterimpact",
+            "Name": "Roster Impact",
+            "Dashlets": [
+                {
+                    "Id": "RosterImpact-PrgOprPlndKpi",
+                    "Name": "Prg Opr Plnd",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "%",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-PrgOprPlndKpi-Series1",
+                            "Name": "Series 1",
+                            "MinimumY": "0",
+                            "MaximumY": "100",
+                            "ValueYSuffix": "%",
+                            "LabelY": "Prg Opr Plnd Percentage",
+                            "LabelX": "Date"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-ImpactCostKpi",
+                    "Name": "Impact Cost",
+                    "Type": "PerformanceIndicator",
+                    "Prefix": "$",
+                    "Suffix": "m",
+                    "DisplayLegend": true,
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-ImpactCostKpi-Performed",
+                            "Name": "Performed",
+                            "LabelY": "Impact Cost (million)",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": "m",
+                            "MinimumY": "0",
+                            "MaximumY": "2.2",
+                            "DisplayYGrid": true
+                        },
+                        {
+                            "Id": "RosterImpact-ImpactCostKpi-Published",
+                            "Name": "Published",
+                            "LabelY": "Impact Cost (million)",
+                            "ValueYPrefix": "$",
+                            "ValueYSuffix": "m",
+                            "MinimumY": "0",
+                            "MaximumY": "2.2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-PrgOprAwayKpi",
+                    "Name": "Prg Opr Away",
+                    "Type": "PerformanceIndicator",
+                    "Suffix": "%",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-PrgOprAwayKpi-Series1",
+                            "Name": "Series 1"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalImpactsKpi",
+                    "Name": "Total Impacts",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalImpactsKpi-Series1",
+                            "Name": "Series 1"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalChangesKpi",
+                    "Name": "Total Changes",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalChangesKpi-Series1",
+                            "Name": "Series 1"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-TotalSwapsKpi",
+                    "Name": "Total Swaps",
+                    "Type": "PerformanceIndicator",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-TotalSwapsKpi-Series1",
+                            "Name": "Series 1"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-Triggers",
+                    "Name": "Triggers",
+                    "Type": "Table",
+                    "Series": [
+                        {
+                            "Id": "Table1"
+                        }
+                    ]
+                },
+                {
+                    "Id": "RosterImpact-WorstPairings",
+                    "Name": "Impact Cost by Crew Category",
+                    "Type": "Scatterplot",
+                    "Series": [
+                        {
+                            "Id": "RosterImpact-WorstPairings-Series1",
+                            "Name": "Series 1",
+                            "LabelX": "Cost Per Block Hour $",
+                            "LabelY": "Impact %",
+                            "ValueXPrefix": "Cost Per Block Hour: $",
+                            "ValueYPrefix": "Impact: ",
+                            "ValueYSuffix": "%",
+                            "ValueZPrefix": "Start Cost: $",
+                            "ValueIPrefix": "Crew Category: ",
+                            "DisplayXGrid": true,
+                            "DisplayYGrid": true,
+                            "MinimumZ": 0,
+                            "BubbleSizeFactor": 24
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

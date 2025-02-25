@@ -1,0 +1,315 @@
+[{
+		"Id" : "Filter-RosterPeriod",
+		"Name" : "Roster Period",
+		"ParameterName" : "RosterPeriod",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Value" : "201512"
+			}, {
+				"Value" : "201511"
+			}, {
+				"Value" : "201510"
+			}, {
+				"Value" : "201509"
+			}, {
+				"Value" : "201508"
+			}, {
+				"Value" : "201507"
+			}, {
+				"Value" : "201506"
+			}, {
+				"Value" : "201505"
+			}, {
+				"Value" : "201504"
+			}, {
+				"Value" : "201503"
+			}, {
+				"Value" : "201502"
+			}, {
+				"Value" : "201501"
+			}, {
+				"Value" : "201412"
+			}, {
+				"Value" : "201411",
+				"Selected" : "selected"
+			}, {
+				"Value" : "201410"
+			}, {
+				"Value" : "201409"
+			}, {
+				"Value" : "201408"
+			}, {
+				"Value" : "201407"
+			}, {
+				"Value" : "201406"
+			}, {
+				"Value" : "201405"
+			}, {
+				"Value" : "201404"
+			}, {
+				"Value" : "201403"
+			}, {
+				"Value" : "201402"
+			}, {
+				"Value" : "201401"
+			}, {
+				"Value" : "201312"
+			}, {
+				"Value" : "201311"
+			}, {
+				"Value" : "201310"
+			}, {
+				"Value" : "201309"
+			}, {
+				"Value" : "201308"
+			}, {
+				"Value" : "201307"
+			}, {
+				"Value" : "201306"
+			}, {
+				"Value" : "201305"
+			}, {
+				"Value" : "201304"
+			}, {
+				"Value" : "201303"
+			}, {
+				"Value" : "201302"
+			}, {
+				"Value" : "201301"
+			}, {
+				"Value" : "201212"
+			}, {
+				"Value" : "201211"
+			}, {
+				"Value" : "201210"
+			}, {
+				"Value" : "201209"
+			}, {
+				"Value" : "201208"
+			}, {
+				"Value" : "201207"
+			}, {
+				"Value" : "201206"
+			}, {
+				"Value" : "201205"
+			}, {
+				"Value" : "201204"
+			}, {
+				"Value" : "201203"
+			}, {
+				"Value" : "201202"
+			}, {
+				"Value" : "201201"
+			}
+		]
+	}, {
+		"Id" : "Filter-CrewType",
+		"Name" : "Crew Type",
+		"ParameterName" : "CrewType",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Text" : "- All -",
+				"Value" : ""
+			}, {
+				"Value" : "Cabin Crew"
+			}, {
+				"Value" : "Pilot"
+			}
+		]
+	}, {
+		"Id" : "Filter-CrewCategory",
+		"Name" : "Crew Category",
+		"ParameterName" : "CrewCategory",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Text" : "- All -",
+				"Value" : ""
+			}, {
+				"Value" : "CA"
+			}, {
+				"Value" : "F1"
+			}, {
+				"Value" : "F2"
+			}, {
+				"Value" : "F3"
+			}, {
+				"Value" : "F4"
+			}, {
+				"Value" : "FA"
+			}, {
+				"Value" : "FO"
+			}
+		]
+	}, {
+		"Id" : "Filter-CrewQualification",
+		"Name" : "Crew Qualification",
+		"ParameterName" : "CrewQualification",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Text" : "- All -",
+				"Value" : ""
+			}, {
+				"Value" : "320"
+			}, {
+				"Value" : "321"
+			}, {
+				"Value" : "32S"
+			}, {
+				"Value" : "E90"
+			}, {
+				"Value" : "FAE"
+			}
+		]
+	}, {
+		"Id" : "Filter-CrewBase",
+		"Name" : "Crew Base",
+		"ParameterName"
+		 : "CrewBase",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Text" : "- All -",
+				"Value" : ""
+			}, {
+				"Value" : "ABQ"
+			}, {
+				"Value" : "AUA"
+			}, {
+				"Value" : "AUS"
+			}, {
+				"Value" : "BDL"
+			}, {
+				"Value" : "BGI"
+			}, {
+				"Value" : "BOG"
+			}, {
+				"Value" : "BOS"
+			}, {
+				"Value" : "BQN"
+			}, {
+				"Value" : "BTV"
+			}, {
+				"Value" : "BUF"
+			}, {
+				"Value" : "BWI"
+			}, {
+				"Value" : "CTG"
+			}, {
+				"Value" : "CUN"
+			}, {
+				"Value" : "DCA"
+			}, {
+				"Value" : "DEN"
+			}, {
+				"Value" : "DFW"
+			}, {
+				"Value" : "DTW"
+			}, {
+				"Value" : "EWR"
+			}, {
+				"Value" : "FLL"
+			}, {
+				"Value" : "HOU"
+			}, {
+				"Value" : "HPN"
+			}, {
+				"Value" : "IAD"
+			}, {
+				"Value" : "JAX"
+			}, {
+				"Value" : "JFK"
+			}, {
+				"Value" : "LAS"
+			}, {
+				"Value" : "LAX"
+			}, {
+				"Value" : "LGA"
+			}, {
+				"Value" : "LGB"
+			}, {
+				"Value" : "LIM"
+			}, {
+				"Value" : "LIR"
+			}, {
+				"Value" : "MCO"
+			}, {
+				"Value" : "MDE"
+			}, {
+				"Value" : "MSY"
+			}, {
+				"Value" : "OAK"
+			}, {
+				"Value" : "ORD"
+			}, {
+				"Value" : "ORH"
+			}, {
+				"Value" : "PBI"
+			}, {
+				"Value" : "PDX"
+			}, {
+				"Value" : "PHX"
+			}, {
+				"Value" : "PSE"
+			}, {
+				"Value" : "PUJ"
+			}, {
+				"Value" : "PVD"
+			}, {
+				"Value" : "PWM"
+			}, {
+				"Value" : "RDU"
+			}, {
+				"Value" : "RIC"
+			}, {
+				"Value" : "ROC"
+			}, {
+				"Value" : "RSW"
+			}, {
+				"Value" : "SAN"
+			}, {
+				"Value" : "SDQ"
+			}, {
+				"Value" : "SEA"
+			}, {
+				"Value" : "SFO"
+			}, {
+				"Value" : "SJC"
+			}, {
+				"Value" : "SJU"
+			}, {
+				"Value" : "SLC"
+			}, {
+				"Value" : "SMF"
+			}, {
+				"Value" : "STI"
+			}, {
+				"Value" : "STT"
+			}, {
+				"Value" : "SWF"
+			}, {
+				"Value" : "SXM"
+			}, {
+				"Value" : "SYR"
+			}, {
+				"Value" : "TPA"
+			}, {
+				"Value" : "UVF"
+			}, {
+				"Value" : "Z21"
+			}
+		]
+	}, {
+		"Id" : "Filter-CrewLineType",
+		"Name" : "Line Type",
+		"ParameterName" : "CrewLineType",
+		"Type" : "dropdownlist",
+		"Options" : [{
+				"Text" : "- All -",
+				"Value" : ""
+			}, {
+				"Value" : "Line Holder"
+			}, {
+				"Value" : "Reserve"
+			}
+		]
+	}
+]
