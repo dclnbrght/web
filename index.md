@@ -16,6 +16,17 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<div class="card">
+    <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-runoffgroove-supreaux-deux/guitar-pedal-pcb-assembly-4.webp');background-size:110%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Building a Run Off Groove Supreaux Deux Guitar Pedal Kit</strong>
+        </div>
+    </a>
+</div>
+
 
 <div class="card">
     <a href="/box/marantz-pm66se-amplifier-repair">
