@@ -17,7 +17,7 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     The circuit has two gain stages, a JFET pre-amp stage and a BJT amplifier stage. 
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive - Schematic" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-schematic.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-schematic.png" />
+    <img alt="Copper Drive - Schematic" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-schematic.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-schematic.webp" />
     <figcaption>
         Copper Drive Schematic
     </figcaption>
@@ -67,7 +67,7 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     The circuit was modelled in <a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank">LTspice</a>, with the input signal trace shown here in green and the output signal shown in red.
 </p>			
 <figure class="photoFigure">
-    <img alt="Copper Drive - Trace" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-trace.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-trace.png" />
+    <img alt="Copper Drive - Trace" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-trace.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-v1.1-ltspice-trace.webp" />
     <figcaption>
         Copper Drive Trace
     </figcaption>
@@ -81,7 +81,7 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     The prototype was built on a breadboard to test the circuit and make adjustments.
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive - Prototype" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-prototype-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-prototype.png" />
+    <img alt="Copper Drive - Prototype" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-prototype-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-prototype.webp" />
     <figcaption>
         Copper Drive Prototype
     </figcaption>
@@ -92,7 +92,7 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     <a href="https://veecad.com/" target="_blank" >VeeCAD</a> was used to design the stripboard layout, using a 15 x 16 hole board, with a few cuts in the strips. 
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive Circuit Stripboard Layout" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-stripboard-layout-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-stripboard-layout.png" />
+    <img alt="Copper Drive Circuit Stripboard Layout" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-stripboard-layout-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-stripboard-layout.webp" />
     <figcaption>
         Copper Drive Circuit Stripboard Layout
     </figcaption>
@@ -103,8 +103,8 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     Pretty standard circuit build, with sockets for the transistors.
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive Circuit Board Build" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-build-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-build.png" />
-    <img alt="Copper Drive Circuit Board Complete" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-complete-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-complete.png" />
+    <img alt="Copper Drive Circuit Board Build" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-build-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-build.webp" />
+    <img alt="Copper Drive Circuit Board Complete" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-complete-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-circuit-board-complete.webp" />
     <figcaption>
         Copper Drive Circuit Board Build
     </figcaption>
@@ -121,7 +121,7 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     The "Circuit Breaker" decal around the LED is something I found in an old box of bits &amp; pieces, not sure where it came from but it looks kinda cool!
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive Enclosure" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-enclosure-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-enclosure.png" />
+    <img alt="Copper Drive Enclosure" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-enclosure-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-enclosure.webp" />
     <figcaption>
         Copper Drive Enclosure
     </figcaption>
@@ -133,8 +133,8 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     Nothing unusual with the off board wiring; jacks, power, LED, and a standard bypass setup on the footswitch. Two toggle switches were added for the clipping diodes. The back of the pots and inside of the enclosure was covered with insulating tape to prevent shorting out on the stripboard.
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive Off Board Wiring" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-off-board-wiring-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-off-board-wiring.png" />
-    <img alt="Copper Drive Assembled" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-assembled-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-assembled.png" />
+    <img alt="Copper Drive Off Board Wiring" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-off-board-wiring-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-off-board-wiring.webp" />
+    <img alt="Copper Drive Assembled" src="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-assembled-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/copper-drive-assembled.webp" />
     <figcaption>
         Copper Drive Off Board Wiring & Assembly
     </figcaption>
@@ -147,11 +147,11 @@ permalink: "box/guitar-pedal-copper-drive-design-build/"
     It turned out quite well, and it stacks well with other drive and fuzz pedals.
 </p>
 <figure class="photoFigure">
-    <img alt="Copper Drive" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-2-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-2.png" />
-    <img alt="Copper Drive" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-3-200.png" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-3.png" />
+    <img alt="Copper Drive" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-2-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-2.webp" />
+    <img alt="Copper Drive" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-3-200.webp" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete-3.webp" />
 </figure>
 <figure class="photoFigure">
-    <img alt="Copper Drive Pedal - Complete" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.png" style="width:90%" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.png" />
+    <img alt="Copper Drive Pedal - Complete" src="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.webp" style="width:90%" data-full-img="/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.webp" />
     <figcaption>
         Copper Drive
     </figcaption>
