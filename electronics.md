@@ -12,6 +12,9 @@ Designing and building the Copper Drive guitar pedal.
 [Run Off Groove Supreaux Deux Guitar Pedal Kit](/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit/) \
 Building a Run Off Groove Supreaux Deux amp simulator guitar pedal, based on the vintage Supro 16T amplifier.
 
+[Musikding Der Muff American Guitar Pedal Kit](/box/musikding-der-muff-guitar-pedal-kit/) \
+Building a Musikding Der Muff American Guitar Pedal kit which is based on the famous EHX Big Muff.
+
 ## Restoration
 [Marantz PM66SE Amplifier Repair](/box/marantz-pm66se-amplifier-repair) \
 A project to restore an old Marantz hi-fi amplifier.

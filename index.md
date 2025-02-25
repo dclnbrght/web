@@ -26,6 +26,16 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<div class="card">
+    <a href="/box/musikding-der-muff-guitar-pedal-kit">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-der-muff-american/guitar-pedal-pcb-assembly-2.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Building a Musikding Der Muff American Guitar Pedal Kit</strong>
+        </div>
+    </a>
+</div>
 
 
 <div class="card">
