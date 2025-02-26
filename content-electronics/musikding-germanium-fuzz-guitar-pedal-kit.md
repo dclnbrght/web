@@ -210,7 +210,7 @@ permalink: "box/musikding-germanium-fuzz-guitar-pedal-kit/"
 </p>
 <ul>
     <li>
-        <a href="guitar-pedal-factory-fuzz-circuit-simulation">Factory Fuzz Guitar Pedal Circuit Simulation</a>
+        <a href="/electronics/guitar-pedal-factory-fuzz-circuit-simulation">Factory Fuzz Guitar Pedal Circuit Simulation</a>
     </li>
 </ul>
 <br />

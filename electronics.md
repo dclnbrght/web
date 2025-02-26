@@ -4,6 +4,10 @@ description: Electronics Projects by Declan Bright.
 keywords: "guitars,guitar pedals,stompboxes,amplifiers"
 ---
 
+## Circuit Simulation
+[Factory Fuzz Guitar Pedal Circuit Simulation](/electronics/guitar-pedal-factory-fuzz-circuit-simulation/) \
+Simulating the electronic circuit from the Factory Fuzz Guitar Pedal.
+
 ## Guitar Effects Pedals
 
 [Copper Drive Guitar Pedal](/box/guitar-pedal-copper-drive-design-build/) \

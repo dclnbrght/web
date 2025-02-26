@@ -36,8 +36,16 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-
-
+<div class="card">
+    <a href="/electronics/guitar-pedal-factory-fuzz-circuit-simulation">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-germanium-fuzz/fuzz-pedal-circuitjs-simulation.webp');"></div>
+        </div>
+        <div class="card-body">
+            <strong>Factory Fuzz Guitar Pedal Circuit Simulation</strong>
+        </div>
+    </a>
+</div>
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
