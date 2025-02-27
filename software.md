@@ -15,6 +15,9 @@ Incorporate Threat Modelling into the software design process.
 [The ArchiMate Series](/archimate-series/) \
 A series of articles on the ArchiMate modelling language.
 
+[What to expect when you become a Software Architect](/what-to-expect-when-you-become-a-software-architect/) \
+Some notes from my own experience on moving to a software architect position.
+
 ## Tools
 
 [eolvis - Software End Of Life Timeline Visualisation](/eolvis/) \
