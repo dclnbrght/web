@@ -7,7 +7,7 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
-    <a href="/box/guitar-pedal-copper-drive-design-build">
+    <a href="/electronics/guitar-pedal-copper-drive-design-build">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-electronics/images/guitar-pedal-copper-drive/guitar-pedal-complete.webp');background-size:100%;"></div>
         </div>

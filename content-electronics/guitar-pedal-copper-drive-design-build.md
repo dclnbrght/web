@@ -3,7 +3,7 @@ title: Designing and Building the Copper Drive Guitar Pedal
 description: Designing and building a custom guitar pedal
 keywords: "guitar,drive,fuzz,effects pedal"
 date: 2023-12-31
-permalink: "box/guitar-pedal-copper-drive-design-build/"
+permalink: "electronics/guitar-pedal-copper-drive-design-build/"
 ---
 
 # {{ title }}

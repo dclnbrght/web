@@ -9,8 +9,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app/");
     eleventyConfig.addPassthroughCopy("content-box/images");
     eleventyConfig.addPassthroughCopy("content-electronics/images");
-    eleventyConfig.addPassthroughCopy("content-electronics/circuitjs");
-    eleventyConfig.addPassthroughCopy("content-electronics/factoryfuzz-pedal-circuitjs-source.txt");
+    eleventyConfig.addPassthroughCopy("content-electronics/circuit-simulation");
     eleventyConfig.addPassthroughCopy("content-software/images");
     eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");
