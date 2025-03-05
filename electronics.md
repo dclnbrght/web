@@ -22,6 +22,9 @@ Building a Run Off Groove Supreaux Deux amp simulator guitar pedal, based on the
 [Musikding Der Muff American Guitar Pedal Kit](/box/musikding-der-muff-guitar-pedal-kit/) \
 Building a Musikding Der Muff American Guitar Pedal kit which is based on the famous EHX Big Muff.
 
+[Musikding Germanium Treblebooster Guitar Pedal Kit](/box/musikding-germanium-treblebooster-guitar-pedal-kit/) \
+Building a Musikding Germanium Treblebooster Guitar Pedal kit which is based on the famous Dallas Rangemaster.
+
 [Musikding Germanium Fuzz Guitar Pedal Kit](/box/musikding-germanium-fuzz-guitar-pedal-kit/) \
 Building a Musikding Germanium Fuzz Guitar Pedal kit which is based on the Fuzz Factory circuit.
 
