@@ -16,6 +16,9 @@ Designing and building the Copper Drive guitar pedal.
 [Peppermint Tin Fuzz Guitar Pedal](/electronics/guitar-pedal-peppermint-tin-fuzz-design-build/) \
 Designing and building the Peppermint Tin Fuzz guitar pedal.
 
+[Propolis Fuzz Guitar Pedal Kit](/box/musikding-propolis-fuzz-guitar-pedal-kit/) \
+Building a Propolis Fuzz guitar pedal, based on a Union Tube & Transistor Bumble Buzz.
+
 [Run Off Groove Supreaux Deux Guitar Pedal Kit](/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit/) \
 Building a Run Off Groove Supreaux Deux amp simulator guitar pedal, based on the vintage Supro 16T amplifier.
 
