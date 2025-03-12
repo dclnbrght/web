@@ -14,7 +14,7 @@ Effective software supply chain management involves planning for software compon
 
 The *eolvis* web application is a user-friendly tool to help software developers and managers visualise the lifecycle of software components, from initial release to end of life. It can be used when planning a technical roadmap, to track the planned usage of components and to identify component versions that are approaching their EOL date.
 
-**TL;DR -> Jump straight to the demo: [eolvis](/app/eolvis/)**
+<a href="/app/eolvis/" class="action-button-primary">TL;DR - Jump straight to the demo</a>
 
 <figure>
     <img src="/content-software/images/eolvis-screenshot.webp" alt="eolvis EOL Visualisation" />

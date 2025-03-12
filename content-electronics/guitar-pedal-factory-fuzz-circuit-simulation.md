@@ -11,11 +11,9 @@ permalink: "electronics/guitar-pedal-factory-fuzz-circuit-simulation/"
 <p>
     <i>If you'd like to jump straight to the interactive circuit simulator you can find it here:</i>
 </p>
-<ul>
-    <li>
-        <a href="/electronics/guitar-pedal-factory-fuzz-circuit-simulator">Factory Fuzz Guitar Pedal Circuit Simulator</a>
-    </li>
-</ul>
+
+<a href="/electronics/guitar-pedal-factory-fuzz-circuit-simulator" class="action-button-primary">Factory Fuzz Guitar Pedal Circuit Simulator</a>
+
 <p>
     <i>Note: the simulator is best viewed on a large screen</i>
 </p>

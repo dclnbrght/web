@@ -81,7 +81,7 @@ figcaption {
 
 a:link,
 a:visited { color: #222 }
-a:hover { color: #666 }
+a:hover { color: #444 }
 
 .block {
 	display: block;
@@ -304,6 +304,40 @@ article ul li {
 	margin: 0.5em 0;
 }
 
+.action-button-primary {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    width: 93%;
+    max-width: 37em;
+    margin: 0.8em auto;
+    padding: 0.6em;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffc163;
+    border-radius: 0.3em;
+    clear: both;
+    transition: all 0.5s;
+    box-shadow: 0 .5em 1em -0.5em rgba(0, 0, 0,.7);
+}
+.action-button-primary:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0.6em;
+    right: 0;
+    transition: 0.5s;
+}
+.action-button-primary:hover{
+    padding-right: 0.46em;
+    padding-left: -0.5em;
+    color: #000!important;
+    background-color: #feaa2b;
+}
+.action-button-primary:hover:after {
+    opacity: 1;
+    right: 0.6em;
+}
 
 .adBlock { 
 	border: none; 
