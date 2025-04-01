@@ -18,6 +18,13 @@ A series of articles on the ArchiMate modelling language.
 [What to expect when you become a Software Architect](/what-to-expect-when-you-become-a-software-architect/) \
 Some notes from my own experience on moving to a software architect position.
 
+
+## Software Engineering
+
+[Software Engineer as AI Pilot, Navigating the Future of Coding](/software/software-engineer-as-ai-pilot/) \
+The future of software development is coming faster than ever and the traditional role of the coder is undergoing a profound transformation.
+
+
 ## Tools
 
 [eolvis - Software End Of Life Timeline Visualisation](/eolvis/) \
