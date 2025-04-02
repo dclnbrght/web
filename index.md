@@ -79,6 +79,17 @@ layout: layouts/home.njk
     </a>
 </div>
 <div class="card">
+    <a href="/software/software-engineer-as-ai-pilot/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/software-engineer-ai-pilot.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Software Engineer as AI Pilot</strong>
+            <br />Navigating the Future of Coding
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="software-architecture-attribute-driven-design">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/attribute-driven-design-3.1.png');background-size: 70%;"></div>
@@ -95,7 +106,7 @@ layout: layouts/home.njk
         </div>
         <div class="card-body">
             <strong>ArchiMate Graph Explorer</strong>
-            <br />Browse ArchiMate models with a graph explorer application
+            <br />Browse an ArchiMate model graph
         </div>
     </a>
 </div>
@@ -106,7 +117,7 @@ layout: layouts/home.njk
         </div>
         <div class="card-body">
             <strong>eolvis</strong>
-            <br />Software End Of Life Timeline Visualization
+            <br />Software End Of Life Visualisation
         </div>
     </a>
 </div>
