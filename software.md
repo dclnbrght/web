@@ -22,7 +22,7 @@ Some notes from my own experience on moving to a software architect position.
 ## Software Engineering
 
 [Software Engineer as AI Pilot, Navigating the Future of Coding](/software/software-engineer-as-ai-pilot/) \
-The future of software development is coming faster than ever and the traditional role of the coder is undergoing a profound transformation.
+The future of software development is changing faster than ever and the traditional role of the software engineer is undergoing a profound transformation.
 
 
 ## Tools
