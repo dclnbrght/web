@@ -145,7 +145,7 @@ class FretBoard extends HTMLElement {
           marker.setAttribute('in-position', '');
         }
         marker.style.top = `${y}px`;
-        marker.style.left = `calc(${percent}% - 9px)`;
+        marker.style.left = `calc(${percent}% - 8px)`;
         marker.style.position = 'absolute';
         marker.style.pointerEvents = 'none';
         container.appendChild(marker);
@@ -184,21 +184,29 @@ class FretBoard extends HTMLElement {
         // Double marker at 12th fret
         const marker1 = document.createElement('div');
         marker1.className = 'dot-marker';
-        marker1.style.top = `${y - 10}px`;
-        marker1.style.left = '24%';
-        marker1.style.width = '20px';
-        marker1.style.height = '20px';
+        marker1.style.position = 'absolute';
+        marker1.style.background = '#222';
+        marker1.style.borderRadius = '50%';
+        marker1.style.boxShadow = '0 1px 6px rgba(0,0,0,0.12)';
+        marker1.style.top = `${y - 6}px`;
+        marker1.style.left = '32%';
+        marker1.style.width = '14px';
+        marker1.style.height = '14px';
         const marker2 = marker1.cloneNode();
-        marker2.style.left = '76%';
+        marker2.style.left = '68%';
         container.appendChild(marker1);
         container.appendChild(marker2);
       } else {
         const marker = document.createElement('div');
         marker.className = 'dot-marker';
-        marker.style.top = `${y - 10}px`;
+        marker.style.position = 'absolute';
+        marker.style.background = '#222';
+        marker.style.borderRadius = '50%';
+        marker.style.boxShadow = '0 1px 6px rgba(0,0,0,0.12)';
+        marker.style.top = `${y - 6}px`;
         marker.style.left = '50%';
-        marker.style.width = '20px';
-        marker.style.height = '20px';
+        marker.style.width = '14px';
+        marker.style.height = '14px';
         container.appendChild(marker);
       }
     });
