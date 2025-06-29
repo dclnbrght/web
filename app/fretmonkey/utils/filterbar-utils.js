@@ -23,6 +23,10 @@ export function getScaleNotes(key, scaleMode, position) {
     // Chromatic scale, all notes
     return ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
   }
+  if (scaleMode === 'single-note') {
+    // Only the selected key note
+    return [key];
+  }
   const { scale, mode } = parseScaleMode(scaleMode);
   // Chromatic scale
   const chromatic = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];

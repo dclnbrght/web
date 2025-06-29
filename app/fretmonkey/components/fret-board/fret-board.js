@@ -25,12 +25,19 @@ class FretBoard extends HTMLElement {
           left: 0;
           width: 100%;
           height: 2px;
-          background: #bbb;
+          background: linear-gradient(90deg, #e0e0e0 0%, #b0b0b0 40%, #f8f8f8 60%, #b0b0b0 100%);
+          box-shadow: 0 1px 3px rgba(80,80,80,0.18), 0 0.5px 0 #fff inset;
+          border-radius: 1.5px;
         }
         .dot-marker {
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
+          background: #222;
+          border-radius: 50%;
+          box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+          width: 0.9em;
+          height: 0.9em;
         }
         .fret-number {
           position: absolute;
@@ -75,7 +82,7 @@ class FretBoard extends HTMLElement {
 
   connectedCallback() {
     this.renderFrets();
-    this.renderMarkers();
+    this.renderFretMarkers();
     this.renderFretNumbers();
     this.renderStrings();
     this.renderNoteMarkers();
@@ -119,8 +126,7 @@ class FretBoard extends HTMLElement {
     const min = 6;
     const max = 94;
 
-    // If scaleMode is 'all', show all notes regardless of showAllMarkers
-    const showAll = scaleMode === 'all';
+    const showAll = scaleMode === 'all' || scaleMode === 'single-note';
     const allScaleNotes = getScaleNotes(key, scaleMode);
     const positionNotePositions = posNum ? getScaleNotePositions(key, scaleMode, posNum) : [];
     const positionLookup = new Set(positionNotePositions.map(p => `${p.string}_${p.fret}`));
@@ -140,12 +146,16 @@ class FretBoard extends HTMLElement {
         const percent = min + ((max - min) * s) / (stringCount - 1);
         const marker = document.createElement('note-marker');
         marker.setAttribute('note', note);
-        if (isScaleNote) marker.setAttribute('in-scale', '');
-        if (isScaleNote && isInPosition) {
-          marker.setAttribute('in-position', '');
+        if (scaleMode === 'single-note' && note === key) {
+          marker.setAttribute('highlighted', '');
+        } else {
+          if (isScaleNote) marker.setAttribute('in-scale', '');
+          if (isScaleNote && isInPosition) {
+            marker.setAttribute('in-position', '');
+          }
         }
         marker.style.top = `${y}px`;
-        marker.style.left = `calc(${percent}% - 8px)`;
+        marker.style.left = `calc(${percent}% - 0.56em)`;
         marker.style.position = 'absolute';
         marker.style.pointerEvents = 'none';
         container.appendChild(marker);
@@ -168,7 +178,7 @@ class FretBoard extends HTMLElement {
     }
   }
 
-  renderMarkers() {
+  renderFretMarkers() {
     const container = this.shadowRoot.getElementById('markers');
     container.innerHTML = '';
     // Standard guitar dot markers: 3, 5, 7, 9, 12 (double), 15, 17, 19, 21
@@ -184,14 +194,8 @@ class FretBoard extends HTMLElement {
         // Double marker at 12th fret
         const marker1 = document.createElement('div');
         marker1.className = 'dot-marker';
-        marker1.style.position = 'absolute';
-        marker1.style.background = '#222';
-        marker1.style.borderRadius = '50%';
-        marker1.style.boxShadow = '0 1px 6px rgba(0,0,0,0.12)';
         marker1.style.top = `${y - 6}px`;
         marker1.style.left = '32%';
-        marker1.style.width = '14px';
-        marker1.style.height = '14px';
         const marker2 = marker1.cloneNode();
         marker2.style.left = '68%';
         container.appendChild(marker1);
@@ -199,14 +203,8 @@ class FretBoard extends HTMLElement {
       } else {
         const marker = document.createElement('div');
         marker.className = 'dot-marker';
-        marker.style.position = 'absolute';
-        marker.style.background = '#222';
-        marker.style.borderRadius = '50%';
-        marker.style.boxShadow = '0 1px 6px rgba(0,0,0,0.12)';
         marker.style.top = `${y - 6}px`;
         marker.style.left = '50%';
-        marker.style.width = '14px';
-        marker.style.height = '14px';
         container.appendChild(marker);
       }
     });

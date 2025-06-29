@@ -3,6 +3,7 @@ import { defaultSettings } from '../../settings.js';
 // Helper: list of scale/mode options
 const scaleModeOptions = [
   { value: 'all', label: 'All (Chromatic)' },
+  { value: 'single-note', label: 'Single Note (Highlight Key)' },
   { value: 'major-ionian', label: 'Major (Ionian)' },
   { value: 'major-dorian', label: 'Dorian' },
   { value: 'major-phrygian', label: 'Phrygian' },
@@ -36,14 +37,14 @@ class FilterBar extends HTMLElement {
         }
         .toggle-btn {
           position: absolute;
-          top: 0.2rem;
+          top: 1.3rem;
           right: 1rem;
           z-index: 2;
           background: #222;
           color: #fff;
           border: none;
           border-radius: 4px;
-          padding: 0.3rem 0.7rem;
+          padding: 0.2rem 0.6rem 0.3rem 0.6rem;
           font-size: 1.1rem;
           cursor: pointer;
           transition: background 0.2s;
@@ -87,7 +88,7 @@ class FilterBar extends HTMLElement {
         @media (max-width: 600px) {
           .toggle-btn {
             right: 0.5rem;
-            top: 0.3rem;
+            top: 1rem;
           }
           .filter-bar {
             flex-direction: column;
@@ -230,15 +231,25 @@ class FilterBar extends HTMLElement {
         positionDropdown.disabled = true;
         toggleAll.checked = true;
         toggleAll.disabled = true;
+      } else if (scaleModeValue === 'single-note') {
+        keyDropdown.disabled = false;
+        positionDropdown.disabled = true;
+        toggleAll.checked = true;
+        toggleAll.disabled = true;
       } else {
         keyDropdown.disabled = false;
         positionDropdown.disabled = false;
         toggleAll.disabled = false;
       }
     });
-    // On load, set key, position, and toggle-all-markers disabled if needed
+    // On load, set disables for special modes
     if (scaleMode === 'all') {
       this.shadowRoot.getElementById('key').disabled = true;
+      this.shadowRoot.getElementById('position').disabled = true;
+      this.shadowRoot.getElementById('toggle-all-markers').checked = true;
+      this.shadowRoot.getElementById('toggle-all-markers').disabled = true;
+    } else if (scaleMode === 'single-note') {
+      this.shadowRoot.getElementById('key').disabled = false;
       this.shadowRoot.getElementById('position').disabled = true;
       this.shadowRoot.getElementById('toggle-all-markers').checked = true;
       this.shadowRoot.getElementById('toggle-all-markers').disabled = true;

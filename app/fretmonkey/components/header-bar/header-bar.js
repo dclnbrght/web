@@ -19,7 +19,7 @@ class HeaderBar extends HTMLElement {
           display: flex;
           justify-content: left;
           gap: 1rem;
-          padding-left: 0.3rem;
+          padding-left: 0.7rem;
         }
         .logo {
           width: 40px;

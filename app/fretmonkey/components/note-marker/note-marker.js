@@ -40,7 +40,7 @@ class NoteMarker extends HTMLElement {
           font-size: 0.7rem;
           box-shadow: 0 2px 6px rgba(0,0,0,0.15);
           transition: background 0.2s, color 0.2s;
-          opacity: ${highlighted || inPosition || inScale ? 1 : 0.7};
+          opacity: ${highlighted || inPosition || inScale ? 1 : 0.8};
         }
       </style>
       <div class="marker">${note}</div>
