@@ -19,6 +19,7 @@ class FretBoard extends HTMLElement {
           position: relative;
           width: 100%;
           height: 600px;
+          background: #444;
         }
         .fret {
           position: absolute;
@@ -29,7 +30,7 @@ class FretBoard extends HTMLElement {
           box-shadow: 0 1px 3px rgba(80,80,80,0.18), 0 0.5px 0 #fff inset;
           border-radius: 1.5px;
         }
-        .dot-marker {
+        .fret-dot-marker {
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
@@ -54,19 +55,41 @@ class FretBoard extends HTMLElement {
           position: absolute;
           top: 0;
           height: 100%;
-          width: 2px;
-          background: #e0cda9;
+          background: #b7a98e;
           border-radius: 1px;
+        }
+        .string-1 {
+          width: 0.2em; 
+          background: repeating-linear-gradient(
+            30deg, #e0cda9,#e0cda9 0.06em, #b7a98e 0.04em, #b7a98e 0.1em); 
+        }
+        .string-2 {
+          width: 0.18em; 
+          background: repeating-linear-gradient(
+            30deg, #e0cda9,#e0cda9 0.06em, #b7a98e 0.04em, #b7a98e 0.1em); 
+        }
+        .string-3 {
+          width: 0.16em; 
+          background: repeating-linear-gradient(
+            30deg, #e0cda9,#e0cda9 0.06em, #b7a98e 0.04em, #b7a98e 0.1em); 
+        }
+        .string-4 {
+          width: 0.13em; 
+        }
+        .string-5 {
+          width: 0.11em; 
+        }
+        .string-6 {
+          width: 0.09em; 
         }
         .note-marker {
           position: absolute;
         }
       </style>
       <div class="fretboard">
-        <img src="assets/fretboard.svg" alt="fretboard background" style="width:100%;height:100%;position:absolute;top:0;left:0;z-index:0;object-fit:cover;" />
         <div id="fret-numbers"></div>
         <div id="frets"></div>
-        <div id="markers"></div>
+        <div id="fret-markers"></div>
         <div id="strings"></div>
         <div id="note-markers"></div>
       </div>
@@ -179,7 +202,7 @@ class FretBoard extends HTMLElement {
   }
 
   renderFretMarkers() {
-    const container = this.shadowRoot.getElementById('markers');
+    const container = this.shadowRoot.getElementById('fret-markers');
     container.innerHTML = '';
     // Standard guitar dot markers: 3, 5, 7, 9, 12 (double), 15, 17, 19, 21
     const markerFrets = [3, 5, 7, 9, 12, 15, 17, 19, 21];
@@ -193,7 +216,7 @@ class FretBoard extends HTMLElement {
       if (fretNum === doubleMarker) {
         // Double marker at 12th fret
         const marker1 = document.createElement('div');
-        marker1.className = 'dot-marker';
+        marker1.className = 'fret-dot-marker';
         marker1.style.top = `${y - 6}px`;
         marker1.style.left = '32%';
         const marker2 = marker1.cloneNode();
@@ -202,7 +225,7 @@ class FretBoard extends HTMLElement {
         container.appendChild(marker2);
       } else {
         const marker = document.createElement('div');
-        marker.className = 'dot-marker';
+        marker.className = 'fret-dot-marker';
         marker.style.top = `${y - 6}px`;
         marker.style.left = '50%';
         container.appendChild(marker);
@@ -234,7 +257,7 @@ class FretBoard extends HTMLElement {
     for (let i = 0; i < stringCount; i++) {
       const percent = min + ((max - min) * i) / (stringCount - 1);
       const string = document.createElement('div');
-      string.className = 'string';
+      string.className = 'string string-' + (i + 1) ;
       string.style.left = `calc(${percent}% - 1px)`;
       container.appendChild(string);
     }

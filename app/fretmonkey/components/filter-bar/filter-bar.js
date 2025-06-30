@@ -57,6 +57,7 @@ class FilterBar extends HTMLElement {
           justify-content: center;
           align-items: center;
           gap: 1.5rem;
+          padding: 0.5rem 1rem;
           flex-wrap: wrap;
           transition: max-height 0.3s, opacity 0.3s;
           overflow: hidden;
@@ -91,32 +92,22 @@ class FilterBar extends HTMLElement {
             top: 1rem;
           }
           .filter-bar {
-            flex-direction: column;
+            flex-direction: row;
             align-items: stretch;
             gap: 0.7rem;
             padding: 0.5rem 0.5rem;
-          }
-          label {
-            margin-right: 0;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-          }
-          select {
-            width: 100%;
-            margin-top: 0.2rem;
+            text-align: left;
           }
         }
       </style>
       <button class="toggle-btn" id="toggleBtn" aria-label="Toggle filter bar">&#9776; Filters</button>
       <div class="filter-bar open" id="filterBar">
-        <label>Scale/Mode
+        <label>Scale/Mode:
           <select id="scaleMode">
             ${scaleModeOptions.map(opt => `<option value="${opt.value}">${opt.label}</option>`).join('')}
           </select>
         </label>
-        <label>Key
+        <label>Key/Note:
           <select id="key">
             <option value="A">A</option>
             <option value="A#">A#</option>
@@ -132,7 +123,7 @@ class FilterBar extends HTMLElement {
             <option value="G#">G#</option>
           </select>
         </label>
-        <label>Position
+        <label>Position:
           <select id="position">
             <option value="open">Open</option>
             <option value="1">1st</option>
@@ -153,19 +144,19 @@ class FilterBar extends HTMLElement {
     const key = saved.key || defaultSettings.key;
     const scaleMode = saved.scaleMode || 'major-ionian';
     const position = saved.position || defaultSettings.position;
-    const showNotes = typeof saved.showNotes === 'boolean' ? saved.showNotes : defaultSettings.showNotes;
+    const showAllNotes = typeof saved.showAllNotes === 'boolean' ? saved.showAllNotes : defaultSettings.showAllNotes;
     // Restore open/closed state from localStorage, default to true (open)
     let open = typeof saved.open === 'boolean' ? saved.open : true;
     const filterBar = this.shadowRoot.getElementById('filterBar');
     const toggleBtn = this.shadowRoot.getElementById('toggleBtn');
     filterBar.classList.toggle('open', open);
     filterBar.classList.toggle('closed', !open);
-    toggleBtn.innerHTML = open ? '&#10006; Close' : '&#9776; Filters';
+    toggleBtn.innerHTML = open ? '&#10006; Hide' : '&#9776; Filters';
 
     this.shadowRoot.getElementById('key').value = key;
     this.shadowRoot.getElementById('scaleMode').value = scaleMode;
     this.shadowRoot.getElementById('position').value = position;
-    this.shadowRoot.getElementById('toggle-all-markers').checked = showNotes;
+    this.shadowRoot.getElementById('toggle-all-markers').checked = showAllNotes;
 
     // Dispatch filter-changed after setting initial values so fretboard rerenders
     setTimeout(() => {
@@ -181,7 +172,7 @@ class FilterBar extends HTMLElement {
         key: this.shadowRoot.getElementById('key').value,
         scaleMode: this.shadowRoot.getElementById('scaleMode').value,
         position: this.shadowRoot.getElementById('position').value,
-        showNotes: this.shadowRoot.getElementById('toggle-all-markers').checked,
+        showAllNotes: this.shadowRoot.getElementById('toggle-all-markers').checked,
         open: open
       };
       localStorage.setItem('fretMonkeyFilters', JSON.stringify(filters));
@@ -218,7 +209,7 @@ class FilterBar extends HTMLElement {
       } else {
         this.classList.remove('closed');
       }
-      toggleBtn.innerHTML = open ? '&#10006; Close' : '&#9776; Filters';
+      toggleBtn.innerHTML = open ? '&#10006; Hide' : '&#9776; Filters';
       saveFilters(); // Save open state on toggle
     });
     this.shadowRoot.getElementById('scaleMode').addEventListener('change', () => {
