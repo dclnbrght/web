@@ -32,3 +32,6 @@ Visualise the lifecycle of software components on a timeline.
 
 [ArchiMate Graph Explorer](/archimate-graph-explorer/) \
 Browse ArchiMate models with a graph explorer application
+
+[fretMonkey](/fretmonkey/) \
+Guitar Fretboard Learning Tool
