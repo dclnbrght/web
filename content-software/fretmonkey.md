@@ -6,11 +6,11 @@ date: 2025-06-30
 permalink: "fretmonkey/"
 ---
 
-# {{ title }} – Guitar Fretboard Learning Tool
+# Learn the Guitar Fretboard with {{ title }}
 
-Learning the guitar is a journey that combines theory, practice, and a deep understanding of the fretboard. Visualising scales, modes, and notes across the neck is essential for both beginners and advanced players. *fretMonkey* is a simple web application designed as an reference guide to ease the learning experience.
+Learning the guitar is a journey that combines theory, practice, and a deep understanding of the fretboard. Visualising scales, modes, and notes across the guitar neck is essential for advancing your skills. *fretMonkey* is a simple web application designed as an reference guide to ease the learning experience.
 
-<a href="/app/fretmonkey/" class="action-button-primary">Try fretMonkey now</a>
+<a href="https://dclnbrght.github.io/fret-monkey/" class="action-button-primary">TL;DR - Jump straight to fretMonkey</a>
 
 <figure>
     <img src="/content-software/images/fretmonkey-mixolydian-b.webp" alt="fretmonkey Fretboard Visualisation" style="width:16em" />
@@ -21,13 +21,13 @@ Learning the guitar is a journey that combines theory, practice, and a deep unde
 
 ## Background
 
-I created *fretMonkey* to address a common challenge for guitarists: connecting music theory with practical fretboard knowledge. Traditional diagrams and static charts can be limiting. By building an interactive tool, I aim to make it easier to learn the fretboard.
+The goal of building this interactive tool, is to make it easier to learn the fretboard. I wanted something that works nicely on my smartphone. Traditional diagrams and static charts can be limiting and other apps didn't work as I wanted them to.
 
 ## How it works
 
-*fretMonkey* presents a virtual guitar fretboard where users can highlight scales, modes, positions, or single notes.
+*fretMonkey* presents a virtual guitar fretboard where you can highlight scales, modes, positions, or single notes.
 
-The interface is designed for clarity and it displays nicely on smartphone devices.
+The interface is simple and designed for clarity.
 
 <figure>
     <img src="/content-software/images/fretmonkey-notes-all.webp" alt="fretmonkey All Notes"  style="width:16em" />
@@ -47,6 +47,6 @@ The source code for *fretMonkey* is available on GitHub:
 
 ## Demo
 
-- [fretMonkey](/app/fretmonkey/)
+- [fretMonkey](https://dclnbrght.github.io/fret-monkey/)
 
 <div id="comments" class="comments"></div>
