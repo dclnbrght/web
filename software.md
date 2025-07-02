@@ -4,6 +4,14 @@ description: Software Projects by Declan Bright.
 keywords: "Software Architecture,Software Engineering,IASA"
 ---
 
+## Artificial Intelligence
+[Driving AI Adoption, From Resistance to Results](/software/driving-ai-adoption-from-resistance-to-results/) \
+Overcoming resistance to AI adoption requires effective change management.
+
+[Software Engineer as AI Pilot, Navigating the Future of Coding](/software/software-engineer-as-ai-pilot/) \
+The future of software development is changing faster than ever and the traditional role of the software engineer is undergoing a profound transformation.
+
+
 ## Software Architecture
 
 [Attribute Driven Design in Software Architecture](/software-architecture-attribute-driven-design/) \
@@ -17,12 +25,6 @@ A series of articles on the ArchiMate modelling language.
 
 [What to expect when you become a Software Architect](/what-to-expect-when-you-become-a-software-architect/) \
 Some notes from my own experience on moving to a software architect position.
-
-
-## Software Engineering
-
-[Software Engineer as AI Pilot, Navigating the Future of Coding](/software/software-engineer-as-ai-pilot/) \
-The future of software development is changing faster than ever and the traditional role of the software engineer is undergoing a profound transformation.
 
 
 ## Tools

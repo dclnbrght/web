@@ -8,7 +8,7 @@ permalink: "/software/software-engineer-as-ai-pilot/"
 
 # {{ title }}
 
-<img src="/content-software/images/software-engineer-ai-pilot.webp" alt="Software Engineer as AI Pilo" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
+<img src="/content-software/images/software-engineer-ai-pilot.webp" alt="Software Engineer as AI Pilot" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
 
 The future of software development is changing faster than ever. With the rapid evolution of AI technologies the traditional role of the software engineer is undergoing a profound transformation. Software engineers need to keep up with this transformation or risk hindering their career growth, they need to embrace the concept of; Software Engineer as AI Pilot, to successfully navigate the exciting times ahead.
 
