@@ -60,7 +60,8 @@ To take it to the next level, a structured change management framework can be qu
 ## AI Governance
 
 Don’t forget about AI governance. Establish an AI Governance Group to define policies and standards, to assess risks, and promote ethical use of AI. 
-More on this topic in an upcoming post..
+
+More on this topic in an upcoming post...
 
 ## Conclusion
 
