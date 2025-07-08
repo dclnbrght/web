@@ -8,6 +8,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 [Driving AI Adoption, From Resistance to Results](/software/driving-ai-adoption-from-resistance-to-results/) \
 Overcoming resistance to AI adoption requires effective change management.
 
+[AI Governance and the Journey To ISO 42001](/software/ai-governance-and-the-journey-to-ISO-42001/) \
+Practical guidance for implementing AI Governance is any company.
+
 [Software Engineer as AI Pilot, Navigating the Future of Coding](/software/software-engineer-as-ai-pilot/) \
 The future of software development is changing faster than ever and the traditional role of the software engineer is undergoing a profound transformation.
 
