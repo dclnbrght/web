@@ -18,6 +18,17 @@ layout: layouts/home.njk
     </a>
 </div>
 <div class="card">
+    <a href="/software/ai-governance-and-the-journey-to-ISO-42001/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-governance.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>AI Governance</strong>
+            <br />And the Journey To ISO 42001
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/software-engineer-as-ai-pilot/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/software-engineer-ai-pilot.webp');background-size:100%;"></div>
@@ -25,6 +36,28 @@ layout: layouts/home.njk
         <div class="card-body">
             <strong>Software Engineer as AI Pilot</strong>
             <br />Navigating the Future of Coding
+        </div>
+    </a>
+</div>
+
+<div class="card">
+    <a href="software-architecture-attribute-driven-design">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/attribute-driven-design-3.1.png');background-size: 70%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Attribute Driven Design in Software Architecture</strong>
+        </div>
+    </a>
+</div>
+<div class="card">
+    <a href="archimate-graph-explorer">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/archimate-graph-explorer.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>ArchiMate Graph Explorer</strong>
+            <br />Browse an ArchiMate model graph
         </div>
     </a>
 </div>
@@ -39,6 +72,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+
 <div class="card">
     <a href="/electronics/guitar-pedal-copper-drive-design-build">
         <div class="card-header">
@@ -46,16 +80,6 @@ layout: layouts/home.njk
         </div>
         <div class="card-body">
             <strong>Copper Drive - Custom Guitar Pedal, Design &amp; Build</strong>
-        </div>
-    </a>
-</div>
-<div class="card">
-    <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
-        <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-runoffgroove-supreaux-deux/guitar-pedal-pcb-assembly-4.webp');background-size:110%;"></div>
-        </div>
-        <div class="card-body">
-            <strong>Building a Run Off Groove Supreaux Deux Guitar Pedal Kit</strong>
         </div>
     </a>
 </div>
@@ -79,6 +103,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
@@ -108,27 +133,6 @@ layout: layouts/home.njk
         <div class="card-body">
             <strong>QUB, Two-Stroke Engines and Motorcycle Grand Prix Racing Legends</strong>
             <br />
-        </div>
-    </a>
-</div>
-<div class="card">
-    <a href="software-architecture-attribute-driven-design">
-        <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-software/images/attribute-driven-design-3.1.png');background-size: 70%;"></div>
-        </div>
-        <div class="card-body">
-            <strong>Attribute Driven Design in Software Architecture</strong>
-        </div>
-    </a>
-</div>
-<div class="card">
-    <a href="archimate-graph-explorer">
-        <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-software/images/archimate-graph-explorer.webp');background-size:100%;"></div>
-        </div>
-        <div class="card-body">
-            <strong>ArchiMate Graph Explorer</strong>
-            <br />Browse an ArchiMate model graph
         </div>
     </a>
 </div>
