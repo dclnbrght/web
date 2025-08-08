@@ -5,6 +5,10 @@ keywords: "Software Architecture,Software Engineering,IASA"
 ---
 
 ## Artificial Intelligence
+
+[Power Up Your Software Development Lifecycle with AI](/software/power-up-your-sdlc-with-ai/) \
+Practical guidance for augmenting the full Software Development Lifecycle with AI agents.
+
 [Driving AI Adoption, From Resistance to Results](/software/driving-ai-adoption-from-resistance-to-results/) \
 Overcoming resistance to AI adoption requires effective change management.
 

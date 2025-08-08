@@ -7,6 +7,16 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/power-up-your-sdlc-with-ai/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-sdlc.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Power Up Your Software Development Lifecycle with AI</strong>
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/driving-ai-adoption-from-resistance-to-results/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/driving-ai-adoption.webp');background-size:100%;"></div>
@@ -39,7 +49,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-
 <div class="card">
     <a href="software-architecture-attribute-driven-design">
         <div class="card-header">
@@ -72,7 +81,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-
 <div class="card">
     <a href="/electronics/guitar-pedal-copper-drive-design-build">
         <div class="card-header">
@@ -93,17 +101,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<div class="card">
-    <a href="/electronics/guitar-pedal-factory-fuzz-circuit-simulation">
-        <div class="card-header">
-            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-germanium-fuzz/fuzz-pedal-circuitjs-simulation.webp');"></div>
-        </div>
-        <div class="card-body">
-            <strong>Factory Fuzz Guitar Pedal Circuit Simulation</strong>
-        </div>
-    </a>
-</div>
-
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
