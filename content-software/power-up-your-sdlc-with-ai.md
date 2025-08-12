@@ -18,7 +18,9 @@ Most software engineers are already using AI coding assistants and agents to enh
 
 Every SDLC process includes phases such as: *Planning & Analysis, Design, Development, Testing, Deployment, Support & Maintenance*. Each phase of the process is dependent on contextual information being available, about the business domain, the users, the technologies and the software being developed. 
 
-The key to leveraging the power of AI is to make this information readily available to AI agents. If the context is written with AI in mind, it effectively becomes a set of prompts and instructions that the AI can use. The higher quality the context, the higher quality the AI’s output.
+The key to leveraging the power of AI is to make this context readily available to AI agents. It can be in various text based formats including: documents, web pages, markdown files, API responses (JSON) etc.
+
+If the context is written with AI in mind, it effectively becomes prompts and instructions for the AI. The higher quality the context, the higher quality the AI’s output.
 
 The high level steps to make this happen are:
 
@@ -41,7 +43,9 @@ A note of caution, some MCP servers expose too much functionality, giving the AI
 
 ## AI Agents Across SDLC Phases
 
-Now that we understand the importance of context and the means of providing it to AI agents, let’s look at how these can be applied to power up each phase of the SDLC. 
+Now that we understand the importance of context and have a means of providing it to AI agents, let’s look at how these can be applied to power up each phase of the SDLC. 
+
+<img src="/content-software/images/ai-sdlc-diagram.webp" alt="AI SDLC Diagram" class="article-image" style="max-width: 100%;" />
 
 *Note: example prompts are in quotes below.*
 
@@ -73,9 +77,9 @@ These artefacts are used as context in the subsequent phases.
 #### Software Architecture
 
 * **Software design**: draft a software design document from a PRD, based on defined architecture standards and conventions.  
-  * *"Based on the \[...\] PRD, create a high-level software architecture document. Follow our company's architecture standards and non-functional requirements. Describe system components, data flows, and technology choices."*
+  * *"Based on the \[...\] PRD, create a high-level software architecture document. Follow our company's architecture standards and non-functional requirements in the \[...\] file. Describe system components, data flows, and technology choices."*
 * **Create architecture diagrams**: generate diagrams to communicate the software architecture clearly.
-  * *"Generate component and data flow diagrams (Mermaid diagrams in markdown) to represent the \[...\] system architecture."*
+  * *"Generate component and data flow diagrams (Mermaid diagrams in markdown) to represent the \[...\] system defined in the software architecture document."*
 * **NFR analysis**: analyse a software design to review Non-Functional Requirements (NFRs) and identify potential gaps.
   * *"Review the \[...\] software design and highlight any missing aspects or unclear NFRs. Suggest additions based on common software quality attributes."*
 
@@ -83,7 +87,7 @@ These artefacts are used as context in the subsequent phases.
 
 Software engineers can utilise MCP servers from within their coding editors to retrieve the contextual information generated in the previous phases, from UX design systems, wikis and task management tools.
 
-Instruction files (Markdown files) should be created in code repositories to define coding standards, project conventions and to describe the business domain.
+Instruction files (Markdown files) should be created in code repositories to define coding standards, project conventions, business domain etc.
 
 * **Task Assignment**: assign a task to an agent, the task should have a detailed description and references to related context sources such as PRD, UX designs and software design documents.
   * *"Get the details of the task described in ticket: \[...\], review the current project and implement the required changes."*
@@ -94,7 +98,7 @@ Instruction files (Markdown files) should be created in code repositories to def
 
 ### Testing Phase
 
-* **Automated Test Creation**: create (unit, integration, performance, security) tests by analysing the existing code repository and defect patterns. This is an easy way to increase test coverage and catch future defects.
+* **Automated Test Creation**: create (unit, integration, performance, security) tests by analysing the existing code repository and defect patterns. This is an effective way to increase test coverage and catch future defects.
   * *"Analyse the code in the current project and generate unit tests, cover typical usage scenarios and edge cases. Create mock objects where needed."*
   * *"Write tests to cover the defects in the following tickets: \[..., ...\]"*
 * **Test Data Generation**: create synthetic data for testing.
@@ -132,7 +136,7 @@ Don’t forget about AI governance! Your SDLC process is handling your company's
 
 AI agents are rapidly changing how software is developed and delivered. Using AI at specific touchpoints of the SDLC is a practical way to start, however, a more holistic approach will deliver even more positive results.
 
-Start by introducing changes to the Planning and Analysis phase, then progressively add AI integration to each subsequent phase. By ensuring that the context generated is high-quality, relevant, and reusable, teams can create a compounding effect: each phase becomes more efficient and better aligned with the next.
+Start by introducing changes to the Planning & Analysis phase, then progressively work through each subsequent phase. By ensuring that the context generated is high-quality, relevant, and reusable, it will create a compounding effect: each phase becomes more efficient and better aligned with the next.
 
 The result? A cohesive, AI-powered SDLC that accelerates delivery, improves quality, and empowers teams to deliver better software.
 
