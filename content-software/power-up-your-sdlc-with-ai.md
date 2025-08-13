@@ -16,34 +16,34 @@ Most software engineers are already using AI coding assistants and agents to enh
 
 ## It’s all about Context
 
-Every SDLC process includes phases such as: *Planning & Analysis, Design, Development, Testing, Deployment, Support & Maintenance*. Each phase of the process is dependent on contextual information being available, about the business domain, the users, the technologies and the software being developed. 
+Every SDLC process includes phases such as: *Planning & Analysis, Design, Development, Testing, Deployment, Support & Maintenance*. Each phase of the process is dependent on contextual information being available, about the business domain, the users, the technologies and the software being developed. This information is generated within and moves through the process, in written and verbal formats.
 
-The key to leveraging the power of AI is to make this context readily available to AI agents. It can be in various text based formats including: documents, web pages, markdown files, API responses (JSON) etc.
+The key to maximising the power of AI is to make all of this context readily available to AI agents. It can be in various text based formats including: documents, web pages, markdown files, system APIs (JSON) etc.
 
-If the context is written with AI in mind, it effectively becomes prompts and instructions for the AI. The higher quality the context, the higher quality the AI’s output.
+If the context is written with AI in mind, it effectively becomes prompts and instructions for AI. The higher quality the context, the higher quality the AI’s output.
 
 The high level steps to make this happen are:
 
-* Identify existing sources of contextual information, review and fill any gaps in those sources  
+* Identify existing sources of contextual information
+  * review and fill any gaps in those sources, such as implicit company knowledge and conventions
 * Provide AI agents with access to the context
-* Upskill the team, to write and reference the appropriate context in each phase  
-* Apply change management to roll out the new ways of working 
+* Upskill the team, to write and reference the appropriate context during each phase of the process
 
 ## Model Context Protocol
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/overview) is a powerful open protocol that acts like universal plumbing between existing enterprise systems and AI agents, avoiding custom API integrations. 
 
-A MCP server is a simple adapter service that (generally) runs in the context of a user, on their laptop and provides consistent interfaces that AI agents can interact with. These interfaces provide the means to request contextual information (resources) and to execute tools that will perform actions.
+A MCP server is a simple adapter service that (typically) runs in the context of a user, on their laptop and provides consistent interfaces that AI agents can interact with. These interfaces provide the means to request contextual information (resources) and to execute tools that will perform actions.
 
 Many of the concepts discussed below can be achieved by manually providing contextual information to an AI chatbot or agent, however MCP servers provide a way to automate the flow, avoiding a lot of copying and pasting. For example, an AI agent can automatically retrieve the details of a task from a work management system when prompted with a ticket number. 
 
-MCP servers are available (or becoming available) for most enterprise systems that are used within a SDLC process. If an existing MCP server does not exist, any experienced software engineer can create a MCP server to wrap an API.
+MCP servers are available (or becoming available) for most enterprise systems that are used within a SDLC process. If an existing MCP server does not exist, any experienced software engineer can create a MCP server to wrap an existing API.
 
-A note of caution, some MCP servers expose too much functionality, giving the AI agent excessive agency. This is an example of the risk described in the OWASP Top 10 for LLMs: [LLM08: Excessive Agency](https://genai.owasp.org/llmrisk2023-24/llm08-excessive-agency/). Either use a proxy or implement your own MCP server to only expose the capabilities that you really need.
+A note of caution, some MCP servers expose too much functionality, giving the AI agent excessive agency or access to sensitive data. This is an example of the risk described in the OWASP Top 10 for LLMs: [LLM08: Excessive Agency](https://genai.owasp.org/llmrisk2023-24/llm08-excessive-agency/). Either use a proxy or implement your own MCP server to only expose the capabilities that you really need.
 
 ## AI Agents Across SDLC Phases
 
-Now that we understand the importance of context and have a means of providing it to AI agents, let’s look at how these can be applied to power up each phase of the SDLC. 
+Now that we understand the importance of context and we have a means of providing it to AI agents, let’s look at how to power up each phase of the SDLC. 
 
 <img src="/content-software/images/ai-sdlc-diagram.webp" alt="AI SDLC Diagram" class="article-image" style="max-width: 100%;" />
 
@@ -138,7 +138,7 @@ AI agents are rapidly changing how software is developed and delivered. Using AI
 
 Start by introducing changes to the Planning & Analysis phase, then progressively work through each subsequent phase. By ensuring that the context generated is high-quality, relevant, and reusable, it will create a compounding effect: each phase becomes more efficient and better aligned with the next.
 
-The result? A cohesive, AI-powered SDLC that accelerates delivery, improves quality, and empowers teams to deliver better software.
+The result? A cohesive, AI-powered SDLC that empowers teams and accelerates the delivery of high quality software.
 
 
 <div id="comments" class="comments"></div>
