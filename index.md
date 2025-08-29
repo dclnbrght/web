@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/archiscribe-mcp-server/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/archiscribe.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>ArchiScribe MCP Server</strong>
+            <br />Software architecture context -> AI Agent
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/power-up-your-sdlc-with-ai/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/ai-sdlc.webp');background-size:100%;"></div>

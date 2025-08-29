@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[ArchiScribe MCP Server](/software/archiscribe-mcp-server/) \
+A Model Context Protocol (MCP) server for providing AI agents with access to information in an ArchiMate model.
+
 [Power Up Your Software Development Lifecycle with AI](/software/power-up-your-sdlc-with-ai/) \
 Practical guidance for augmenting the full Software Development Lifecycle with AI agents.
 
