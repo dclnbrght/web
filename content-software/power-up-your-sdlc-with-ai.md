@@ -85,10 +85,12 @@ These artefacts are used as context in the subsequent phases.
 
 ### Development Phase
 
-Software engineers can utilise MCP servers from within their coding editors to retrieve the contextual information generated in the previous phases, from UX design systems, wikis and task management tools.
+Software engineers can utilise MCP servers from within their coding editors to retrieve the contextual information generated in the previous phases, from UX design systems, software architecture models, wikis and task management tools. 
 
-Instruction files (Markdown files) should be created in code repositories to define coding standards, project conventions, business domain etc.
+Instruction files (Markdown files) should also be created in code repositories to define coding standards, project conventions, business domain etc.
 
+* **Software Architecture**: the [ArchiScribe MCP Server](/software/archiscribe-mcp-server/) can be used to provide context about the software architecture.
+  * *"#archiscribe Get the details from the future state \[...\] architecture view, analyse the gaps from the current state, and create a development plan"*
 * **Task Assignment**: assign a task to an agent, the task should have a detailed description and references to related context sources such as PRD, UX designs and software design documents.
   * *"Get the details of the task described in ticket: \[...\], review the current project and implement the required changes."*
 * **Defect Fix Automation**: reference a defect ticket number and ask the agent to implement the required changes to the code.
