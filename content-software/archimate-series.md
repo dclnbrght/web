@@ -28,12 +28,13 @@ permalink: "archimate-series/"
         IT architects come in many different flavors; application, business, data, enterprise, integration, infrastructure, security &amp; solution architecture. While <a href="https://www.opengroup.org/archimate-forum" target="_blank">ArchiMate</a> is defined as a modelling language for enterprise architecture it is certainly relevant to all other types when used at the correct level of abstraction.
     </p>
     
-    <h2>Articles</h2>
+    <h2>Articles & Tools</h2>
     <p>
-        This series of short articles brings together some practical learnings from using <a href="https://www.opengroup.org/archimate-forum" target="_blank">ArchiMate</a> over many years.
+        This series of articles brings together some practical learnings (and tools) from using <a href="https://www.opengroup.org/archimate-forum" target="_blank">ArchiMate</a> over many years.
     </p>
     <div class="table-of-contents">
         <ul>
+            <li><a href="/software/archiscribe-mcp-server">ArchiScribe MCP Server</a></li>
             <li><a href="/archimate-graph-explorer">ArchiMate Graph Explorer</a></li>
             <li><a href="/archimate-muted-colour-scheme">Muted Colour Scheme</a></li>
             <li><a href="/archimate-application-component-bending-the-rules">Application Component, Bending the Rules</a></li>			

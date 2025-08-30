@@ -14,6 +14,9 @@ permalink: "archimate-archi-tips-and-tricks/"
 				<i>This article is part of the <a href="/archimate-series">The ArchiMate Series</a></i>
 			</p>
 			<p>
+				<i><strong>Checkout the <a href="/software/archiscribe-mcp-server">ArchiScribe MCP Server</a></strong></i>
+			</p>
+			<p>
 				The <a href="https://www.archimatetool.com/" target="_blank">Archi</a> application is an excellent, mature ArchiMate editor which is very easy to use. If you are just starting out then I highly recommend the <a href="https://www.archimatetool.com/downloads/release/Archi%20User%20Guide.pdf" target="_blank">Archi User Guide</a>, it's a relatively light read with lots of time-saving information.
 			</p>
 			<p>
