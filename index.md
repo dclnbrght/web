@@ -13,7 +13,7 @@ layout: layouts/home.njk
         </div>
         <div class="card-body">
             <strong>ArchiScribe MCP Server</strong>
-            <br />Software architecture context -> AI Agent
+            <br />Software architecture to AI Agent
         </div>
     </a>
 </div>
