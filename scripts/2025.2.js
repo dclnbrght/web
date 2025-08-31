@@ -1,4 +1,4 @@
-﻿function setupPage() {
+﻿function setupPage(setupImageDialog) {
 	setupContact();
 	setupGithub();
 	setupBackToTopButton();
@@ -37,7 +37,8 @@
     }
 
 	// Setup image dialog box
-	$('img').imageDialog();
+	if (setupImageDialog)
+		$('img').imageDialog();
 }
 
 function hasClass(el, className) {
