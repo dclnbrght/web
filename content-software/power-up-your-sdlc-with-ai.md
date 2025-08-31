@@ -37,7 +37,7 @@ A MCP server is a simple adapter service that (typically) runs in the context of
 
 Many of the concepts discussed below can be achieved by manually providing contextual information to an AI chatbot or agent, however MCP servers provide a way to automate the flow, avoiding a lot of copying and pasting. For example, an AI agent can automatically retrieve the details of a task from a work management system when prompted with a ticket number. 
 
-MCP servers are available (or becoming available) for most enterprise systems that are used within a SDLC process. If an existing MCP server does not exist, any experienced software engineer can create a MCP server to wrap an existing API.
+MCP servers are available (or becoming available) for most enterprise systems that are used within a SDLC process. If an existing MCP server does not exist, any experienced software engineer can create a MCP server to wrap an existing API. As an example, see the [ArchiScribe MCP Server](/software/archiscribe-mcp-server/).
 
 A note of caution, some MCP servers expose too much functionality, giving the AI agent excessive agency or access to sensitive data. This is an example of the risk described in the OWASP Top 10 for LLMs: [LLM08: Excessive Agency](https://genai.owasp.org/llmrisk2023-24/llm08-excessive-agency/). Either use a proxy or implement your own MCP server to only expose the capabilities that you really need.
 
