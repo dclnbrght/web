@@ -8,9 +8,9 @@ permalink: "/software/archiscribe-mcp-server/"
 
 # {{ title }} 
 
-Providing AI coding assistants and agents access to rich contextual information is essential for high-quality output, as described in: [Power Up Your Software Development Lifecycle with AI](/software/power-up-your-sdlc-with-ai/). 
+Providing AI coding assistants and agents with access to rich contextual information is essential for ensuring high-quality output, as outlined in: [Power Up Your Software Development Lifecycle with AI](/software/power-up-your-sdlc-with-ai/). 
 
-The **ArchiScribe MCP Server** bridges the gap between your ArchiMate architecture models and AI tools, making architectural context easily accessible throughout the software development lifecycle.
+The **ArchiScribe MCP Server** bridges the gap between your ArchiMate architecture models and your AI tools, making architectural context easily accessible throughout the software development lifecycle.
 
 <img src="/content-software/images/archiscribe.webp" alt="ArchiScribe MCP" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
 
@@ -29,25 +29,25 @@ ArchiScribe is a Model Context Protocol (MCP) Server that provides access to inf
 
 **Setup:**
 
-* Configure ArchiScribe with access to an ArchiMate model file in **ArchiMate Exchange Format** (an XML‑based interoperability standard).
+* Configure ArchiScribe with access to an ArchiMate model file, in **ArchiMate Exchange Format** (an XML‑based interoperability standard).
 
-* Configure your coding agents to connect to the MCP server and make requests.
+* Configure your AI coding agents to connect to the MCP server and make requests.
 
 **Available Tools:**
 
-* **SearchViews** – Find views by name or keyword.
+* **SearchViews** – Find views names by keyword.
 
-* **GetViewDetails** – Get titles, descriptions, properties, and ArchiMate types for all elements and relationships in a view. It can even infer implicit relationships based on nested elements.
+* **GetViewDetails** – Get the titles, descriptions, properties, and ArchiMate types for all elements and relationships in a view. (It will also infer implicit relationships based on nested elements.)
 
 **Output**:
 
-The information is returned from the MCP Server in markdown format which is easily understood by coding assistants/agents. Large Language Models (LLMs) understand the concepts of ArchiMate and can therefore reason about the elements and relationships to form a comprehensive understanding of the software architecture defined in a view.
+The information is returned from the MCP Server in markdown format which is easily understood by coding assistants/agents. Large Language Models (LLMs) already understand the concepts of ArchiMate and can therefore reason about the elements and relationships to form a comprehensive understanding of the software architecture defined in a view.
 
 ## When To Use It
 Use the MCP Server during the SDLC to provide context about the software architecture directly to software engineers using AI coding assistants/agents. The views from the Application Layer are especially useful to provide context about related system components that are under active development. 
 
 ### Generate Documentation
-If the AI has a good understanding of the architecture, it can generate documentation. Here is a prompt that can be used to call the "#archiscribe" MCP server, asking it to generate documentation based on the response from ArchiScribe:
+Now that the AI has a good understanding of the architecture, it can generate documentation. Here is a prompt that can be used to call the "#archiscribe" MCP server, asking it to generate documentation based on the response from ArchiScribe:
 
 * *"#archiscribe Write a clear, non-technical overview of the architecture in the \[...\] ArchiMate view. Include key components, their roles, and how they interact. Output as a markdown file in the \[...\] folder."*
 
