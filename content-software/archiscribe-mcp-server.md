@@ -51,6 +51,12 @@ Now that the AI has a good understanding of the architecture, it can generate do
 
 * *"#archiscribe Write a clear, non-technical overview of the architecture in the \[...\] ArchiMate view. Include key components, their roles, and how they interact. Output as a markdown file in the \[...\] folder."*
 
+### Perform Threat Modelling
+An AI Agent can perform a threat modelling exercise if provided with details of an ArchiMate view representing a data flow diagram. For example, a data flow diagram can be created with Application Components connected by Flow relationships. Grouping elements can be used for trust boundaries, by adding a Stereotype property with a value of Trust Boundary.
+Here is a prompt to create a threat model report based on a view:
+
+* *"#archiscribe Get the details of the \[...-DataFlow\] ArchiMate view. Analyse the data flows to identify potential threats using the STRIDE methodology. Create a threat model report in a structured format, using tables as required, output in markdown format to a file named \[...-DataFlow\]-ThreatModelReport.md."*
+
 ## Source Code
 
 The source code for *archiscribe-mcp* is available on GitHub:
