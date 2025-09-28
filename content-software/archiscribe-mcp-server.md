@@ -25,7 +25,7 @@ This is useful contextual information, especially if there are comprehensive des
 The question is: how can you leverage this information in your Software Development LifeCycle (SDLC) and make it available to AI coding assistants and agents?
 
 ## How It Works
-ArchiScribe is a Model Context Protocol (MCP) Server that provides access to information from the views defined within an ArchiMate model. 
+ArchiScribe is a Model Context Protocol (MCP) Server that provides access to information from the elements and views defined within an ArchiMate model. 
 
 **Setup:**
 
@@ -35,7 +35,11 @@ ArchiScribe is a Model Context Protocol (MCP) Server that provides access to inf
 
 **Available Tools:**
 
-* **SearchViews** – Find views names by keyword.
+* **SearchElements** – Find element names by keyword and type.
+
+* **GetElementDetails** – Get the title, type, description, properties related to an element, including the views it appears in and the incoming & outgoing relationships.
+
+* **SearchViews** – Find view names by keyword.
 
 * **GetViewDetails** – Get the titles, descriptions, properties, and ArchiMate types for all elements and relationships in a view. (It will also infer implicit relationships based on nested elements.)
 
