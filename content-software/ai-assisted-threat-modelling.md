@@ -12,13 +12,14 @@ Modern software is built fast, but threats evolve even faster. Threat modelling 
 
 <a href="https://github.com/dclnbrght/ai-assisted-threat-modelling" class="action-button-primary">TL;DR - Jump straight to the ai-assisted-threat-modelling repo</a>
 
+<img src="/content-software/images/ai-assisted-threat-modelling.webp" alt="AI Assisted Threat Modeling" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
+
 As discussed in the [Power Up Your Software Development Lifecycle with AI](/software/power-up-your-sdlc-with-ai/) article, AI agents can be leveraged throughout the SDLC. This includes providing assistance with comprehensive security and threat analysis. 
 
 Here we will explore how AI agents can accelerate your threat modelling practice, by using carefully crafted prompts, templates, and workflows to help software developers, architects, and security experts to better identify and manage security threats. 
 
 Built on the [STRIDE](https://en.wikipedia.org/wiki/STRIDE_model) methodology, and incorporating best practices and considerations from [OWASP](https://owasp.org/) and [NIST](https://www.nist.gov/), this solution streamlines the threat modelling process, making it accessible, robust, and repeatable.
 
-<img src="/content-software/images/ai-assisted-threat-modelling.webp" alt="AI Assisted Threat Modeling" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
 
 <div id="toc" class="table-of-contents"></div>
 
