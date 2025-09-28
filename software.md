@@ -21,6 +21,9 @@ The future of software development is changing faster than ever and the traditio
 
 ## Software Architecture
 
+[AI Assisted Threat Modelling](/software/ai-assisted-threat-modelling/) \
+Use an AI agent to assist with threat modelling exercises.
+
 [Attribute Driven Design in Software Architecture](/software-architecture-attribute-driven-design/) \
 A light-weight, structured approach to software design.
 

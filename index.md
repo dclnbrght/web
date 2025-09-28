@@ -7,13 +7,24 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/ai-assisted-threat-modelling/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-assisted-threat-modelling.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>AI Assisted Threat Modelling</strong>
+            <br />Data flow diagram &rarr; Threat Report
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/archiscribe-mcp-server/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/archiscribe.webp');background-size:100%;"></div>
         </div>
         <div class="card-body">
             <strong>ArchiScribe MCP Server</strong>
-            <br />Software architecture to AI Agent
+            <br />Software architecture &rarr; AI Agent
         </div>
     </a>
 </div>
@@ -99,6 +110,16 @@ layout: layouts/home.njk
         </div>
         <div class="card-body">
             <strong>Copper Drive - Custom Guitar Pedal, Design &amp; Build</strong>
+        </div>
+    </a>
+</div>
+<div class="card">
+    <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-electronics/images/musikding-runoffgroove-supreaux-deux/guitar-pedal-pcb-assembly-4.webp');background-size:110%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Building a Run Off Groove Supreaux Deux Guitar Pedal Kit</strong>
         </div>
     </a>
 </div>

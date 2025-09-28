@@ -80,6 +80,7 @@ These artefacts are used as context in the subsequent phases.
   * *"Based on the \[...\] PRD, create a high-level software architecture document. Follow our company's architecture standards and non-functional requirements in the \[...\] file. Describe system components, data flows, and technology choices."*
 * **Create architecture diagrams**: generate diagrams to communicate the software architecture clearly.
   * *"Generate component and data flow diagrams (Mermaid diagrams in markdown) to represent the \[...\] system defined in the software architecture document."*
+* **Threat Modelling**: perform threat modelling analysis, see [AI Assisted Threat Modelling](/software/ai-assisted-threat-modelling/) for more details.
 * **NFR analysis**: analyse a software design to review Non-Functional Requirements (NFRs) and identify potential gaps.
   * *"Review the \[...\] software design and highlight any missing aspects or unclear NFRs. Suggest additions based on common software quality attributes."*
 
