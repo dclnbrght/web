@@ -131,6 +131,7 @@ There isn't a "one size fits all" when it comes to performing a software archite
 
 Ideally, the Design Document is created in a team wiki to promote collaboration. These templates in HTML and MS Word formats will give you a starting point:
 
+- [software-architecture-design-template.md](/content-software/downloads/software-architecture-design-template.md)
 - [software-architecture-design-template.htm](/content-software/downloads/software-architecture-design-template.htm)
 - [Software-Architecture-Design-Template.docx](/content-software/downloads/Software-Architecture-Design-Template.docx)
 
