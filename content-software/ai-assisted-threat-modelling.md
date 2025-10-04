@@ -39,9 +39,9 @@ The high-level workflow has the following steps:
 ### Diagram Preparation and Input
 Start by creating a dataflow diagram of your system using either [Mermaid](https://mermaid.js.org/) or [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview). 
 
-If you're not sure how to create a Mermaid flow diagram, you can write a description of the system components and data flows in a text file and use the prompt provided to create a Mermaid diagram.
+If you're not sure how to create a [Mermaid flow diagram](https://mermaid.js.org/syntax/flowchart.html), you can write a description of the system components and data flows in a text file and use the "/mermaid-flow-diagram-create" prompt to create a Mermaid diagram.
 
-If you're familiar with ArchiMate you can use the [ArchiScribe MCP Server](https://github.com/dclnbrght/archiscribe-mcp) to fetch data directly from your ArchiMate models.
+If you're familiar with ArchiMate you can use the [ArchiScribe MCP Server](/software/archiscribe-mcp-server/) to fetch data directly from your ArchiMate models. A data flow diagram can be created with Application Components connected by Flow relationships. Grouping elements can be used for trust boundaries, by adding a Stereotype property with a value of "Trust Boundary".
 
 ### Automated Threat Identification
 Once the input diagram is ready, instruct your AI agent to run the threat modelling exercise, to identify potential threats across the system's components and data flows. 
