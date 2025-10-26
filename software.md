@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[Fullstack Software Engineers Are Well Positioned In the AI Era](/software/fullstack-software-engineers-in-the-ai-era/) \
+Architectural thinking is the new competitive advantage.
+
 [AI Assisted Threat Modelling](/software/ai-assisted-threat-modelling/) \
 Use an AI agent to assist with threat modelling exercises.
 

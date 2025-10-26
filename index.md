@@ -7,6 +7,16 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/fullstack-software-engineers-in-the-ai-era/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/fullstack-software-engineer.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Fullstack Software Engineers Are Well Positioned In the AI Era</strong>
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/ai-assisted-threat-modelling/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/ai-assisted-threat-modelling.webp');background-size:100%;"></div>
@@ -123,6 +133,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="/box/musikding-der-muff-guitar-pedal-kit">
         <div class="card-header">
@@ -133,6 +144,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+--> 
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
