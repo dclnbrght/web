@@ -54,7 +54,7 @@ Is the software developed today better than before? Yes absolutely, the user exp
 
 ## So why is this becoming a bigger problem?
 
-Let’s think about where we’re heading with agentic AI. Recent advances have given us AI coding assistants that can dramatically boost developer productivity, if used well. While early research on productivity improvements are showing mixed results, productivity is becoming more consistent as practices for directing AI agents mature. 
+Let’s think about where we’re heading with agentic AI. Recent advances have given us AI coding assistants that can dramatically boost developer productivity, if used well. While early research on productivity improvements is showing mixed results, productivity gains are becoming more consistent as models improve and practices for directing AI agents mature. 
 
 A skilled engineer can write prompts and instruction files to direct an AI agent (or a swarm of agents), to write code in their preferred language, using their preferred technologies & frameworks, and following their preferred coding conventions and standards. They can break down large pieces of work into a development plan and guide the agent through it, reviewing the generated code along the way and steering the agent to deliver quality software that follows best practices and patterns. 
 
@@ -86,6 +86,6 @@ They need to learn how to design full stack systems following best practices and
 
 There is also concern for students who are about to enter the job market. Universities and collages need to prepare students to work in this new reality of the AI era. Students need tuition in prompting and managing AI agents, understanding broader system architecture and reviewing AI generated code.
 
-It will likely become more challenging for small/medium companies to onboard new engineers however we all have to adapt to this new normal. The engineers who develop architectural thinking skills alongside AI fluency will be the ones who thrive in the agentic AI era, whether they've built that foundation through experience in fullstack roles or by intentionally broadening from a specialist career path.
+It will likely become more challenging for small/medium companies to onboard new engineers, however we all have to adapt to this new normal. The engineers who develop architectural thinking skills alongside AI fluency will be the ones who thrive in the agentic AI era, whether they've built those skills through experience in fullstack roles or by intentionally broadening from a specialist career path.
 
 <div id="comments" class="comments"></div>
