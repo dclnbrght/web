@@ -1,14 +1,44 @@
-﻿function setupPage(setupImageDialog) {
-	setupContact();
-	setupGithub();
-	setupBackToTopButton();
-			
-	// Test for Media Query support
-	if (Modernizr.mq('(min-width: 0px)')) {	
-		// Class to identify support for js and media query support
-		var h = document.getElementsByTagName("html");
-		addClass(h[0], 'jsmq');
-	}
+﻿function setupTheme() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    // Check for saved theme preference or use system preference
+    const currentTheme = localStorage.getItem('theme') || 
+                        (prefersDarkScheme.matches ? 'dark' : 'light');
+    
+    // Set initial theme and checkbox state
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeToggle.checked = currentTheme === 'dark';
+    
+    // Theme toggle change handler
+    themeToggle.addEventListener('change', function() {
+        const newTheme = this.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+    
+    // Listen for system theme changes
+    prefersDarkScheme.addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+            const newTheme = e.matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            themeToggle.checked = e.matches;
+        }
+    });
+}
+
+function setupPage(setupImageDialog) {
+    setupContact();
+    setupGithub();
+    setupBackToTopButton();
+    setupTheme();
+            
+    // Test for Media Query support
+    if (Modernizr.mq('(min-width: 0px)')) {    
+        // Class to identify support for js and media query support
+        var h = document.getElementsByTagName("html");
+        addClass(h[0], 'jsmq');
+    }
 	
 	// If inside frame then pop to top
 	if (window.top !== window.self) {

@@ -1,3 +1,51 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #2b2b2b;
+    --heading-color: #333;
+    --link-color: #222;
+    --link-hover-color: #444;
+    --link-nav-color: #2b2b2b;
+    --link-nav-hover: #222;
+    --link-footer-color: #666666;
+    --link-footer-hover: #333333;
+    --action-button-primary-bg: #ffc163;
+    --action-button-primary-bg-hover: #feaa2b;
+    --border-color: #ddd;
+    --card-bg: #f8f8f8; 
+    --card-border-color: #bbb;
+    --menu-bg: #666;
+    --menu-text: #e6e6e6;
+}
+
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e6e6e6;
+    --heading-color: #e6e6e6;
+    --link-color: #ddd;
+    --link-hover-color: #fff;
+    --link-nav-color: #e6e6e6;
+    --link-nav-hover: #ffffff;
+    --link-footer-color: #999999;
+    --link-footer-hover: #ffffff;
+    --action-button-primary-bg: #ffb74d;
+    --action-button-primary-bg-hover: #ffa726;
+    --border-color: #404040;
+    --card-bg: #2a2a2a;
+    --card-border-color: #666;
+    --menu-bg: #404040;
+    --menu-text: #ffffff;
+}
+
+/* When the page is first painted we temporarily disable transitions/animations
+   to avoid a flash when the theme is applied before CSS finishes loading. The
+   inline script in the page head adds the `preload-theme` class and removes it
+   on DOMContentLoaded. */
+html.preload-theme,
+html.preload-theme * {
+    transition: none !important;
+    animation: none !important;
+}
+
 html { 
     scroll-behavior: smooth; 
 }
@@ -7,8 +55,10 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 96%;
-    background: #fff;
+    background: var(--bg-color);
+    color: var(--text-color);
     font-family: 'DM Sans', "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -21,7 +71,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: #333;
+    color: var(--heading-color);
     clear: left;
 }
 
@@ -44,12 +94,10 @@ h2 {
 h3 {
     font-size: 1.1em;
     margin: 0.5em 0 0.2em 0;
-    color: #555;
 }
 h4 {
     font-size: 1.0em;
     margin: 0.5em 0 0.2em 0;
-    color: #555;
 }
 
 p,
@@ -57,7 +105,7 @@ li,
 dd,
 dt,
 figcaption {
-    color: #3e3e3e;
+    color: var(--text-color);
     margin: 0.4em 0 1em 0;
     line-height: 150%;
 }
@@ -81,8 +129,13 @@ figcaption {
 }
 
 a:link,
-a:visited { color: #222 }
-a:hover { color: #444 }
+a:visited { 
+    color: var(--link-color);
+    transition: color 0.3s ease;
+}
+a:hover { 
+    color: var(--link-hover-color);
+}
 
 .block {
 	display: block;
@@ -225,23 +278,128 @@ nav {
 
 header { padding: 0.2em 0 0.1em 0 }
 
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
 #title a,
 #title a:link,
 #title a:visited {
     font-size: 1.7em;
-	color: #3a3a3a;
+	color: var(--heading-color);
     text-decoration: none;
     font-family: Anton, 'Courier New', sans-serif;
 }
 
-#title a:hover { color: #222 }
+#title a:hover { color: var(--link-hover-color) }
+
+.card {
+    background-color: var(--card-bg)!important;
+    border: solid 1px var(--card-border-color)!important;
+}
+.card-header {
+    border-bottom: solid 1px var(--card-border-color)!important;
+}
+.card a:hover .card-body{
+    background: radial-gradient(circle, var(--bg-color) 90%, var(--card-bg) 100%);
+}
 
 /* Navigation */
+.theme-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.1em;
+    margin-top: 0.1em;
+    vertical-align: middle;
+    transform: scale(0.85);
+}
+
+.theme-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.theme-toggle .slider {
+    position: relative;
+    cursor: pointer;
+    width: 2.4em;
+    height: 1.2em;
+    background-color: var(--menu-bg);
+    border-radius: 1.2em;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.theme-toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 0.9em;
+    width: 0.9em;
+    left: 0.15em;
+    bottom: 0.15em;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.theme-toggle input:checked + .slider {
+    background-color: var(--link-color);
+}
+
+.theme-toggle input:checked + .slider:before {
+    transform: translateX(1.2em);
+}
+
+/* Icon positioning for the compact toggle */
+.theme-toggle .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.theme-toggle .icon.light {
+    left: -1.0em;
+    opacity: 1;
+}
+.theme-toggle .icon.dark {
+    right: -1.0em;
+    opacity: 0.5;
+}
+
+/* Make the toggle visually match the current data-theme on first paint
+   so the switch appears correct even before the checkbox state is updated
+   by the JS that runs after the DOM loads. */
+html[data-theme="dark"] .theme-toggle .slider {
+    background-color: var(--link-color);
+}
+html[data-theme="dark"] .theme-toggle .slider:before {
+    transform: translateX(1.2em);
+}
+html[data-theme="dark"] .theme-toggle .icon.light {
+    opacity: 0.5;
+}
+html[data-theme="dark"] .theme-toggle .icon.dark {
+    opacity: 1;
+}
+html:not([data-theme="dark"]) .theme-toggle .icon.light {
+    opacity: 1;
+}
+html:not([data-theme="dark"]) .theme-toggle .icon.dark {
+    opacity: 0.5;
+}
+
 .menu-toggle {
     display: none;
     font-weight: bold;
     cursor: pointer;
-	color: #666;
+	color: var(--text-color);
 }
 
 .menu-item-list {
@@ -257,13 +415,14 @@ header { padding: 0.2em 0 0.1em 0 }
     padding: 0 0.1em 0.08em 0.1em;
     line-height: 1.6em;
     text-decoration: none;
-    color: #000;
-    border-bottom: solid 1px #ddd;
+    color: var(--link-nav-color);
+    border-bottom: solid 1px var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .menu-item a:hover {
-    color: #111;
-    border-bottom: dashed 1px #ccc;
+    color: var(--link-nav-hover);
+    border-bottom: dashed 1px var(--link-nav-hover);
 }
 
 .menu-current a,
@@ -277,11 +436,11 @@ header { padding: 0.2em 0 0.1em 0 }
 .table-of-contents {
 	margin-bottom: 3em;
 	margin-bottom: 2em;
-    border: solid 1px #eee;
+    border: solid 1px var(--border-color);
 }
-.table-of-contents ul li a{
-	text-decoration: none;
-	color: #004886;
+.table-of-contents ul li a {
+	text-decoration: dotted underline;
+	color: var(--link-color);
 }
 
 /* Content */
@@ -314,8 +473,9 @@ article ul li {
     margin: 0.8em auto;
     padding: 0.6em;
     text-decoration: none;
-    text-align: center;
-    background-color: #ffc163;
+    text-align: center;    
+    color: #222!important;
+    background-color: var(--action-button-primary-bg);
     border-radius: 0.3em;
     clear: both;
     transition: all 0.5s;
@@ -333,7 +493,7 @@ article ul li {
     padding-right: 0.46em;
     padding-left: -0.5em;
     color: #000!important;
-    background-color: #feaa2b;
+    background-color: var(--action-button-primary-bg-hover);
 }
 .action-button-primary:hover:after {
     opacity: 1;
@@ -362,9 +522,18 @@ article ul li {
     padding: 1em 0;
 }
 
-.footer-bar,
+.footer-bar { color: var(--text-color) }
+
 .footer-item a:link,
-.footer-item a:visited { color: #666 }
+.footer-item a:visited { 
+    color: var(--text-color);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-item a:hover {
+    opacity: 1;
+}
 
 .footer-item { margin-bottom: 0.6em }
 
@@ -393,7 +562,7 @@ article ul li {
    text-align: center;
 }
 
-/* CV */
+/* Definition List */
 .definition-list { margin: 0 }
 .definition-list dt {
     margin: 0.3em 0.5em 0.3em 0.3em;
@@ -518,17 +687,18 @@ article ul li {
     .jsmq .menu-item a,
     .jsmq .menu-item a:link {
         display: block;
-        background-color: #666;
-        color: #f2f2f2;
+        background-color: var(--menu-bg);
+        color: var(--menu-text);
         margin: 0;
         padding: 0.4em 0;
         border-bottom: none;
         border-radius: 0.3em;
+        transition: all 0.3s ease;
     }
     .jsmq .menu-current a,
     .jsmq .menu-current a:link,
     .jsmq .menu-current a:hover {
-        background-color: #aaa;
+        background-color: var(--border-color);
         border-bottom: none;
     }
 	.jsmq .menu-item-list {
@@ -559,8 +729,8 @@ article ul li {
 @media screen and (min-width: 50em) { 
     .reader {
         padding: 0 1em;
-        border-right: solid 1px #ededed;
-        border-left: solid 1px #ededed;
+        border-right: solid 1px var(--border-color);
+        border-left: solid 1px var(--border-color);
     }
 }
 
@@ -583,7 +753,7 @@ article ul li {
     .footer-bar { position: relative }
 	
     .footer-item {
-        border: solid 1px #ddd;
+        border: solid 1px var(--border-color);
 		border-radius: 0.4em;
         padding: 0.3em 0.8em;
         margin: 0;
@@ -591,11 +761,11 @@ article ul li {
         overflow: hidden;
         display: inline;
         z-index: 1;
-        background-color: #fff;
+        background-color: var(--bg-color);
     }
 	
     .footer-bar:after {
-        border-top: solid 1px #ddd;
+        border-top: solid 1px var(--border-color);
         content: "";
         display: block;
         position: absolute;
@@ -708,4 +878,3 @@ article ul li {
     padding: 0.1em 0.6em 0.1em 0.4em;
     border-radius: 0.3em;
 }
-
