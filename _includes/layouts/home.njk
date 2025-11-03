@@ -127,7 +127,9 @@ title: Declan Bright
 	<script src="{{ '/scripts/modernizr-3.2.0.js' | url }}"></script>
 	<script src="{{ '/scripts/2025.2.js' | url }}"></script>
 	<script>setupPage(false);</script>
-	    <!-- Google tag (gtag.js) -->
+
+    {% if eleventy.serverless or not (eleventy.env.runMode == "serve") %}
+	<!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SNEG35G2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -135,5 +137,7 @@ title: Declan Bright
       gtag('js', new Date());
       gtag('config', 'G-92SNEG35G2');
     </script>
+    {% endif %}
+	
   </body>
 </html>
