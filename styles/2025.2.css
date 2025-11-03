@@ -18,7 +18,7 @@
 }
 
 [data-theme="dark"] {
-    --bg-color: #1a1a1a;
+    --bg-color: #252525;
     --text-color: #e6e6e6;
     --heading-color: #e6e6e6;
     --link-color: #ddd;
@@ -857,7 +857,8 @@ article ul li {
 }
 
 #imageDialog {
-    border: solid 6px #fff!important;
+    background-color: var(--bg-color)!important;
+    border: solid 6px var(--bg-color)!important;
     border-radius: 8px;
 }
 
