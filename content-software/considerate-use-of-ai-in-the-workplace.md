@@ -1,12 +1,12 @@
 ---
 title: Considerate use of Generative AI in the Workplace  
-description: 
+description: AI work slop is the practice of using generative AI to produce long-form content, such as emails, documents, or presentations, while recipients use generative AI to summarise that same content before reading it.
 keywords: ""
 date: 2025-11-04
 permalink: "/software/considerate-use-of-ai-in-the-workplace/"
 ---
 
-# Considerate use of Generative AI in the Workplace
+# {{ title }} 
 
 ## AI Work Slop
 
