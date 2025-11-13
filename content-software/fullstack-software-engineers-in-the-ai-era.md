@@ -8,7 +8,7 @@ permalink: "/software/fullstack-software-engineers-in-the-ai-era/"
 
 # {{ title }} 
 
-From my observations, I believe that fullstack software engineers have a distinct advantage over specialist software engineers as we move further into the era of agentic AI. Specialist engineers will still be required in many domains, but for the general development of small to medium sized systems, the balance will most likely swing in favour of fullstack software engineers.
+Fullstack software engineers have a distinct advantage over specialist software engineers as we move further into the era of agentic AI. Specialist engineers will remain essential in many domains, but for general development of small to medium sized systems, the balance will swing in favour of fullstack software engineers.
 
 <img src="/content-software/images/fullstack-software-engineer.webp" alt="Fullstack Software Engineer" class="article-image-primary" style="max-width: 100%; margin-bottom: 1em; float:none; padding:0;" />
 
@@ -16,7 +16,7 @@ From my observations, I believe that fullstack software engineers have a distinc
 
 Before taking on software architecture and management roles, I worked as a software engineer for many years, across several industries, in companies of various sizes. My job title was always *“Software Engineer”*, with various prefixes to indicate my level of experience, from junior to principal. However, my  job title never included words such as frontend, mobile, backend, QA, devops, infrastructure, site reliability etc, I was just a software engineer that developed and delivered software for customers. 
 
-Working at smaller companies was especially fun because there were opportunities to wear many different hats, effectively as a *“one person”* team. Although I didn’t think about it this way at the time, performing many roles was just part of the job.
+Working at smaller companies was especially fun as there were opportunities to wear many different hats. I was effectively working as a *“one person”* team, although I didn’t think about it this way at the time, performing many roles was just part of the job.
 
 When a new product feature / module / app was to be developed, I started by putting on my *“product owner”* hat and went to visit the customer, to gather requirements (including trips in a field technicians van and the jumpseat of a commercial airliner). I took notes and when I got back to the office I put on my *“software architect”* hat, sketched out some amazing masterpieces on a whiteboard; component diagrams, data models, integration flows etc. These were discussed with my peers or my boss and once everyone was happy I put on my *“product owner”* hat again, to create a work breakdown and a best guess at a delivery timeline. 
 
@@ -26,7 +26,7 @@ Then it was back to the customer, with my *“solutions consultant”* hat on, t
 
 ## It certainly wasn’t perfect
 
-This way of working has its pros and cons. On the plus side, it was really interesting to learn about and use a wide variety of technologies. I got to know these business domains to a deep level, and without the friction of communication across teams, things could move fast. If the customer reported an issue I knew exactly where to look, how to investigate it, often implementing a fix and deploying it before the end of the day. There were several of us who worked this way as the company was growing.
+This way of working has its pros and cons. On the plus side, it was really interesting to learn about and use a wide variety of technologies. I also got to learn about the business domains to a deep level, and without the friction of communication across teams, things could move fast. If the customer reported an issue I knew exactly where to look, how to investigate it, often implementing a fix and deploying it before the end of the day. There were several of us who worked this way as the company was growing.
 
 On the negative side, I was on the hook for that customer and I was a single point of knowledge for the products / features that I implemented. Transferring that deep knowledge to someone else (even to cover holidays) was a challenge, as everyone else had their own projects keeping them busy. 
 
@@ -60,7 +60,7 @@ A skilled engineer can write prompts and instruction files to direct an AI agent
 
 From my observations to date, the software engineers that do this best are those who are, or have previously worked as fullstack engineers. A skilled and experienced fullstack engineer, uses an AI agent like an extension of their own thought process, working across all parts of the stack, delivering complete features in very short time frames. 
 
-For example, a fullstack engineer on my team recently used an AI agent to build a complete feature including database migrations, API endpoints, and React components in three days, something that would have previously taken at least two weeks to coordinate across a typical feature team.
+For example, a fullstack engineer on my team recently used an AI agent to build a complete feature including database migrations, API endpoints, and React components in three days, something that would have taken at least two weeks to coordinate across a typical feature team.
 
 I’ve observed specialist engineers utilise AI agents with reasonable success too, automating their flow and boosting their productivity, however they’re often limited in what they can deliver since they’re dependent on the backend services and the database being implemented by someone else. While they might quickly “vibe code” a working backend with AI, this approach usually lacks the architectural rigor required for enterprise software.
 
@@ -70,11 +70,11 @@ Human code review is a really important part of the software development process
 
 If different parts of the code have to be reviewed by mutiple specialist engineers it will slow down the process significantly. The code review process will be a real pinch point in the efficient delivery of software and slowing down the time to market. 
 
-This is where fullstack engineers have a distinct advantage, they can review the code across the full stack, so that it can be released sooner.
+This is where fullstack engineers have a distinct advantage, they can review the code across the full stack, and get it released faster.
 
 ## Why scale is different with AI?
 
-You might be thinking: *“This doesn't apply to large codebases with millions of lines across dozens of services.”* But here’s what is changing: AI agents are becoming increasingly capable of navigating and modifying complex codebases in ways that would take any engineer months to understand. The bottleneck is no longer *“who has deep knowledge of each specific subsystem”*, it's *“who can architect the right solution and direct AI agents to implement it correctly, across the stack.”*
+You might be thinking: *“This doesn't apply to large codebases with millions of lines across dozens of services.”* But here’s what's changing: AI agents are becoming increasingly capable of navigating and modifying complex codebases in ways that would take any engineer months to understand. The bottleneck is no longer *“who has deep knowledge of each specific subsystem”*, it's *“who can architect the right solution and direct AI agents to implement it correctly, across the stack.”*
 
 In large companies, the most valuable engineers are those who can: understand the broader system architecture, break down complex problems into AI directable tasks, and review the generated code for security, performance, maintainability etc. regardless of which part of the stack it touches. This is architectural design thinking and understanding, not specialist depth.
 
