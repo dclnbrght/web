@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[Playing Safe With AI](/software/playing-safe-with-ai/) \
+Practical guidance for using AI safely.
+
 [Fullstack Software Engineers Are Well Positioned In the AI Era](/software/fullstack-software-engineers-in-the-ai-era/) \
 Architectural thinking is the new competitive advantage.
 

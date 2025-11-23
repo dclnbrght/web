@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/playing-safe-with-ai/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-safety.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Playing Safe With AI</strong>
+            <br />Practical guidance for using AI safely
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/fullstack-software-engineers-in-the-ai-era/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/fullstack-software-engineer.webp');background-size:100%;"></div>
@@ -102,6 +113,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="eolvis">
         <div class="card-header">
@@ -113,6 +125,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+-->
 <div class="card">
     <a href="/electronics/guitar-pedal-copper-drive-design-build">
         <div class="card-header">
