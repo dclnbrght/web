@@ -28,12 +28,12 @@ Improper usage of AI services can also lead to violations of data privacy regula
 
 **Minimise the Risk**
 
-* Never enter personal data or sensitive company information (including intellectual property) into free AI services. Either subscribe to a paid service with data protection guarantees, or fully anonymise and generalise the information before using free services.  
+* Never enter personal data or sensitive company information (including intellectual property) into free AI services. Either subscribe to a paid service tier with appropriate data protection guarantees, or fully anonymise and generalise the information before using free services.  
 * Organisations must establish and publish clear AI usage policies, including a list of approved AI services and guidance for safe usage. Backup these policies with staff training programs and technical controls such as Data Loss Prevention (DLP) tools to detect and block unauthorised AI usage.
 
 ## Prompt Injection
 
-Prompt injection is arguably the most serious and fundamental vulnerability facing AI systems today, affecting every application category from chatbots to agentic browsers. These attacks exploit a core weakness: Large Language Models (LLMs) struggle to distinguish between legitimate prompts from trusted users and malicious instructions hidden in untrusted external content. 
+Prompt injection is arguably the most serious and fundamental vulnerability facing AI systems today, affecting every application category from chatbots to agentic web browsers. These attacks exploit a core weakness: Large Language Models (LLMs) struggle to distinguish between legitimate prompts from trusted users and malicious instructions hidden in untrusted external content. 
 
 Since LLMs process both your prompts and external content as plain text in the same context window, it's quite easy for attackers to inject malicious instructions through websites, emails, PDFs, APIs, MCP server responses, or even images.
 
@@ -44,18 +44,19 @@ Attackers use various subtle methods to conceal malicious instructions:
 * Hidden text in web pages or emails using small fonts, white text on white backgrounds, or CSS tricks.  
 * Steganographic techniques in images using subtle color variations imperceptible to the human eye but readable by AI through Optical Character Recognition (OCR).  
 * Malicious data embedded in image metadata or emoji encodings.  
-* Malformed URLs that bypass validation when pasted into an AI-enabled browser's omnibox (combined address and search bar), causing the browser to interpret them as natural language prompts instead of web addresses.
+* Malformed URLs that bypass validation when pasted into an AI-enabled web browser's omnibox (combined address and search bar), causing the browser to interpret them as natural language prompts instead of web addresses.
 
 When an AI agent processes seemingly harmless content containing hidden instructions, it can execute dangerous actions, such as running commands with *your* permissions or leaking *your* private data.
 
 **Minimise the Risk**
 
-* Stay vigilant, as there is currently no foolproof defense against prompt injection. Be careful what you copy/paste into AI services, and carefully control the permissions you grant to AI agents. Never allow autonomous action on high-risk tasks such as financial transactions.  
-* Implement technical security controls downstream of LLM output rather than relying solely on AI model guardrails. Monitor and validate the actions AI agents plan to take, maintain comprehensive audit trails, and deploy LLM Firewalls or moderation models that filter suspicious or harmful inputs and outputs.
+* Stay vigilant, as there is currently no foolproof defense against prompt injection. Be careful of what content you copy/paste into AI services, and carefully control the permissions you grant to AI agents. Never allow autonomous action on high-risk tasks such as financial transactions.  
+* Implement technical security controls downstream of LLM output rather than relying solely on AI model guardrails. 
+* Monitor and validate the actions AI agents plan to take, maintain comprehensive audit trails, and deploy LLM Firewalls or moderation models that filter suspicious or harmful inputs and outputs.
 
 ## Using MCP Servers
 
-The Model Context Protocol (MCP) is a standardised framework for connecting Large Language Models (LLMs) to other systems and data sources. Often described as the "USB-C for AI applications," it allows AI agents to access information and execute commands on your behalf. MCP has been rapidly adopted since its introduction, but it was designed primarily for functionality, not robust security, creating numerous security blind spots.
+The Model Context Protocol (MCP) is a standardised framework for connecting Large Language Models (LLMs) to other systems and data sources. Often described as the "USB-C for AI applications," it allows AI agents to access information and execute commands on your behalf. MCP has been rapidly adopted since its introduction, but it was designed primarily for functionality, not robust security, creating numerous security blind spots (although the [spec](https://modelcontextprotocol.io/specification/) is evolving).
 
 When an AI agent uses an MCP server, it acts on *your* behalf with all of *your* permissions. If an AI misinterprets a request, it might execute MCP tools that cause unintended consequences. For example, a request to remove old database records could result in deleting all data.
 
@@ -67,7 +68,7 @@ It's incredibly tempting to connect everything together without properly conside
 
 MCP servers are deployed either locally on your laptop or remotely on a server. Both configurations present significant risks:
 
-* Users often download and install MCP servers from public repositories without verification, creating supply chain risks. Compromised servers (like the vulnerable mcp-remote npm package, CVE-2025-6514) execute with user permissions, potentially stealing data or credentials.  
+* Users often download and install MCP servers from public repositories without verification, creating supply chain risks. Compromised servers (like the vulnerable mcp-remote npm package, [CVE-2025-6514](https://nvd.nist.gov/vuln/detail/CVE-2025-6514)) execute with user permissions, potentially stealing data or credentials.  
 * Locally installed MCP servers are frequently misconfigured to bind to 0.0.0.0 (all network interfaces), making them accessible to anyone on the same network, whether at a coffee shop or on office WiFi, who could then access data or execute commands.  
 * MCP servers often handle credentials insecurely, sometimes storing sensitive tokens for connected systems (Gmail, GitHub, enterprise systems) in plaintext configuration files.  
 * Command injection occurs when attacker-controlled input includes system commands without proper sanitisation, enabling malicious commands that delete files or download and execute malware.  
@@ -81,8 +82,9 @@ IT and software engineering teams must implement stringent security practices wh
 * Never bind MCP servers to 0.0.0.0; use localhost (127.0.0.1) for local-only access and apply firewall rules with network segmentation.  
 * Never install unverified MCP servers without thorough review. Run approved servers in isolated environments (Docker containers) following the principle of least privilege.  
 * Sanitise all user input before passing it to system commands to prevent command injection attacks.  
-* Use secure credential management solutions and never store credentials in plaintext.  
-* Ensure servers use robust authentication such as OAuth with PKCE or narrowly scoped, short-lived Personal Access Tokens.
+* Use secure credential management solutions and never store credentials in plaintext.
+* Implement audit trails and rate-limiting on all operations.
+* Ensure servers use robust authentication such as OAuth with PKCE or narrowly scoped, short-lived Personal Access Tokens. Implement the On-Behalf-Of (OBO) OAuth flow to access downstream systems.
 
 ## Agentic Frameworks
 
@@ -94,7 +96,7 @@ The more autonomous the agent, the higher the potential safety risk. This create
 
 * AI agents can easily receive excessive permissions and misinterpret goals, leading to unintended actions. For example, an agent asked to "advise on how to run projects more efficiently" could loop through all projects and update the status of every task to "Complete."
 * Attackers can poison an agent's memory (such as vector databases), causing it to store false information, bypass security checks, or make systematically flawed decisions.  
-* Autonomous agents can execute fully automated security attack campaigns using sophisticated instructions which evade guardrails.
+* Autonomous agents can execute fully automated security attack campaigns using sophisticated instructions which evade LLM guardrails.
 
 **Minimise the Risk**
 
@@ -108,14 +110,14 @@ AI-enabled web browsers and browser extensions are of particular concern. They e
 
 **Key Risks**
 
-* Many browser extensions request excessive permissions ("Read and modify ALL web content on ALL websites") or are outright malware. AI Sidebar Spoofing is when an extension renders a fake AI sidebar that provides malicious advice, such as recommending the execution of dangerous commands.
+* Many browser extensions request excessive permissions ("Read and modify ALL web content on ALL websites") or are outright malware. AI Sidebar Spoofing is when an extension renders a fake AI sidebar that captures your data and provides malicious advice, such as recommending the execution of dangerous commands.
 * AI browsers become high-value targets because they access your credentials and track everything you type, browse, search, and potentially leak access to years of browsing history and payment details.  
-* The AI's ability to act independently can lead to unintended consequences, such as unauthorised purchases or document modifications, particularly when tricked by malicious websites or prompt injection attacks (including omnibox attacks where malformed URLs bypass validation). See the [Prompt Injection](#prompt-injection) section above.
+* The AI's ability to act independently can lead to unintended consequences, such as unauthorised on-line purchases or document modifications, particularly when tricked by malicious websites or prompt injection attacks (including omnibox attacks where malformed URLs bypass validation). See the [Prompt Injection](#prompt-injection) section above.
 
 **Minimise the Risk**
 
 * Use separate web browsers for sensitive activities (banking, healthcare, confidential work) and general AI-assisted browsing. Stay vigilant when AI acts on your behalf.  
-* Research the reputation of the developers and review the requested permissions before installing any AI browser or extension. Be extremely cautious of extensions requesting broad access. Organisations must approve specific AI browsers through clear policies.  
+* Research the reputation of the developers and review the requested permissions before installing any AI browser or extension. Be extremely cautious of extensions requesting broad access. Organisations must govern the usage of AI browsers through clear policies and controls.
 * Wait before granting broad control to these early-stage tools, especially for high-risk activities.
 
 ## Conclusion
@@ -123,14 +125,14 @@ AI-enabled web browsers and browser extensions are of particular concern. They e
 AI is transforming how we work and play. The goal is not to discourage the use of AI, but to harness its benefits while minimising the risks. By reviewing the critical areas of AI security and data privacy, two key themes emerge for building safe AI practices:
 
 * **People and Process:** Strong AI safety requires both awareness and governance. Organisations must provide Responsible AI Awareness training, establish clear usage policies, approve enterprise-grade tools, and foster a security-conscious culture. Since autonomous agents create new attack surfaces and prompt injection remains unsolved, user vigilance and segmentation are critical defenses. AI safety and security must be everyone's responsibility.  
-* **Technology and Controls:** New AI infrastructure creates new risks requiring technical safeguards. Essential controls include robust authentication, authorisation, comprehensive monitoring, sandboxing and DLP tools. These technical measures work alongside human oversight to create defense-in-depth protection.
+* **Technology and Controls:** New AI infrastructure creates new risks requiring additional technical safeguards. Essential controls include robust authentication, authorisation, comprehensive monitoring, sandboxing and DLP tools. These technical measures work alongside human oversight to create defense-in-depth protection.
 
 **Risk Matrix**  
 Here is simple way to think about the risks when using AI:
 
 * **Low Risk:** brainstorming, creative writing (non-sensitive), checking grammar  
 * **Medium Risk:** coding for personal projects, code review, data analysis (with anonymised data), meeting transcription   
-* **High Risk:** AI agents with enterprise system or database access, production code generation, autonomous financial transactions, automated client email responses, AI-driven system configuration & deployment
+* **High Risk:** AI agents with enterprise system or database access, production code generation, system deployment & configuration, autonomous financial transactions, automated client email responses
 
 Finally, it’s important to stay informed as the AI landscape is continuously evolving.
 
