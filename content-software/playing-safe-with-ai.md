@@ -62,7 +62,11 @@ When an AI agent uses an MCP server, it acts on *your* behalf with all of *your*
 
 MCP server responses can also contain malicious instructions (see [Prompt Injection](#prompt-injection) above).
 
-It's incredibly tempting to connect everything together without properly considering the security and data privacy risks, unintentionally giving AI agents excessive agency. It's like handing a bored kid your phone to play a game, next thing you know, they're deleting your photos and messaging your boss\!
+It's incredibly tempting to connect everything together without properly considering the security and data privacy risks, unintentionally giving AI agents excessive agency.
+
+> "it's probably a certainty that probabilistic systems will bite you undeterministically"
+
+It's like handing a bored kid your phone to play a game, next thing you know, they're deleting your photos and messaging your boss\!
 
 **Key Risks**
 
