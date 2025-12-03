@@ -88,4 +88,8 @@ There is also concern for students who are about to enter the job market. Univer
 
 It will likely become more challenging for small/medium companies to onboard new engineers, however we all have to adapt to this new normal. The engineers who develop architectural thinking skills alongside AI fluency will be the ones who thrive in the agentic AI era, whether they've built those skills through experience in fullstack roles or by intentionally broadening from a specialist career path.
 
+## Further Reading
+
+*UPDATE:* A few weeks after publishing this article, I discovered the excellent [Expert Generalists](https://martinfowler.com/articles/expert-generalist.html) article on Martin Fowler's website. While using different terminology, their article offers additional insights and real-world examples that reinforce these ideas; it's definitely worth a read.
+
 <div id="comments" class="comments"></div>
