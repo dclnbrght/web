@@ -128,6 +128,18 @@ figcaption {
 	font-size: 90%;
 }
 
+blockquote {
+    border-left: solid 4px var(--border-color);
+    margin: 1em 0;
+    padding: 0.2em 1em;
+    color: var(--text-color);
+    background-color: var(--card-bg);
+}
+blockquote p {
+    margin: 0.4em 0;
+    font-style: italic;
+}
+
 a:link,
 a:visited { 
     color: var(--link-color);
