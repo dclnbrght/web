@@ -93,11 +93,11 @@ h2 {
 }
 h3 {
     font-size: 1.1em;
-    margin: 0.5em 0 0.2em 0;
+    margin: 1em 0 0.4em 0;
 }
 h4 {
     font-size: 1.0em;
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.7em 0 0.3em 0;
 }
 
 p,
@@ -108,6 +108,19 @@ figcaption {
     color: var(--text-color);
     margin: 0.4em 0 1em 0;
     line-height: 150%;
+}
+
+
+.article-image-header,
+.article-image-section {
+    display: block;
+    max-width: 100%; 
+    margin-bottom: 1em; 
+    padding:0;
+    margin: 0 auto;
+}
+.article-image-section {
+    max-width: 60%; 
 }
 
 figure,

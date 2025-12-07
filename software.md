@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[Career Planning in the AI Era](/software/career-planning-in-the-ai-era/) \
+Building your career development plan to align with the future of work shaped by AI.
+
 [Playing Safe With AI](/software/playing-safe-with-ai/) \
 Practical guidance for using AI safely.
 

@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/career-planning-in-the-ai-era/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/career-planning.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Career Planning in the AI Era</strong>
+            <br />The future of work shaped by AI
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/playing-safe-with-ai/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/ai-safety.webp');background-size:100%;"></div>
@@ -81,6 +92,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="/software/software-engineer-as-ai-pilot/">
         <div class="card-header">
@@ -92,6 +104,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+-->
 <div class="card">
     <a href="software-architecture-attribute-driven-design">
         <div class="card-header">
