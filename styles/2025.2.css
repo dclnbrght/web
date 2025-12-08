@@ -115,9 +115,8 @@ figcaption {
 .article-image-section {
     display: block;
     max-width: 100%; 
-    margin-bottom: 1em; 
-    padding:0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0.6em auto;
 }
 .article-image-section {
     max-width: 60%; 
