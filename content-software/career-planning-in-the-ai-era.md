@@ -80,17 +80,17 @@ AI agents navigate and modify large, complex codebases with minimal guidance. Th
 
 **General Work Impact**
 
-Employees must prioritise fundamental knowledge that ages slowly and applies across business contexts: core principles, patterns, and mental models rather than specific tools or syntaxes. The ability to learn quickly and apply first-principles thinking becomes the differentiating skill. Domain expertise remains valuable, but only when combined with broader design thinking.
+Employees must prioritise fundamental knowledge that ages slowly and applies across business contexts: core principles, patterns, and mental models rather than specific tools or syntaxes. The ability to learn quickly and apply first-principles thinking becomes the differentiating skill. Specialist expertise remains valuable, but only when combined with broader design thinking.
 
 **Software Engineering Reality**
 
-AI agents handle the bulk of implementation and integration work across the stack. The human contribution centres on architectural design, system decomposition, and quality verification. Engineers must ask: Does this solution follow sound architectural patterns? Is it secure? Does it scale? Is it maintainable?
+AI agents handle the bulk of implementation and integration work across the stack. The human contribution centres on agent management, architectural design, system decomposition, and quality verification. Engineers must ask: Does this solution follow sound architectural patterns? Is it secure? Does it scale? Is it maintainable?
 
 The most valuable software engineers are those who understand the broader system architecture and can critically assess the quality of AI generated solutions against fundamental principles and requirements.
 
 **The Identity Shift**
 
-This stage requires software engineers to fundamentally reimagine their professional identity. If you built your career on deep and specialist expertise (in JavaScript, micro-services, database development, or distributed systems optimisation), you must now broaden your understanding of architectural fundamentals across all of these domains rather than being an expert in just one.
+This stage requires software engineers to fundamentally reimagine their professional identity. If you built your career on deep and specialist expertise (in JavaScript / micro-services / database development / distributed systems optimisation), you must now broaden your understanding of architectural fundamentals across all of these domains rather than being an expert in just one.
 
 This isn't just a skills challenge, it's a self-reflective transition that requires humility and a willingness to be a beginner again in adjacent domains.
 
@@ -100,7 +100,7 @@ This stage is highly speculative, both in timeline and form. I include it for co
 
 **What AGI Might Be Capable Of**
 
-Artificial General Intelligence (AGI) represents AI systems that can autonomously handle the vast majority of complex knowledge work across all domains. Unlike earlier stages where humans direct AI agents, it's likely that AGI systems will independently understand the context of problems, devise solutions, implement them, and iteratively adapt based on outcomes, all with minimal human guidance (presuming that [alignment](https://www.anthropic.com/research/alignment-faking) is a solved problem).
+Artificial General Intelligence (AGI) represents AI systems that can autonomously handle the vast majority of complex knowledge work across all domains. Unlike earlier stages where humans direct AI agents, it's likely that AGI systems will independently understand the context of problems, devise solutions, implement them, and iteratively adapt and learn based on outcomes, all with minimal human guidance (presuming that [alignment](https://www.anthropic.com/research/alignment-faking) is a solved problem).
 
 **Possible Human Roles**
 
@@ -116,7 +116,7 @@ If and when this stage arrives, human work will shift dramatically:
 
 Predicting this stage is challenging:
 
-* We don't know if current AI architectures can scale to true AGI, or if fundamental technology breakthroughs are required  
+* We don't know if current AI architectures can scale to true AGI, or if fundamental technology breakthroughs are required i.e. in real-time learning
 * The timeline could be 5 years, 10 years or 50+ years, or AGI might not arrive at all  
 * The transition could be gradual (extending Stage 3 indefinitely) or sudden and massively disruptive  
 * Regulatory, ethical, and societal factors may shape or limit AGI deployment regardless of technical capability
@@ -277,7 +277,7 @@ Understanding how to structure systems for security, performance, scalability, m
 
 **2\. AI Agent Management**
 
-Knowing how to prompt, direct, and review AI outputs effectively. This includes understanding AI's limitations and blind spots, particularly around security. AI agents can inadvertently introduce vulnerabilities like SQL injection, insecure authentication, or exposed API keys if not properly directed. Learn to ask AI: "What security considerations should I be aware of with this approach?" and verify the answers.
+Knowing how to prompt, instruct, direct, and review AI outputs effectively. This includes understanding AI's limitations and blind spots, particularly around security and data privacy. AI agents can inadvertently introduce vulnerabilities like SQL injection, insecure authentication, or exposed API keys if not properly directed. Learn to ask AI: "What security considerations should I be aware of with this approach?" and verify the answers.
 
 **3\. Full-Stack Code Review with Security Rigour**
 
@@ -308,9 +308,9 @@ We're living through the early stages of this transformation right now. The exac
 The traditional career path of building deep expertise in a narrow domain served engineers well for decades. That career path is still valid in some cases, but it's becoming a higher-risk strategy. The engineers who will thrive in the AI era are those who:
 
 * Embrace continuous learning as a core part of their identity  
-* Build breadth while maintaining rigour in their thinking  
+* Build breadth of knowledge while maintaining rigour in their thinking  
 * Stay grounded in fundamental principles while adapting to new domains  
-* Use AI as a collaborative tool that amplifies their architectural judgement, not as a replacement for understanding
+* Use AI as a collaborative tool that amplifies their judgement, not as a replacement for understanding
 
 The future belongs not to those who know the most about one thing, but to those who understand how everything fits together and can orchestrate AI agents to build complete, coherent solutions.
 
