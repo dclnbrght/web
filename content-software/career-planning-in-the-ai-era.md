@@ -165,10 +165,10 @@ Your goal: become AI fluent while building fundamental knowledge, avoiding the t
 
 **1\. Build AI fluency as a learning tool, not a crutch**
 
-* Use AI to explain concepts, not just generate solutions  
-* Practice asking AI to review its generated code and explain its reasoning  
-* Learn to prompt effectively: "Explain why you chose this approach" or "What are the tradeoffs of this solution?"  
+* Use AI to explain and learn new concepts, not just generate solutions
+* Use AI to review its generated code and explain its reasoning: "Explain why you chose this approach" or "What are the tradeoffs of this solution?"  
 * Develop the habit of asking "Why?" before accepting any AI suggestion
+* Use AI to refactor code that looks overly complicated
 
 **2\. Focus on fundamentals over frameworks**
 
@@ -252,6 +252,7 @@ Are you primarily working in one area of the stack? Do you feel uncomfortable re
 * Prioritise candidates who demonstrate learning agility and fundamental understanding over those with deep but narrow expertise  
 * Look for evidence of cross-domain thinking and curiosity
 * Test for judgement in architecture design, not just coding ability
+* Test for prompt engineering skills
 
 **Restructure onboarding**
 
