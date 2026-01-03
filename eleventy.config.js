@@ -5,6 +5,7 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addLayoutAlias("default", "_includes/layouts/default.njk");
     eleventyConfig.addGlobalData('layout', 'layouts/default.njk');
+	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
     eleventyConfig.addPassthroughCopy("ads.txt");
     eleventyConfig.addPassthroughCopy("favicon.ico");
