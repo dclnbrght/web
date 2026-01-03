@@ -62,6 +62,10 @@ title: Declan Bright
     </noscript>
     <article class="reader" role="main">
       {{ content | safe }}
+      {% if tags and tags.includes('article') %}
+      <div style="font-size:80%;text-align:right">Last updated: {{ page.date.toLocaleString(undefined, { year: 'numeric',
+      month: 'short', day: 'numeric' }) }}</div>
+      {% endif %}
 		</article>
     <a id="footer-button-navtop" href="#title" class="footer-button-primary hidden block">Back to Top</a>
     <footer class="footer-bar animate-duration-medium animate-delay-medium animate-fade-in">
