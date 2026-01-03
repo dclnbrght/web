@@ -7,6 +7,16 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/ai-agent-as-learning-coach/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-agent-learning-coach.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>AI Agent as a Software Engineering Learning Coach</strong>
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/software/career-planning-in-the-ai-era/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/career-planning.webp');background-size:100%;"></div>
@@ -126,7 +136,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<!--
 <div class="card">
     <a href="eolvis">
         <div class="card-header">
@@ -138,7 +147,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
--->
 <div class="card">
     <a href="/electronics/guitar-pedal-copper-drive-design-build">
         <div class="card-header">
@@ -159,7 +167,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<!--
 <div class="card">
     <a href="/box/musikding-der-muff-guitar-pedal-kit">
         <div class="card-header">
@@ -170,7 +177,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
---> 
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">

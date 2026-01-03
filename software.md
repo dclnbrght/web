@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[AI Agent as a Software Engineering Learning Coach](/software/ai-agent-as-learning-coach/) \
+Use an AI agent to advance your learning and improve your software engineering skills.
+
 [Career Planning in the AI Era](/software/career-planning-in-the-ai-era/) \
 Building your career development plan to align with the future of work shaped by AI.
 
