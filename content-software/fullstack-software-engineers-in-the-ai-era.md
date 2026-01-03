@@ -4,6 +4,7 @@ description: Architectural thinking is the new competitive advantage.
 keywords: "Fullstack Software Engineer, Agentic Software Development"
 date: 2025-10-25
 permalink: "/software/fullstack-software-engineers-in-the-ai-era/"
+tags: article
 ---
 
 # {{ title }} 

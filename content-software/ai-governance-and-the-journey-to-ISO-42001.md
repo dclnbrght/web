@@ -4,6 +4,7 @@ description: Practical guidance for implementing AI Governance is any company.
 keywords: "AI Governance, AIMS, ISO 42001"
 date: 2025-07-08
 permalink: "/software/ai-governance-and-the-journey-to-ISO-42001/"
+tags: article
 ---
 
 # {{ title }} 

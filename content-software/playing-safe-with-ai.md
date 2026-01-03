@@ -4,6 +4,7 @@ description: Practical guidance for using AI safely
 keywords: "AI Safety, AI Governance, Data Privacy"
 date: 2025-11-22
 permalink: "/software/playing-safe-with-ai/"
+tags: article
 ---
 
 # {{ title }}

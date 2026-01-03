@@ -4,6 +4,7 @@ description: Use an AI agent to advance your learning and improve your software 
 keywords: "learning coach, career development, fullstack software engineer"
 date: 2026-01-03
 permalink: "/software/ai-agent-as-learning-coach/"
+tags: article
 ---
 
 # {{ title }} 

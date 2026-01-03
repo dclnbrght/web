@@ -4,6 +4,7 @@ description: Building your career development plan to align with the future of w
 keywords: "career development, career planning, AI era, fullstack software engineer, expert generalist"
 date: 2025-12-03
 permalink: "/software/career-planning-in-the-ai-era/"
+tags: article
 ---
 
 # {{ title }} 

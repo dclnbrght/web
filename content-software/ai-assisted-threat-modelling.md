@@ -4,6 +4,7 @@ description: Use an AI agent to assist with threat modelling exercises.
 keywords: "AI SDLC, Threat Modelling, STRIDE"
 date: 2025-09-28
 permalink: "/software/ai-assisted-threat-modelling/"
+tags: article
 ---
 
 # {{ title }} 

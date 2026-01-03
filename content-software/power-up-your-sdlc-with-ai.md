@@ -4,6 +4,7 @@ description: Practical guidance for augmenting the full Software Development Lif
 keywords: "SDLC, AI Native SDLC, AI Augmented SDLC, MCP, AI Agents, Coding Agents, AI Governance"
 date: 2025-08-06
 permalink: "/software/power-up-your-sdlc-with-ai/"
+tags: article
 ---
 
 # {{ title }} 

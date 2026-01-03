@@ -1,3 +1,6 @@
+
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
 export default function(eleventyConfig) {
 
     eleventyConfig.addLayoutAlias("default", "_includes/layouts/default.njk");
@@ -14,4 +17,22 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");
     eleventyConfig.addPassthroughCopy("styles/2025.2.css");
+
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom", 			// or "rss", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "article", 	// iterate over `collections.article`, from "tags: article" in front matter
+			limit: 10,     		// 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Declan Bright",
+			subtitle: "",
+			base: "https://declanbright.com/",
+			author: {
+				name: "Declan Bright"
+			}
+		}
+	});
 };

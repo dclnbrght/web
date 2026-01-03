@@ -4,6 +4,7 @@ description: Overcoming resistance to AI adoption requires effective change mana
 keywords: "AI Adoption, Change Management"
 date: 2025-07-02
 permalink: "/software/driving-ai-adoption-from-resistance-to-results/"
+tags: article
 ---
 
 # {{ title }} 
