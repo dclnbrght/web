@@ -9,11 +9,11 @@ tags: article
 
 # {{ title }} 
 
-With AI agents, the default use cases we think about are performing productivity or coding tasks. While incredibly useful, there is another use case that is often overlooked. AI agents are excellent as learning coaches, and we all need to continue learning regardless of what stage of your career you’re at.
+With AI agents, we typically think about productivity gains or coding tasks. While these use cases are incredibly beneficial, there is another use case that is often overlooked. Regardless of what stage you're at in your career, we all need to continue learning, and AI agents are excellent as learning coaches.
 
 <img src="/content-software/images/ai-agent-learning-coach.webp" alt="AI Agent as a Software Engineering Learning Coach" class="article-image-header" />
 
-AI agents can assist with learning any topic, however this article focuses on software engineering and software architecture, to support the [Career Planning in the AI Era](https://declanbright.com/software/career-planning-in-the-ai-era/) article.
+AI agents can assist with learning any topic, however this article focuses on software engineering and software architecture. It also aligns nicely with the [Career Planning in the AI Era](https://declanbright.com/software/career-planning-in-the-ai-era/) article.
 
 As the role of the software engineer evolves, from writing every line of code, to designing systems, orchestrating and reviewing the output of AI agents, we all need to [broaden our knowledge across the stack](https://declanbright.com/software/fullstack-software-engineers-in-the-ai-era/).
 
@@ -21,21 +21,21 @@ As the role of the software engineer evolves, from writing every line of code, t
 
 <div id="toc" class="table-of-contents"></div>
 
-## The Unique Advantage of an AI Learning Coach
+## The Unique Advantages of an AI Learning Coach
 
 AI agents offer several unique advantages as learning partners that make them particularly effective for on-going software engineering education.
 
 **Always Available**
 
-Unlike human mentors or colleagues, AI agents are available 24/7. You can learn anytime that inspiration strikes, late in the evening or at the weekend when you have dedicated learning time. There's no need to wait for office hours or schedule meetings.
+Unlike human mentors or colleagues, AI agents are available 24/7, via web or mobile apps. You can learn anytime that inspiration strikes; on your daily commute, late in the evening or at the weekend when you have dedicated learning time. There's no need to wait for office hours or scheduled meetings with colleagues.
 
 **No Judgement Zone**
 
-One of the most powerful aspects of learning with AI agents is the psychological safety they provide. You can ask basic questions without fear of looking inexperienced or uninformed. Questions like "What does REST actually mean?" or "Why do we use interfaces?" can feel risky to ask a senior colleague, but AI agents respond with the same patience whether you're asking about fundamentals or advanced concepts. This removes a significant barrier to learning, especially for developers earlier in their careers or those transitioning between technology stacks.
+One of the most powerful aspects of learning with AI agents is the psychological safety they provide. You can ask basic questions without fear of looking inexperienced or uninformed. Questions like "What does REST actually mean?" or "Why do we use interfaces?" can feel risky to ask a senior colleague, but AI agents respond with the same patience whether you're asking about fundamentals or advanced concepts. This removes a significant barrier to learning, especially for software engineers earlier in their careers or those transitioning between technology stacks.
 
 **Infinite Patience**
 
-AI agents never get frustrated when you ask for clarification, request alternative explanations, or need to revisit a concept multiple times. They can explain the same idea in five different ways until it sinks in.
+AI agents never get frustrated when you ask for clarification, request alternative explanations, or need to revisit a concept multiple times. They can explain the same idea multiple different ways until it sinks in.
 
 **Personalised Pace**
 
@@ -68,22 +68,23 @@ Example prompts:
 
 ### Learn Through Critique
 
-One powerful technique is to present your understanding and ask the AI to critique it or identify gaps.
+Another powerful technique is to present your understanding and ask the AI to critique it or identify gaps.
 
 Example prompts:
 
 * "I think dependency injection is mainly about making testing easier. Is that accurate, or am I missing something?"  
-* "Here's my understanding of how JWT authentication works: \[your explanation\]. What am I getting wrong or oversimplifying?"  
+* "Here's my understanding of how JWT authentication works: \{ your explanation \}. What am I getting wrong or oversimplifying?"  
 * "I wrote this implementation of the Observer pattern. Is this correct? What could be improved?"
 
 ### Learn by Example
 
-Seeing an example is a powerful way to learn complex concepts. For example, ask the AI agent to build a simple proof of concept example app.
+Seeing an example in action is a powerful way to learn complex concepts. For example, ask the AI agent to build a simple proof of concept example app.
 
 Example prompts:
 
-* “Create the project structure for a simple react.js app, with tests”  
-* “Build a simple app using HTML, CSS & JavaScript to demonstrate how a neural network works”
+* "Create the project structure for a simple react.js app, with tests"  
+* "Build a minimal app with an OAuth 2.0 authorisation code flow"
+* "Build a simple app using HTML, CSS & JavaScript to demonstrate how a neural network works"
 
 ### Progressive Learning
 
@@ -99,7 +100,7 @@ Example prompts:
 
 ### Architecture Patterns and Concepts
 
-AI agents can explain architectural patterns with context about when and why to use them, not just how they work.
+AI agents can explain architectural patterns with context about when and why to use them, not just how they work. When working on real projects, providing the agent with product or technical requirements documents gives additional context for more tailored recommendations.
 
 Example prompts:
 
@@ -135,7 +136,7 @@ AI agents are particularly valuable when joining a new project or working with u
 
 Example prompts:
 
-* "Analyse this repository structure and explain the architectural decisions I'm seeing"  
+* "Analyse this repository structure and explain the architectural decisions that were implemented"  
 * "This codebase uses a 'Clean' architecture. Explain how the different layers work together and why someone would choose this approach"  
 * "I see several design patterns in this code: Factory, Strategy, and Decorator. Explain where each is used and why"  
 * "Help me understand this legacy authentication system. What are the security implications of this approach?"
@@ -216,7 +217,7 @@ Regularly ask the AI to quiz you or present scenarios that require applying what
 
 **Combine with Traditional Learning**
 
-Use AI agents to complement books, courses, documentation, and hands-on practice. They're one tool in your learning toolkit, not the only one.
+Use AI agents to complement books, courses, documentation, and hands-on practice. They're one tool in your learning toolkit, not the only one. Continue to discuss technical topics and design decisions with your colleagues, AI is not a replacement for human collaboration.
 
 **Be Specific About Your Context**
 
