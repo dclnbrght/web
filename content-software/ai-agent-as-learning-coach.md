@@ -1,7 +1,7 @@
 ---
 title: AI Agent as a Software Engineering Learning Coach
 description: Use an AI agent to advance your learning and improve your software engineering skills.
-keywords: "learning coach, career development, fullstack software engineer"
+keywords: "learning coach, continuous learning, career development, fullstack software engineer"
 date: 2026-01-03
 permalink: "/software/ai-agent-as-learning-coach/"
 tags: article
@@ -232,5 +232,9 @@ The key is treating AI agents as learning partners in an ongoing conversation, n
 As software engineering continues to evolve and the breadth of knowledge required expands, having an always-available learning coach becomes not just convenient but essential. The engineers who thrive will be those who leverage AI agents to continuously expand their understanding across the stack, from  high-level architectural decisions to low-level implementation details.
 
 Start with a question you've been hesitant to ask. Your AI learning coach is waiting.
+
+**What's Next?**
+
+Read the [Career Planning in the AI Era](/software/career-planning-in-the-ai-era/) article for practical guidance on how to plan your software development career in the AI era.
 
 <div id="comments" class="comments"></div>

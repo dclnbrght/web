@@ -1,7 +1,7 @@
 ---
 title: Career Planning in the AI Era 
 description: Building your career development plan to align with the future of work shaped by AI.
-keywords: "career development, career planning, AI era, fullstack software engineer, expert generalist"
+keywords: "career development, career planning, AI era, AI age, future-proof career, fullstack software engineer, expert generalist"
 date: 2025-12-03
 permalink: "/software/career-planning-in-the-ai-era/"
 tags: article
@@ -315,5 +315,9 @@ The traditional career path of building deep expertise in a narrow domain served
 * Use AI as a collaborative tool that amplifies their judgement, not as a replacement for understanding
 
 The future belongs not to those who know the most about one thing, but to those who understand how everything fits together and can orchestrate AI agents to build complete, coherent solutions.
+
+**What's Next?**
+
+Read the [AI Agent as a Software Engineering Learning Coach](/software/ai-agent-as-learning-coach/) article for practical guidance on how to accelerate your learning.
 
 <div id="comments" class="comments"></div>
