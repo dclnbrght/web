@@ -10,6 +10,6 @@ permalink: "/software/presentations/"
 
 ## AI Augmented Software Engineer Career Talks
 
-- [1. The Hype, the Jaggedness & the Future](/content-software/downloads/TheHypeTheJaggednessAndTheFuture.pdf)
+- [1. The Hype, the Jaggedness & the Future](/content-software/downloads/1.TheHypeTheJaggednessAndTheFuture.pdf)
 - [2. From Soloist To Conductor](/content-software/downloads/2.FromSoloistToConductor.pdf)
 - [3. Learn Easier, Learn Smarter](/content-software/downloads/3.LearnEasierLearnSmarter.pdf)
