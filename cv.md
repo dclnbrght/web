@@ -7,13 +7,13 @@ date: 2026-02-20
 
 # Curriculum Vitae
 
-I am a Chief Technology Officer living and working in Dublin, Ireland with over <span id="years-experience">27</span> years experience in the delivery of enterprise software systems for the healthcare, aviation, financial services and telecommunications sectors.
+I am a Chief Technology and AI Officer living and working in Dublin, Ireland with over <span id="years-experience">27</span> years experience in the delivery of enterprise software systems for the healthcare, aviation, financial services and telecommunications sectors.
 
 ## Primary Responsibilities
 
 - **Technology Strategy & Roadmap:** Leading the development and implementation of the technology strategy and roadmap, collaborating across the business to deliver innovative products to our customers.
 
-- **AI Officer:** Leading AI initiatives, implementation of the AI-SDLC and business owner of the Artificial Intelligence Management System (AIMS), maintaining ISO&nbsp;42001 certification.
+- **AI Officer:** Leading AI initiatives, implementation of the AI-SDLC, business owner of the Artificial Intelligence Management System (AIMS), maintaining ISO&nbsp;42001 certification.
 
 - **Team Leadership:** Line management of Software Architecture & Engineering, IT Operations & Information Security teams, driving the AI transformation career planning program.
 
