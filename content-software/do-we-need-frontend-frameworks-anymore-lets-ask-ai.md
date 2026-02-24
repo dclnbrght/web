@@ -43,7 +43,7 @@ AI coding agents are becoming more capable, and we're all curious about where so
 
 This is an important topic for people who have invested a lot of time and mental energy into learning their chosen frontend framework and it relates to talks I have presented to my team on [Career Planning in the AI Era ](/software/career-planning-in-the-ai-era).
 
-What if we asked AI for it's opinion? It will be doing most of the coding after all!
+What if we asked AI for its opinion? It will be writing most of the code after all!
 
 Below is a prompt that I asked Claude Opus 4.6 to think about, followed by its response. It has started some interesting conversations amongst our teams.
 
