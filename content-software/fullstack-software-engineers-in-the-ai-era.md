@@ -15,7 +15,7 @@ Fullstack software engineers have a distinct advantage over specialist software 
 
 ## Let’s start by taking a step back in time
 
-Before taking on software architecture and management roles, I worked as a software engineer for many years, across several industries, in companies of various sizes. My job title was always *“Software Engineer”*, with various prefixes to indicate my level of experience, from junior to principal. However, my  job title never included words such as frontend, mobile, backend, QA, devops, infrastructure, site reliability etc, I was just a software engineer that developed and delivered software for customers. 
+Before taking on software architecture and management roles, I worked as a software engineer for many years, across several industries, in companies of various sizes. My job title was always *“Software Engineer”*, with various prefixes to indicate my level of experience, from junior to principal. However, my job title never included words such as frontend, mobile, backend, QA, devops, infrastructure, site reliability etc, I was just a software engineer that developed and delivered software for customers. 
 
 Working at smaller companies was especially fun as there were opportunities to wear many different hats. I was effectively working as a *“one person”* team, although I didn’t think about it this way at the time, performing many roles was just part of the job.
 

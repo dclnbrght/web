@@ -1,7 +1,7 @@
 ---
 title: Do we need frontend frameworks anymore? Let's ask AI
 description: Exploring the future of web development, by asking AI for its opinion!
-keywords: "ai coding career development, fullstack software engineer"
+keywords: "ai coding, software engineer career development, frontend software engineer"
 date: 2026-02-24
 permalink: "/software/do-we-need-frontend-frameworks-anymore-lets-ask-ai/"
 tags: article
