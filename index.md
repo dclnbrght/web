@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/tension-between-ai-adoption-and-grc.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>The AI Adoption Gap:<br>Why Regulated Companies Can't Move As Fast As The Hype</strong>
+        </div>
+    </a>
+</div>
+
+<div class="card">
     <a href="/software/ai-agent-as-learning-coach/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/ai-agent-learning-coach.webp');background-size:100%;"></div>
@@ -80,6 +91,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="/software/driving-ai-adoption-from-resistance-to-results/">
         <div class="card-header">
@@ -91,6 +103,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+-->
 <div class="card">
     <a href="/software/ai-governance-and-the-journey-to-ISO-42001/">
         <div class="card-header">

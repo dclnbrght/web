@@ -6,6 +6,12 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/) \
+Practical guidance for regulated organisations that want to move faster with AI without compromising their compliance posture.
+
+[Do we need frontend frameworks anymore? Let's ask AI](/software/do-we-need-frontend-frameworks-anymore-lets-ask-ai/) \
+Exploring the future of web development, by asking AI for its opinion!
+
 [AI Agent as a Software Engineering Learning Coach](/software/ai-agent-as-learning-coach/) \
 Use an AI agent to advance your learning and improve your software engineering skills.
 
