@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[The Mindset for Navigating AI Transformation](/software/the-mindset-for-navigating-ai-transformation/) \
+Explore how high agency and a proactive mindset can help you navigate AI transformation and maintain relevance through periods of technological change.
+
 [The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/) \
 Practical guidance for regulated organisations that want to move faster with AI without compromising their compliance posture.
 

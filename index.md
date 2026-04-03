@@ -7,12 +7,23 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/the-mindset-for-navigating-ai-transformation/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/mindset-for-navigating-ai-transformation.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>The High Agency Mindset for Navigating AI Transformation</strong>
+        </div>
+    </a>
+</div>
+
+<div class="card">
     <a href="/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/tension-between-ai-adoption-and-grc.webp');background-size:100%;"></div>
         </div>
         <div class="card-body">
-            <strong>The AI Adoption Gap:<br>Why Regulated Companies Can't Move As Fast As The Hype</strong>
+            <strong>Why Regulated Companies Can't Move As Fast As The Hype</strong>
         </div>
     </a>
 </div>
@@ -91,7 +102,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<!--
 <div class="card">
     <a href="/software/driving-ai-adoption-from-resistance-to-results/">
         <div class="card-header">
@@ -102,8 +112,7 @@ layout: layouts/home.njk
             <br />From Resistance to Results
         </div>
     </a>
-</div>
--->
+</div>  
 <div class="card">
     <a href="/software/ai-governance-and-the-journey-to-ISO-42001/">
         <div class="card-header">
@@ -170,6 +179,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
         <div class="card-header">
@@ -190,6 +200,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+-->
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
