@@ -9,7 +9,7 @@ tags: article
 
 # The Mindset for Navigating AI Transformation 
 
-AI isn't just changing the tools we use at work; it's questioning our sense of self-worth. For many people, that's the real source of anxiety. Not necessarily the technology itself, but the uncomfortable question underneath it: *where do I fit in this new world?*
+Artificial Intelligence isn't just changing the tools we use at work; it's questioning our sense of self-worth. For many people, that's the real source of anxiety. Not necessarily the technology itself, but the uncomfortable question underneath it: *where do I fit in this new world?*
 
 <img src="/content-software/images/mindset-for-navigating-ai-transformation.webp" alt="The Mindset for Navigating AI Transformation" class="article-image-header" />
 
@@ -81,9 +81,11 @@ How effectively do you turn ideas into outcomes with others?
 4. **Persuasive:** builds support and drives progress
 5. **Catalytic:** mobilises people and creates momentum
 
+*(Download as a one page pdf here: [High-Agency-Self-Assessment-v1.0.pdf](/content-software/downloads/High-Agency-Self-Assessment-v1.0.pdf))*
+
 ## Adjusting Your Level of Agency
 
-If most of your answers are a 4 or a 5, most of the time, you are likely a high agency person.
+If your answers are a 4 or a 5, most of the time, you are likely a high-agency person.
 
 We can’t be high agency all of the time, we all have off days, when we’re tired, stressed or struggling with personal or family issues.
 
