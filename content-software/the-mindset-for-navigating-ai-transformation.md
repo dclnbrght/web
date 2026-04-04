@@ -21,11 +21,11 @@ The pace of change and the uncertainty of AI's increasing capabilities leave us 
 
 ## Riding the Tech Industry Hype Cycles
 
-The tech industry has been through many transformations before: web, cloud, mobile, microservices, etc. Each wave followed a similar pattern: resistance at first, rapid adoption, and eventually new roles for the people who embraced it by learning new concepts and adjusting their ways of working.  
+The tech industry has been through many transformations before: web, cloud, mobile, microservices, etc. Each wave followed a similar pattern: resistance at first, rapid adoption, and eventually new roles for the people who embraced it by learning new concepts and adjusting their ways of working.
 
-While the AI transformation is different, there are things we can learn from previous hype cycles. If most of your work is done on a computer, then your job is certainly changing whether you like it or not. 
+While the AI transformation is different (it's happening much faster), there are things we can learn from previous hype cycles. If most of your work is done on a computer, then your job is certainly changing whether you like it or not. 
 
-Your company or your boss aren’t imposing AI on you or your work by choice, this is how technology and the industry is evolving. These forces of transformation are bigger than any of us can control.
+Your company or your boss aren’t imposing AI on you or your work by choice, this is how technology and the industry are evolving. These forces of transformation are bigger than any of us can control.
 
 This doesn't mean we’re helpless. Acceptance of change, becoming AI literate and overcoming the urge to resist, are the first critical steps. The people that sail through periods of change have a distinct mindset compared to those who struggle to adapt. 
 
@@ -81,7 +81,7 @@ How effectively do you turn ideas into outcomes with others?
 4. **Persuasive:** builds support and drives progress
 5. **Catalytic:** mobilises people and creates momentum
 
-*(Download as a one page pdf here: [High-Agency-Self-Assessment-v1.0.pdf](/content-software/downloads/High-Agency-Self-Assessment-v1.0.pdf))*
+> *Download as a one page pdf from here: [High-Agency-Self-Assessment-v1.0.pdf](/content-software/downloads/High-Agency-Self-Assessment-v1.0.pdf)*
 
 ## Adjusting Your Level of Agency
 
@@ -98,8 +98,8 @@ So why does this matter in the context of AI? Knowing what high agency behaviour
 As AI becomes more capable, you:
 
 * continuously experiment and learn to use the tools as they evolve  
-* treat AI as an assistant, drafting and exploring options, focusing your effort on judgment and decision-making 
-* break complex problems and processes into steps that AI can execute
+* treat AI as an assistant, drafting and exploring options, while focusing your effort on judgment and decision-making 
+* break down complex problems and processes into steps that AI can assist with
 * critically evaluate outputs rather than blindly trust them 
 * take ownership of outcomes, even when AI is involved
 
@@ -115,7 +115,9 @@ This topic of high agency can be introduced to a team or the whole company by se
 
 When things aren’t going well, we naturally tend to reflect outwards, at how others are behaving. With self-reflection, we also look inwards, and ask, *“how could I have behaved differently in this scenario?”*
 
-It can then be incorporated into 1:1 meetings. If you have a software development team that follows agile practices, ask the team to reflect on the questions above before a sprint retrospective meeting.
+It can then be incorporated into 1:1 meetings. If you have a software development team that follows agile practices, ask the team to reflect on the questions above before the next sprint retrospective meeting, to identify one specific 'High Agency' action to try in the following sprint.
+
+High agency requires a psychological safe environment. If people are punished for making a mistake while trying something new, they will quickly revert to passive behaviours. Focus on creating a culture where people can learn from mistakes and move on.
 
 I would strongly advise against adding scoring to the assessment questions above, this is a sensitive and complex topic for people, it requires human-to-human discussion, not being reduced down to a number.
 
@@ -125,7 +127,7 @@ Times of change can be stressful, but pretending it’s not happening or being f
 
 The people who navigate this transition best will be the ones who take ownership, adapt early, and act decisively. That’s what high agency really means.
 
-Becoming a high agency person is a personal choice that is within your control, now that you know about it, *what will you do differently tomorrow?*
+Becoming a high agency person is a personal choice that is within your control, now that you know about it, **what will you do differently tomorrow?**
 
 **Further Reading**
 
