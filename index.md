@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/software/workplace-readiness-needs-to-shift-left/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/workplace-readiness-shift-left.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Workplace Readiness<br>Needs to Shift-Left</strong>
+        </div>
+    </a>
+</div>
+
+<div class="card">
     <a href="/software/the-mindset-for-navigating-ai-transformation/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/mindset-for-navigating-ai-transformation.webp');background-size:100%;"></div>
@@ -179,7 +190,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<!--
 <div class="card">
     <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
         <div class="card-header">
@@ -200,7 +210,6 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
--->
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
