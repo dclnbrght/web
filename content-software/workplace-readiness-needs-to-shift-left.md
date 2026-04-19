@@ -3,7 +3,14 @@ title: Workplace Readiness Needs to Shift-Left
 description: Critical thinking, ethical reasoning, and clear communication should be taught before they're needed, not after.
 keywords: workplace readiness, critical thinking, ethical reasoning, clear communication, shift-left, education, skills
 date: 2026-04-18
-permalink: /software/workplace-readiness-needs-to-shift-left/
+pagination:
+  data: paths
+  size: 1
+  alias: path
+paths:
+  - software
+  - ai
+permalink: /{{ path }}/workplace-readiness-needs-to-shift-left/
 tags: article
 ---
 

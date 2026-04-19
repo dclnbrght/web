@@ -7,7 +7,7 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
-    <a href="/software/workplace-readiness-needs-to-shift-left/">
+    <a href="/ai/workplace-readiness-needs-to-shift-left/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/workplace-readiness-shift-left.webp');background-size:100%;"></div>
         </div>
@@ -18,7 +18,7 @@ layout: layouts/home.njk
 </div>
 
 <div class="card">
-    <a href="/software/the-mindset-for-navigating-ai-transformation/">
+    <a href="/ai/the-mindset-for-navigating-ai-transformation/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/mindset-for-navigating-ai-transformation.webp');background-size:100%;"></div>
         </div>

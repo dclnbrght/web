@@ -6,10 +6,10 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
-[Workplace Readiness Needs to Shift-Left](/software/workplace-readiness-needs-to-shift-left/) \
+[Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/) \
 Critical thinking, ethical reasoning, and clear communication should be taught before they're needed, not after.
 
-[The Mindset for Navigating AI Transformation](/software/the-mindset-for-navigating-ai-transformation/) \
+[The Mindset for Navigating AI Transformation](/ai/the-mindset-for-navigating-ai-transformation/) \
 Explore how high agency and a proactive mindset can help you navigate AI transformation and maintain relevance through periods of technological change.
 
 [The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/) \

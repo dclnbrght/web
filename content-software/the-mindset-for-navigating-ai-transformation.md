@@ -3,7 +3,14 @@ title: The Mindset for Navigating AI Transformation
 description: Explore how high agency and a proactive mindset can help you navigate AI transformation and maintain relevance through periods of technological change.
 keywords: "AI transformation, high agency, change management, mindset, career resilience, AI adoption"
 date: 2026-04-03
-permalink: "/software/the-mindset-for-navigating-ai-transformation/"
+pagination:
+  data: paths
+  size: 1
+  alias: path
+paths:
+  - software
+  - ai
+permalink: "/{{ path }}/the-mindset-for-navigating-ai-transformation/"
 tags: article
 ---
 
