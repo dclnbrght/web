@@ -14,6 +14,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content-box/images");
     eleventyConfig.addPassthroughCopy("content-electronics/images");
     eleventyConfig.addPassthroughCopy("content-electronics/circuit-simulation");
+    eleventyConfig.addPassthroughCopy("content-media/images");
     eleventyConfig.addPassthroughCopy("content-software/images");
     eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");

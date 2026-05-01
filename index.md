@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/ai/strategic-ai-network/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-media/images/sain-logo-org.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>Strategic AI Network</strong>
+            <br>Executive Committee Membership
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/ai/workplace-readiness-needs-to-shift-left/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-software/images/workplace-readiness-shift-left.webp');background-size:100%;"></div>
@@ -200,6 +211,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+<!--
 <div class="card">
     <a href="/box/musikding-der-muff-guitar-pedal-kit">
         <div class="card-header">
@@ -210,6 +222,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
+-->
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">
