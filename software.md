@@ -7,7 +7,7 @@ keywords: "Software Architecture,Software Engineering,IASA"
 ## Artificial Intelligence
 
 [Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/) \
-Critical thinking, ethical reasoning, and clear communication should be taught before they're needed, not after.
+Critical thinking, ethical reasoning, and clear communication should be taught before entering the workplace, not after.
 
 [The Mindset for Navigating AI Transformation](/ai/the-mindset-for-navigating-ai-transformation/) \
 Explore how high agency and a proactive mindset can help you navigate AI transformation and maintain relevance through periods of technological change.

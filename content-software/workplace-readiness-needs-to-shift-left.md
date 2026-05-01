@@ -1,6 +1,6 @@
 ---
 title: Workplace Readiness Needs to Shift-Left
-description: Critical thinking, ethical reasoning, and clear communication should be taught before they're needed, not after.
+description: Critical thinking, ethical reasoning, and clear communication should be taught before entering the workplace, not after.
 keywords: workplace readiness, critical thinking, ethical reasoning, clear communication, shift-left, education, skills
 date: 2026-04-18
 pagination:
@@ -173,7 +173,7 @@ The tools, the methods, and the evidence all exist. What is needed now is the wi
 **What's Next?**
 
 Explore related perspectives on preparing for AI transformation and building professional capability:
-- [The Mindset for Navigating AI Transformation](https://declanbright.com/software/the-mindset-for-navigating-ai-transformation/)
+- [The Mindset for Navigating AI Transformation](https://declanbright.com/ai/the-mindset-for-navigating-ai-transformation/)
 - [AI Agent as Learning Coach](https://declanbright.com/software/ai-agent-as-learning-coach/)
 
 <div id="comments" class="comments"></div>
