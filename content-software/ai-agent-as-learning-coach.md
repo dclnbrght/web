@@ -3,13 +3,14 @@ title: AI Agent as a Software Engineering Learning Coach
 description: Use an AI agent to advance your learning and improve your software engineering skills.
 keywords: "learning coach, continuous learning, career development, fullstack software engineer"
 date: 2026-01-03
+updated: 2026-06-17
 permalink: "/software/ai-agent-as-learning-coach/"
 tags: article
 ---
 
 # {{ title }} 
 
-With AI agents, we typically think about productivity gains or coding tasks. While these use cases are incredibly beneficial, there is another use case that is often overlooked. Regardless of what stage you're at in your career, we all need to continue learning, and AI agents are excellent as learning coaches.
+With AI agents, we typically think about productivity gains or coding tasks. While these use cases are incredibly beneficial, there is another use case that is often overlooked. Regardless of what stage you're at in your career, we all need to continue learning, and AI agents are excellent as personal tutors.
 
 <img src="/content-software/images/ai-agent-learning-coach.webp" alt="AI Agent as a Software Engineering Learning Coach" class="article-image-header" />
 
@@ -17,7 +18,7 @@ AI agents can assist with learning any topic, however this article focuses on so
 
 As the role of the software engineer evolves, from writing every line of code, to designing systems, orchestrating and reviewing the output of AI agents, we all need to [broaden our knowledge across the stack](https://declanbright.com/software/fullstack-software-engineers-in-the-ai-era/).
 
-> It's vital that we don't over-rely on AI coding agents: **outsource the doing, but not the thinking**. It's important to understand the code that's generated and the overall system architecture.
+> It's vital that we don't over-rely on AI coding agents: **outsource the doing, but not the critical thinking**. It's important to understand the code that's generated and the overall system architecture.
 
 <div id="toc" class="table-of-contents"></div>
 
@@ -40,6 +41,8 @@ AI agents never get frustrated when you ask for clarification, request alternati
 **Personalised Pace**
 
 You control the depth and speed of learning. Start with high-level concepts and drill down as deep as you need, or jump quickly through familiar territory to get to what you don't know.
+
+> Bloom's research found that the average tutored student outperforms 98% of students in conventional classroom environments. — Benjamin S. Bloom, "The 2 Sigma Problem," *Educational Researcher*, 1984. [PDF](https://web.mit.edu/5.95/readings/bloom-two-sigma.pdf)
 
 ## Effective Learning Strategies with AI Agents
 
@@ -96,7 +99,7 @@ Example prompts:
 * "Help me reason through whether I should use a message queue here by asking me questions about my requirements"  
 * "I'm trying to decide between a relational database or a document database for this use case. Ask me questions that will help me make the right choice"
 
-## Topics Where AI Agents Are Excellent Teachers
+## Topics Where AI Agents Are Excellent Tutors
 
 ### Architecture Patterns and Concepts
 
