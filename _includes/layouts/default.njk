@@ -63,7 +63,8 @@ title: Declan Bright
     <article class="reader" role="main">
       {{ content | safe }}
       {% if tags and tags.includes('article') %}
-      <div style="font-size:80%;text-align:right">Last updated: {{ page.date.toLocaleString(undefined, { year: 'numeric',
+      {% set lastUpdated = updated or page.date %}
+      <div style="font-size:80%;text-align:right">Last updated: {{ lastUpdated.toLocaleString('en-GB', { year: 'numeric',
       month: 'short', day: 'numeric' }) }}</div>
       {% endif %}
 		</article>
