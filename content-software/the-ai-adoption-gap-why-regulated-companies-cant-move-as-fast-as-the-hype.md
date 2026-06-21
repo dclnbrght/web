@@ -3,7 +3,14 @@ title: "The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The H
 description: Practical guidance for regulated organisations that want to move faster with AI without compromising their compliance posture.
 keywords: "AI adoption,AI transformation,regulated companies,GRC,ISO 42001,EU AI Act"
 date: 2026-03-07
-permalink: "/software/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/"
+pagination:
+  data: paths
+  size: 1
+  alias: path
+paths:
+  - software
+  - ai
+permalink: /{{ path }}/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/
 tags: article
 ---
 
