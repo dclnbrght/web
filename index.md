@@ -7,6 +7,17 @@ layout: layouts/home.njk
 ---
 
 <div class="card">
+    <a href="/ai/ai-utopia-well-maybe/">
+        <div class="card-header">
+            <div class="card-header-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');background-size:100%;"></div>
+        </div>
+        <div class="card-body">
+            <strong>AI Utopia, Well Maybe?</strong>
+            <br>Will it live up to the promise?
+        </div>
+    </a>
+</div>
+<div class="card">
     <a href="/media/saros-insights-podcast/">
         <div class="card-header">
             <div class="card-header-image" style="background-image:url('/content-media/images/saros-insights-podcast.webp');background-size:100%;"></div>
@@ -212,7 +223,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
-<!--
+
 <div class="card">
     <a href="/box/musikding-runoffgroove-supreaux-deux-guitar-pedal-kit">
         <div class="card-header">
@@ -233,7 +244,7 @@ layout: layouts/home.njk
         </div>
     </a>
 </div>
--->
+
 <div class="card">
     <a href="/box/musikding-germanium-fuzz-guitar-pedal-kit">
         <div class="card-header">

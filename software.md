@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[AI Utopia, Well Maybe?](/ai/ai-utopia-well-maybe/) \
+Will AI deliver on its promise of more free time and shared prosperity? Will we overcome the governance, distribution, and workplace challenges?
+
 [Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/) \
 Critical thinking, ethical reasoning, and clear communication should be taught before entering the workplace, not after.
 
