@@ -126,7 +126,7 @@ function setupBackToTopButton() {
 	var docH = document.height || document.body.offsetHeight;	
 	var winH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 	var b = document.getElementById("footer-button-navtop");
-	if (docH > winH * 2.5) {
+	if (docH > winH * 4) {
 		removeClass(b, 'hidden');
 	}
 }
