@@ -6,18 +6,85 @@ author: Declan Bright
 layout: layouts/home.njk
 ---
 
+<style>
+    /* Featured latest article */
+    .home-featured {
+        margin-bottom: 0.6em;
+    }
+    .home-featured a {
+        display: block;
+        padding: 0.8em;
+        border: solid 1px var(--border-color);
+        background-color: var(--card-bg);
+        border-radius: 0.3em;
+        text-decoration: none;
+        box-shadow: 0 0.5em 1em -0.5em rgba(100,100,100,0.3);
+        transition: border-color 0.3s ease;
+    }
+    .home-featured a:hover { border-color: var(--text-color); }
+    .home-featured-image {
+        width: 100%;
+        height: 16em;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0.2em;
+        margin-bottom: 1em;
+    }
+    .home-featured-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        color: var(--heading-color);
+        line-height: 1.35;
+        margin: 0 0 0.5em 0;
+    }
+    .home-featured-desc {
+        color: var(--text-color);
+        opacity: 0.75;
+        line-height: 1.6;
+        margin: 0 0 0.8em 0;
+    }
+    .home-featured-read {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: var(--heading-color);
+    }
+    [data-theme="dark"] .home-featured-read { color: var(--heading-color) }
+    .home-section-label {
+        font-size: 0.78em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--text-color);
+        opacity: 0.45;
+        margin: 2em 0 0.9em 0;
+        padding-bottom: 0.5em;
+        border-bottom: solid 1px var(--border-color);
+    }
+    [data-theme="dark"] .home-section-label { color: var(--heading-color); }
+    @media screen and (min-width: 600px) { 
+        .home-featured-image {
+            height: 30em;
+        }
+        .home-featured a {
+            padding: 1.4em;
+        }
+    }
+</style>
+
+<!-- Featured latest article -->
+<div class="home-featured animate-duration-medium animate-fade-in">
+    <p class="home-section-label">Featured Article</p>
+    <a href="/ai/ai-utopia-well-maybe/">
+        <div class="home-featured-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');"></div>
+        <p class="home-featured-title">AI Utopia, Well Maybe?</p>
+        <p class="home-featured-desc">The dream of a shorter work week, more free time and shared prosperity is not naive, but the distance between here and there is real. A look at the governance gaps, distribution problems, and the generation at risk of being stalled before they start.</p>
+        <span class="home-featured-read">Read article →</span>
+    </a>
+</div>
+
+<p class="home-section-label">Recent Articles</p>
+
 <div class="card-container">
-    <div class="card">
-        <a href="/ai/ai-utopia-well-maybe/">
-            <div class="card-header">
-                <div class="card-header-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');background-size:100%;"></div>
-            </div>
-            <div class="card-body">
-                <strong>AI Utopia, Well Maybe?</strong>
-                <br>Will it live up to the promise?
-            </div>
-        </a>
-    </div>
     <div class="card">
         <a href="/media/saros-insights-podcast/">
             <div class="card-header">
@@ -124,16 +191,6 @@ layout: layouts/home.njk
         </a>
     </div>
     <div class="card">
-        <a href="/software/power-up-your-sdlc-with-ai/">
-            <div class="card-header">
-                <div class="card-header-image" style="background-image:url('/content-software/images/ai-sdlc.webp');background-size:100%;"></div>
-            </div>
-            <div class="card-body">
-                <strong>Power Up Your Software Development Lifecycle with AI</strong>
-            </div>
-        </a>
-    </div>
-    <div class="card">
         <a href="/software/driving-ai-adoption-from-resistance-to-results/">
             <div class="card-header">
                 <div class="card-header-image" style="background-image:url('/content-software/images/driving-ai-adoption.webp');background-size:100%;"></div>
@@ -155,18 +212,8 @@ layout: layouts/home.njk
             </div>
         </a>
     </div>
-    <div class="card">
-        <a href="software-architecture-attribute-driven-design">
-            <div class="card-header">
-                <div class="card-header-image" style="background-image:url('/content-software/images/attribute-driven-design-3.1.png');background-size: 70%;"></div>
-            </div>
-            <div class="card-body">
-                <strong>Attribute Driven Design in Software Architecture</strong>
-            </div>
-        </a>
-    </div>
 </div>
-<h2>Software Projects</h2>
+<p class="home-section-label">Software Projects</p>
 <div class="card-container">
     <div class="card">
         <a href="/software/archiscribe-mcp-server/">
@@ -202,7 +249,7 @@ layout: layouts/home.njk
         </a>
     </div>
 </div>
-<h2>Electronics</h2>
+<p class="home-section-label">Electronics</p>
 <div class="card-container">
     <div class="card">
         <a href="/electronics/guitar-pedal-copper-drive-design-build">
