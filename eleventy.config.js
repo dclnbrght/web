@@ -18,7 +18,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content-software/images");
     eleventyConfig.addPassthroughCopy("content-software/downloads");
     eleventyConfig.addPassthroughCopy("scripts");
-    eleventyConfig.addPassthroughCopy("styles/2025.2.css");
+    eleventyConfig.addPassthroughCopy("styles");
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", 			// "atom", "rss", "json"

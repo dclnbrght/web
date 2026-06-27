@@ -7,6 +7,34 @@ layout: layouts/home.njk
 ---
 
 <style>
+    /* Hero */
+    .home-hero {
+        margin: 0.6em 0 0.4em 0;
+    }
+    .home-hero-eyebrow {
+        font-size: 75%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--heading-color);
+        margin: 0;
+    }
+    .home-hero-statement {
+        font-size: clamp(1.3em, 3.5vw, 1.6em);
+        line-height: 1.4;
+        color: var(--heading-color);
+        margin: 0.5em 0 0.5em 0;
+        max-width: 100%;
+    }
+    .home-hero-statement em {
+        font-style: italic;
+        color: var(--text-color);
+    }
+    .home-hero-sub {
+        color: var(--text-color);
+        opacity: 0.8;
+        margin: 0.5em 0 0 0;
+    }
     /* Featured latest article */
     .home-featured {
         margin-bottom: 0.6em;
@@ -48,19 +76,6 @@ layout: layouts/home.njk
         font-weight: 600;
         color: var(--heading-color);
     }
-    [data-theme="dark"] .home-featured-read { color: var(--heading-color) }
-    .home-section-label {
-        font-size: 0.78em;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: var(--text-color);
-        opacity: 0.45;
-        margin: 2em 0 0.9em 0;
-        padding-bottom: 0.5em;
-        border-bottom: solid 1px var(--border-color);
-    }
-    [data-theme="dark"] .home-section-label { color: var(--heading-color); }
     @media screen and (min-width: 600px) { 
         .home-featured-image {
             height: 30em;
@@ -69,11 +84,22 @@ layout: layouts/home.njk
             padding: 1.4em;
         }
     }
+    @media screen and (min-width: 840px) {
+        .home-hero-eyebrow {
+            text-align: left;
+        }
+    }
 </style>
+
+<section class="home-hero animate-duration-medium animate-fade-in">
+    <p class="home-hero-eyebrow">CTO &amp; AI Officer · Dublin, Ireland</p>
+    <p class="home-hero-statement"><em>The future of work depends on how well we guide people through AI transformation.</em></p>
+    <p class="home-hero-sub">I share what I learn from my experiences, for the leaders and teams who need pragmatic guidance, not hype.</p>
+</section>
 
 <!-- Featured latest article -->
 <div class="home-featured animate-duration-medium animate-fade-in">
-    <p class="home-section-label">Featured Article</p>
+    <h2 class="section-label">Featured Article</h2>
     <a href="/ai/ai-utopia-well-maybe/">
         <div class="home-featured-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');"></div>
         <p class="home-featured-title">AI Utopia, Well Maybe?</p>
@@ -82,7 +108,7 @@ layout: layouts/home.njk
     </a>
 </div>
 
-<p class="home-section-label">Recent Articles</p>
+<h2 class="section-label">Recent Articles</h2>
 
 <div class="card-container">
     <div class="card">
@@ -213,7 +239,7 @@ layout: layouts/home.njk
         </a>
     </div>
 </div>
-<p class="home-section-label">Software Projects</p>
+<h2 class="section-label">Software Projects</h2>
 <div class="card-container">
     <div class="card">
         <a href="/software/archiscribe-mcp-server/">
@@ -249,7 +275,7 @@ layout: layouts/home.njk
         </a>
     </div>
 </div>
-<p class="home-section-label">Electronics</p>
+<h2 class="section-label">Electronics</h2>
 <div class="card-container">
     <div class="card">
         <a href="/electronics/guitar-pedal-copper-drive-design-build">

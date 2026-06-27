@@ -15,6 +15,7 @@
     --card-border-color: #bbb;
     --menu-bg: #666;
     --menu-text: #e6e6e6;
+    --tag-bg: #fafafa;
 }
 
 [data-theme="dark"] {
@@ -34,6 +35,7 @@
     --card-border-color: #444;
     --menu-bg: #404040;
     --menu-text: #ffffff;
+    --tag-bg: #444;
 }
 
 /* When the page is first painted we temporarily disable transitions/animations
@@ -82,7 +84,7 @@ h1 {
     padding-bottom: 0.4em;
 	border-image: radial-gradient(ellipse at center, #999, transparent) 1 round;
 	border-style: solid;
-	border-width: 0 0 2px 0;
+	border-width: 0 0 1px 0;
 }
 h1 span {
     font-size: 0.8em;
@@ -108,7 +110,7 @@ dt,
 figcaption {
     color: var(--text-color);
     margin: 0.4em 0 1em 0;
-    line-height: 150%;
+    line-height: 164%;
 }
 
 
@@ -488,6 +490,18 @@ article + article {
 
 article ul li { 
 	margin: 0.5em 0;
+}
+
+.section-label {
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--heading-color);
+    opacity: 0.8;
+    margin: 2.2em 0 0.9em 0;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px var(--border-color);
 }
 
 .action-button-primary {
