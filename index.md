@@ -1,7 +1,7 @@
 ---
 title: Home
-description: Declan Bright - Chief Technology Officer based in Dublin, Ireland.
-keywords: "Declan Bright, Chief Technology Officer"
+description: Declan Bright - Chief Technology and AI Officer based in Dublin, Ireland working at the intersection of technology strategy, enterprise software and GRC. 
+keywords: "Declan Bright,CTO,Chief Technology Officer,AI Officer"
 author: Declan Bright
 layout: layouts/home.njk
 ---
@@ -23,7 +23,7 @@ layout: layouts/home.njk
         font-size: clamp(1.3em, 3.5vw, 1.6em);
         line-height: 1.4;
         color: var(--heading-color);
-        margin: 0.5em 0 0.5em 0;
+        margin: 0.7em 0 0.7em 0 ;
         max-width: 100%;
     }
     .home-hero-statement em {
@@ -94,7 +94,7 @@ layout: layouts/home.njk
 <section class="home-hero animate-duration-medium animate-fade-in">
     <p class="home-hero-eyebrow">CTO &amp; AI Officer · Dublin, Ireland</p>
     <p class="home-hero-statement"><em>The future of work depends on how well we guide people through AI transformation.</em></p>
-    <p class="home-hero-sub">I share what I learn from my experiences, for the leaders and teams who need pragmatic guidance, not hype.</p>
+    <p class="home-hero-sub">I share my experiences, for leaders and teams who need pragmatic guidance, not hype.</p>
 </section>
 
 <!-- Featured latest article -->
