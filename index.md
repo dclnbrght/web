@@ -99,11 +99,11 @@ layout: layouts/home.njk
 
 <!-- Featured latest article -->
 <div class="home-featured animate-duration-medium animate-fade-in">
-    <h2 class="section-label">Featured Article</h2>
+    <h2 class="section-label">Latest Article</h2>
     <a href="/ai/ai-utopia-well-maybe/">
         <div class="home-featured-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');"></div>
         <p class="home-featured-title">AI Utopia, Well Maybe?</p>
-        <p class="home-featured-desc">The dream of a shorter work week, more free time and shared prosperity is not naive, but the distance between here and there is real. A look at the governance gaps, distribution problems, and the generation at risk of being stalled before they start.</p>
+        <p class="home-featured-desc">The dream of a shorter work week, more free time and shared prosperity is not unreasonable, but the distance between here and there is real. A look at cognitive overload, governance gaps, distribution problems, and the generation at risk of being stalled before they start.</p>
         <span class="home-featured-read">Read article →</span>
     </a>
 </div>
