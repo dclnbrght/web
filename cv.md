@@ -46,7 +46,7 @@ permalink: /{{ path }}/
     }
 </style>
 
-# {{title}}
+## {{title}}
 
 <p class="cv-intro">
     I'm a Chief Technology and AI Officer based in Dublin, Ireland, working at the intersection of technology strategy, enterprise software and GRC. I have been working with organisations in regulated industries for over <span id="years-experience">27</span> years, building systems that work reliably, securely and at scale. I believe good technology leadership is about clarity of thinking as much as technical depth, and that AI transformation needs intentional change management.
