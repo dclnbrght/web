@@ -1,8 +1,9 @@
 ---
 title: Career Planning in the AI Era 
 description: Building your career development plan to align with the future of work shaped by AI.
-keywords: "career development, career planning, AI era, AI age, future-proof career, fullstack software engineer, expert generalist"
+keywords: "career development, career planning, AI era, AI age, future-proof career, full-stack software engineer, expert generalist"
 date: 2025-12-03
+updated: 2026-07-31
 permalink: "/software/career-planning-in-the-ai-era/"
 tags: article
 ---
@@ -43,7 +44,7 @@ AI assistants handle discrete, well-defined tasks within larger workflows. In so
 
 **General Work Impact**
 
-AI assists skilled workers in specific tasks. Lawyers review AI generated document summaries, marketers use AI for initial content drafts, data analysts use AI to clean datasets. Humans drive all decisions and review all generated outputs. Companies begin questioning whether they need as many entry-level positions.
+AI assists skilled workers in specific tasks. Lawyers review AI-generated document summaries, marketers use AI for initial content drafts, data analysts use AI to clean datasets. Humans drive all decisions and review all generated outputs. Companies begin questioning whether they need as many entry-level positions.
 
 **Software Engineering Reality**
 
@@ -65,9 +66,9 @@ The bottleneck shifts from deep specialised knowledge within narrow domains to t
 
 **Software Engineering Reality**
 
-A skilled fullstack engineer can direct an AI agent to build a complete feature in a fraction of the time previously required by a full team of specialist engineers.
+A skilled full-stack engineer can direct an AI agent to build a complete feature in a fraction of the time previously required by a full team of specialist engineers.
 
-The key shift: specialist engineers utilising AI may find themselves bottlenecked waiting for other parts of the system to be implemented by other engineers. A fullstack engineer who can break down complex problems into AI-directable tasks, and review the AI-generated code across the full stack has a [distinct advantage](https://declanbright.com/software/fullstack-software-engineers-in-the-ai-era/).
+The key shift: specialist engineers utilising AI may find themselves bottlenecked waiting for other parts of the system to be implemented by other engineers. A full-stack engineer who can break down complex problems into AI-directable tasks, and review the AI-generated code across the full stack has a [distinct advantage](https://declanbright.com/software/fullstack-software-engineers-in-the-ai-era/).
 
 **The Critical Challenge**
 
@@ -87,7 +88,7 @@ Employees must prioritise fundamental knowledge that ages slowly and applies acr
 
 AI agents handle the bulk of implementation and integration work across the stack. The human contribution centres on agent management, architectural design, system decomposition, and quality verification. Engineers must ask: Does this solution follow sound architectural patterns? Is it secure? Does it scale? Is it maintainable?
 
-The most valuable software engineers are those who understand the broader system architecture and can critically assess the quality of AI generated solutions against fundamental principles and requirements.
+The most valuable software engineers are those who understand the broader system architecture and can critically assess the quality of AI-generated solutions against fundamental principles and requirements.
 
 **The Identity Shift**
 
@@ -117,7 +118,7 @@ If and when this stage arrives, human work will shift dramatically:
 
 Predicting this stage is challenging:
 
-* We don't know if current AI architectures can scale to true AGI, or if fundamental technology breakthroughs are required i.e. in real-time learning
+* We don't know if current AI architectures can scale to true AGI, or if fundamental technology breakthroughs are required e.g. in real-time learning
 * The timeline could be 5 years, 10 years or 50+ years, or AGI might not arrive at all  
 * The transition could be gradual (extending Stage 3 indefinitely) or sudden and massively disruptive  
 * Regulatory, ethical, and societal factors may shape or limit AGI deployment regardless of technical capability
@@ -127,6 +128,8 @@ Predicting this stage is challenging:
 Rather than planning specifically for Stage 4, focus on building adaptability as a skill. The software engineers who thrive during Stages 1-3 by embracing continuous learning, developing architectural thinking, and staying grounded in fundamental principles will be best positioned to navigate whatever Stage 4 brings, if it arrives at all.
 
 It's impossible to fully future-proof your career against AGI, the goal is to build the learning capacity and adaptability that makes you valuable through multiple waves of change.
+
+Setting AGI aside, here's what matters for the roles hiring today:
 
 ## Reclaiming the "Software Engineer" Job Title
 
@@ -148,7 +151,7 @@ Software Engineers can:
 
 - Direct AI agents more effectively because they understand what good looks like across the full solution space
 - Break down complex problems into AI-directable tasks that span the entire stack
-- Review AI-generated code for systemic issues and quality, not just surface-level correctness i.e. spot when an AI's frontend solution will create backend performance problems, or when a database design will cause UI responsiveness issues  
+- Review AI-generated code for systemic issues and quality, not just surface-level correctness e.g. spot when an AI's frontend solution will create backend performance problems, or when a database design will cause UI responsiveness issues  
 
 As AI capabilities advance, we need more software engineers who think this way, regardless of their experience level. The difference between a Junior Software Engineer and a Principal Software Engineer isn't the scope of what they can work on, it's the depth of architectural judgement and the complexity of problems they can solve.
 
@@ -160,7 +163,7 @@ The traditional career path of starting narrow and gradually expanding won't pre
 
 ### If You're Entering the Field (Students & Career Changers)
 
-Your goal: become AI fluent while building fundamental knowledge, avoiding the trap of becoming dependent on AI for things you should understand yourself.
+Your goal: become AI fluent while building fundamental knowledge, and avoiding the trap of becoming dependent on AI for things you should understand yourself.
 
 **Immediate Actions (Months 1-6)**
 
@@ -303,6 +306,8 @@ Deep understanding of principles that transfer across technologies:
 
 Security fundamentals deserve particular emphasis. Understanding concepts like the principle of least privilege, defence in depth, and secure defaults will serve you regardless of which languages, frameworks, or AI tools you use. These principles guide how you direct AI and what to look for during code review.
 
+If you're targeting a specific career path, such as AI Architect, AI Engineer, or AI Security Specialist, it's worth reading the corresponding role profile in [CWA 18398](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf), a 2026 CEN Workshop Agreement that formally defines 37 AI professional role profiles. Each one sets out the tasks, deliverables, and competences expected, giving you a concrete checklist to build towards rather than a vague sense of the skills involved.
+
 ## Looking Ahead
 
 We're living through the early stages of this transformation right now. The exact timelines remain uncertain but the direction is clear.
@@ -318,6 +323,7 @@ The future belongs not to those who know the most about one thing, but to those 
 
 **What's Next?**
 
-Read the [AI Agent as a Software Engineering Learning Coach](/software/ai-agent-as-learning-coach/) article for practical guidance on how to accelerate your learning.
+- [AI Agent as a Software Engineering Learning Coach](/software/ai-agent-as-learning-coach/) 
+- [The Mindset for Navigating AI Transformation](/ai/the-mindset-for-navigating-ai-transformation/)
 
 <div id="comments" class="comments"></div>
