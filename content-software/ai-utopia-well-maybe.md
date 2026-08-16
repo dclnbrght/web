@@ -3,7 +3,7 @@ title: AI Utopia, Well Maybe?
 description: Will AI deliver on its promise of more free time and shared prosperity? Will we overcome the governance, distribution, and workplace challenges?
 keywords: "AI, future of work, automation, AI adoption, workplace, AI governance, technology transition, wealth distribution, career development"
 date: 2026-06-21
-updated: 2026-06-27
+updated: 2026-08-16
 pagination:
   data: paths
   size: 1
@@ -45,23 +45,25 @@ We may be in the equivalent moment with AI: not failing to realise its promise, 
 
 Even if AI eventually creates vast wealth and frees up enormous amounts of human time, there are many unresolved questions: who benefits, and when? The Industrial Revolution created vast wealth, but it took a century of political struggle before that wealth was broadly distributed. The digital revolution has been similarly uneven. 
 
-Discussions about Universal Basic Income (UBI) and profit‑sharing mandates are well intentioned, but the political, economic and societal challenges are daunting, and the debate has barely moved beyond the theoretical. The transition will be uneven across geographies, industries and income levels, and the support structures people need will likely not arrive in sync with the changes imposed on the labour market.
+Discussions about Universal Basic Income (UBI) and profit-sharing mandates are well intentioned, but the political, economic and societal challenges are daunting, and the debate has barely moved beyond the theoretical. The transition will be uneven across geographies, industries and income levels, and the support structures people need will likely not arrive in sync with the changes imposed on the labour market.
 
 ## A Generation Waiting on the Sidelines
 
-There is one group for whom the messy transition carries a particular risk, and it may not be the one most people would predict. The assumption is that young people will adapt most naturally to AI. They are digital natives, comfortable with new tools. Surely they are the winners here?
+There is one group for whom the messy transition carries a particular risk, and it may not be the one most people would predict. The assumption is that young people will adapt most naturally to AI. They are digital natives, comfortable with new technology. Surely they are the winners here?
 
-Comfort with new technology is not the same as having the domain knowledge and experience to supervise it effectively in workplace environments. Entry-level positions have always served a deeper purpose than simply performing basic, repeatable tasks. They provide the environment to build domain knowledge and judgement, how to make ethical decisions, and how to communicate and collaborate with others.
+Comfort with new technology is not the same as having the domain knowledge and experience to supervise it effectively in workplace environments. Entry-level positions have always served a deeper purpose than simply performing basic, repeatable tasks. They provide the environment to build domain knowledge and judgement, how to make ethical decisions, and how to communicate and collaborate with colleagues.
 
 As AI automates the entry-level tasks that provided that foundation, the bottom rung of the career ladder is disappearing. Young people are left in professional limbo, finding it harder to get a foot in the door, since AI can do the basic tasks, and they are not yet qualified or experienced enough to provide sufficient oversight of AI. This could be a lost generation in the making, not through dramatic displacement, but through a quiet stalling.
 
-In addition to learning AI tools and concepts, what young people actually need is tuition in the things that make working with AI genuinely valuable: clear communication, critical thinking and ethical reasoning. The problem is that most education systems are not yet teaching these topics systematically, and the workplace, which traditionally filled that gap, is now precisely where the gap is widest. I have written separately about the case for shifting these skills into education before young people reach the job market: [Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/).
+In addition to learning AI tools and concepts, what young people actually need is tuition in the things that make working with AI genuinely valuable: clear communication, critical thinking and ethical reasoning. The problem is that most education systems are not yet teaching these topics systematically, and the workplace, which traditionally filled that gap, is increasingly hesitant to make the investment. I have written separately about the case for teaching these skills before young people enter the job market: [Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/).
 
 ## The Governance Gap
 
 Layered on top of this is a challenge that rarely features in optimistic projections: the world has not agreed on how to manage any of this. [AI governance is a patchwork](https://www.cfr.org/articles/the-world-is-trying-to-govern-ai-the-un-wants-in) of the EU's AI Act, American executive orders, and China's own frameworks shaped by its own priorities. International summits in Bletchley, Seoul, Paris and New Delhi have generated shared language but no binding agreements and no enforcement mechanisms. 
 
-[Chatham House](https://www.chathamhouse.org/2026/03/breaking-deadlock-ai-governance) concluded in early 2026 that meaningful global AI governance may only become politically feasible in the event of a crisis. The United States and China are racing to achieve dominance in AI, and neither has a strong incentive to constrain itself in the name of global coordination. The infrastructure for managing a technology of this significance simply does not exist.
+[Chatham House](https://www.chathamhouse.org/2026/03/breaking-deadlock-ai-governance) concluded in early 2026 that meaningful global AI governance may only become politically feasible in the event of a crisis. The United States and China are racing to achieve dominance in AI, and neither has a strong incentive to constrain itself in the name of global coordination. The infrastructure for managing a technology of this significance simply does not exist yet.
+
+The history of international cooperation is not a story of elegant solutions emerging smoothly, it’s a story of problems eventually being addressed when the pressure exceeds an undefined threshold. Ideally, this would be dealt with proactively, by world leaders coming together, to form an international body to monitor and control AI model training and testing. This would effectively enforce a slow-down, giving society a chance to catch up and adapt. 
 
 ## Why Optimism Still Makes Sense
 
@@ -71,7 +73,8 @@ When trains were invented in the early nineteenth century, some physicians warne
 
 As AI emerges from the trough of disillusionment it will hopefully follow a similar path. The concerns are not irrational, but the typical path of technological evolution, however messy, generally evolves towards greater prosperity and human capability. Unlike previous technologies, AI holds the potential to help solve bigger problems that have stumped us for decades: [accelerating drug discovery](https://www.technologynetworks.com/drug-discovery/articles/agentic-ai-in-pharma-from-multiagent-systems-to-selfdriving-labs-413317), [improving education](https://www.unesco.org/en/digital-education/artificial-intelligence), [addressing climate change](https://unfccc.int/news/ai-and-climate-action-opportunities-risks-and-challenges-for-developing-countries) and making expertise more widely accessible. The potential upsides are significant.
 
-The governance gap is real, but it is being noticed and governments are starting to wake up to the risks as more powerful AI models are being released. The history of international cooperation is not a story of elegant solutions arrived at smoothly, it’s a story of problems eventually being addressed when the pressure exceeds an undefined threshold. And on the question of work and free time, we simply haven’t had time to adapt yet. The conversations about sharing AI generated productivity and financial gains with workers are happening now in ways they weren't a few years ago.
+The governance gap is real, but it is being noticed and governments are starting to wake up to the risks as more powerful AI models are being released. The conversations about sharing AI generated productivity and financial gains with workers are also happening now in ways they weren't a few years ago.
+
 
 ## The Gap Between Here and There
 
