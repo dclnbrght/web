@@ -38,7 +38,7 @@ layout: layouts/default.njk
   }
 
   .instruction {
-    margin: 2rem 0 1rem;
+    margin: 1rem 0;
     line-height: 1.5;
   }
 
@@ -188,10 +188,9 @@ layout: layouts/default.njk
   <p>This is a simple puzzle to test your reasoning skills.</p>
 
   <section class="task-panel" aria-labelledby="rule-heading">
+    <p class="instruction">There are four cards below, each with a letter on one side and a number on the other. Only select the cards you would need to turn over to determine whether this rule is true or false, then submit your answer.</p>
     <h2 id="rule-heading">The rule</h2>
     <p class="rule">If a card has an A on one side, then it has a 3 on the other side.</p>
-    <p class="instruction">Only select the cards you would need to turn over to determine whether the rule is true or false, then submit your answer.</p>
-
     <form id="selection-form">
       <div class="cards" aria-label="Cards to inspect">
         <label class="card">
