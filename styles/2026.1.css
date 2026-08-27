@@ -199,9 +199,8 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 audio	{ 
-    border: solid 1px #999; 
-    border-radius: 2em; 
-    margin: 1em; 
+    border: solid 1px #999;
+    margin: 1em;
 }
 
 pre {
