@@ -1,9 +1,9 @@
 ---
-title: Wason Selection Task
-description: A simple interactive Wason selection task.
+title: Test Your Reasoning
+description: A simple interactive puzzle to test your reasoning.
 keywords: "Wason Selection Task, reasoning, psychology"
 date: 2026-08-27
-permalink: /software/wason-selection-task/
+permalink: /box/wason-selection-task/
 layout: layouts/default.njk
 ---
 
@@ -64,6 +64,7 @@ layout: layouts/default.njk
     border: 2px solid var(--card-border-color);
     border-radius: 0.4em;
     background-color: #ddd !important;
+    box-shadow: 0 0.5em 1em -0.5em rgba(120, 120, 120, 0.5);
     cursor: pointer;
     text-align: center;
     transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
@@ -107,7 +108,8 @@ layout: layouts/default.njk
   }
 
   [data-theme="dark"] .card {
-    background-color: #3a3a3a !important;
+    background-color: #6f6f6f !important;
+    box-shadow: 0 0.5em 1em -0.5em rgba(120, 120, 120, 0.45);
   }
 
   .actions {
@@ -145,7 +147,7 @@ layout: layouts/default.njk
   }
 
   .result h2 {
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0;
     font-size: 1.45rem;
   }
 
@@ -185,7 +187,6 @@ layout: layouts/default.njk
 
 <main>
   <h1>{{ title }}</h1>
-  <p>This is a simple puzzle to test your reasoning skills.</p>
 
   <section class="task-panel" aria-labelledby="rule-heading">
     <p class="instruction">There are four cards below, each with a letter on one side and a number on the other. Only select the cards you would need to turn over to determine whether this rule is true or false, then submit your answer.</p>
@@ -220,14 +221,20 @@ layout: layouts/default.njk
       <h2 id="result-heading"></h2>
       <p>
         <strong>A</strong> must be turned over because its reverse side must contain a 3 for the rule to be true. 
-        <br><strong>7</strong> must be turned over because its reverse side must not contain an A; otherwise the rule is broken.
       </p>
       <p>
-        <strong>D</strong> does not matter because the rule says nothing about D. 
-        <br><strong>3</strong> does not matter either because the rule does not say that a 3 must have an A on its reverse side, it could be any letter.
+        <strong>7</strong> must be turned over because its reverse side must not contain an A; otherwise the rule is false.
+      </p>
+      <p>
+        <strong>D</strong> does not matter because the rule says nothing about D.
+      </p>
+      <p>
+        <strong>3</strong> does not matter either because the rule does not say that a 3 must have an A on its reverse side, it could be any letter.
       </p>
       <p class="reference">
-        Learn more on <a href="https://en.wikipedia.org/wiki/Wason_selection_task" target="_blank" rel="noopener noreferrer">Wikipedia's Wason selection task page</a>.
+        This is Wason's Selection Task, a logic puzzle devised by Peter Cathcart Wason in 1966, often used in the study of deductive reasoning. 
+        <br>
+        Learn more here: <a href="https://en.wikipedia.org/wiki/Wason_selection_task" target="_blank" rel="noopener noreferrer">Wikipedia's Wason selection task page</a>.
       </p>
     </section>
   </section>
@@ -263,7 +270,7 @@ layout: layouts/default.njk
 
     resultHeading.innerHTML = answerIsCorrect
       ? 'Correct. You only need to turn over <strong>A and 7</strong>.'
-      : 'The correct answer is <strong>A and 7</strong>.';
+      : 'Nope, the correct answer is <strong>A and 7</strong>.';
     result.hidden = false;
     result.focus();
   });
