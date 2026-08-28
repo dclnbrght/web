@@ -10,7 +10,9 @@ permalink: "software-architecture-attribute-driven-design/"
 
 Attribute Driven Design is a software architecture design process which originates from the <a href="https://www.sei.cmu.edu/" target="_blank">Carnegie Mellon University Software Engineering Institute (SEI)</a>. It has evolved over the years; <a href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=CB5D2D877F1767AB791EF10046D587E6?doi=10.1.1.97.5395&rep=rep1&type=pdf" target="_blank">ADD 1.0</a> was published by Felix Bachmann and Len Bass in 2001, <a href="https://resources.sei.cmu.edu/asset_files/TechnicalReport/2006_005_001_14795.pdf" target="_blank">ADD 2.0</a> was published in 2006 and ADD 3.0 was published in 2016 in the excellent book by Humberto Cervantes and Rick Kazman; <a href="https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=454919" target="_blank">Designing Software Architectures: A Practical Approach</a>. I've used this process for many years and find it incredibly useful.
 
-The process brings structure to your thought process when designing software, it help overcome your own internal bias towards the first solution you thought of and also helps to bring a common understanding across the team. It's light-weight and you only use the parts you need on any given project.
+The process brings structure to your thought process when designing software. It helps overcome a natural tendency of confirmation bias towards the first solution you think of and also helps to bring a common understanding across the team. It's light-weight and you only use the parts you need on any given project.
+
+> Do you think you don't have confirmation bias? Try this [reasoning test](/box/wason-selection-task/)
 
 The initial focus on Design Inputs helps to avoid making assumptions and solutioning before fully understanding the problem space. <em>If you jump straight to documenting the solution you are going to implement then you are not designing!</em>
 
