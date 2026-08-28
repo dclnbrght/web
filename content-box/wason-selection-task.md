@@ -119,10 +119,6 @@ layout: layouts/default.njk
     gap: 1rem;
   }
 
-  .actions button {
-    border-radius: 1em;
-  }
-
   .actions .action-button-primary {
     width: 10em;
     max-width: none;
