@@ -228,7 +228,7 @@ layout: layouts/default.njk
         <strong>3</strong> does not matter either because the rule does not say that a 3 must have an A on its reverse side, it could be any letter.
       </p>
       <p class="reference">
-        This is Wason's Selection Task, a logic puzzle devised by Peter Cathcart Wason in 1966, often used in the study of deductive reasoning. 
+        This is Wason's Selection Task, a logic puzzle devised by Peter Cathcart Wason in 1966, often used in the study of deductive reasoning and confirmation bias. 
         <br>
         Learn more here: <a href="https://en.wikipedia.org/wiki/Wason_selection_task" target="_blank" rel="noopener noreferrer">Wikipedia's Wason selection task page</a>.
       </p>
