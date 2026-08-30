@@ -3,7 +3,14 @@ title: AI Governance & the Journey To ISO 42001
 description: Practical guidance for implementing AI Governance is any company.
 keywords: "AI Governance, AIMS, ISO 42001"
 date: 2025-07-08
-permalink: "/software/ai-governance-and-the-journey-to-ISO-42001/"
+pagination:
+  data: paths
+  size: 1
+  alias: path
+paths:
+  - software
+  - ai
+permalink: /{{ path }}/ai-governance-and-the-journey-to-ISO-42001/
 tags: article
 ---
 
@@ -108,6 +115,5 @@ Communicate widely across your organisation, using all the usual channels; email
 ## Driving AI Adoption
 
 Finally, if your organisation is having challenges adopting AI, this may be of interest:  [Driving AI Adoption, From Resistance to Results](/software/driving-ai-adoption-from-resistance-to-results/).
-
 
 <div id="comments" class="comments"></div>
