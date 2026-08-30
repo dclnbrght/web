@@ -87,7 +87,7 @@ For now, a leisurely coffee with friends in the afternoon is still aspirational.
 
 **Further Reading**
 
-- [Workplace Readiness Needs to Shift-Left](https://declanbright.com/ai/workplace-readiness-needs-to-shift-left/)
-- [The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](https://declanbright.com/ai/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/)
+- [Workplace Readiness Needs to Shift-Left](/ai/workplace-readiness-needs-to-shift-left/)
+- [The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](/ai/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/)
 
 <div id="comments" class="comments"></div>
