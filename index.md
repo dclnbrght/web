@@ -100,10 +100,12 @@ layout: layouts/home.njk
 <!-- Featured latest article -->
 <div class="home-featured animate-duration-medium animate-fade-in">
     <h2 class="section-label">Latest Article</h2>
-    <a href="/ai/ai-utopia-well-maybe/">
-        <div class="home-featured-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');"></div>
-        <p class="home-featured-title">AI Utopia, Well Maybe?</p>
-        <p class="home-featured-desc">The dream of a shorter work week, more free time and shared prosperity is not unreasonable, but the distance between here and there is real. A look at cognitive overload, governance gaps, distribution problems, and the generation at risk of being stalled before they start.</p>
+    <a href="/ai/ai-literacy-is-your-legal-obligation/">
+        <div class="home-featured-image" style="background-image:url('/content-software/images/ai-literacy-legal-obligation.webp');"></div>
+        <p class="home-featured-title">AI Literacy Is Your Legal Obligation, Not Just A Good Intention</p>
+        <p class="home-featured-desc">
+            Under the EU AI Act, organisations deploying AI systems must demonstrate structured, role-appropriate training. Build a defensible compliance posture by mapping users across competence levels and providing proportionate training.
+        </p>
         <span class="home-featured-read">Read article →</span>
     </a>
 </div>
@@ -111,6 +113,17 @@ layout: layouts/home.njk
 <h2 class="section-label">Recent Articles</h2>
 
 <div class="card-container">
+    <div class="card">
+        <a href="/ai/ai-utopia-well-maybe/">
+            <div class="card-header">
+                <div class="card-header-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');background-size:100%;"></div>
+            </div>
+            <div class="card-body">
+                <strong>AI Utopia, Well Maybe?</strong>
+                <br>Shorter work week, more free time?
+            </div>
+        </a>
+    </div>
     <div class="card">
         <a href="/media/saros-insights-podcast/">
             <div class="card-header">
@@ -195,6 +208,7 @@ layout: layouts/home.njk
             </div>
         </a>
     </div>
+    <!--
     <div class="card">
         <a href="/software/fullstack-software-engineers-in-the-ai-era/">
             <div class="card-header">
@@ -205,6 +219,7 @@ layout: layouts/home.njk
             </div>
         </a>
     </div>
+    -->
     <div class="card">
         <a href="/software/ai-assisted-threat-modelling/">
             <div class="card-header">

@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[AI Literacy Is Your Legal Obligation, Not Just A Good Intention](/ai/ai-literacy-is-your-legal-obligation/) \
+Practical guidance on AI literacy obligations under the EU AI Act.
+
 [AI Utopia, Well Maybe?](/ai/ai-utopia-well-maybe/) \
 Will AI deliver on its promise of more free time and shared prosperity? Will we overcome the governance, distribution, and workplace challenges?
 
