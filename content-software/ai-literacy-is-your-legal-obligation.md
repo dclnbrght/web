@@ -10,13 +10,13 @@ tags: article
 
 # {{ title }}
 
-If your organisation uses AI tools or services, you may not realise that you have a binding legal obligation under European law. [Article 4 of the EU AI Act](https://artificialintelligenceact.eu/article/4/) requires businesses to support the development of their workforce's AI literacy to use AI responsibly. For most organisations, however, this has not been given much thought.
+If your organisation uses AI tools or services, you may not realise that you have a binding legal obligation under European law. [Article 4 of the EU AI Act](https://artificialintelligenceact.eu/article/4/), in force since 2nd February 2025, requires businesses to support the development of their workforce's AI literacy to use AI responsibly. For most organisations, however, this has not been given much thought.
 
 <img src="/content-software/images/ai-literacy-legal-obligation.webp" alt="AI Literacy Legal Obligation" class="article-image-header" />
 
 > This article describes legal obligations in general terms. It is not legal advice. If the AI Act applies to your organisation, take proper advice on what it means for you specifically.
 
-There is no automatic, multi-million euro fine for skipping AI literacy training on its own. But when a regulator is deciding whether to fine you for anything under the AI Act, they are legally mandated to look at the systemic safeguards you have in place. Under [Article 99(7)(g)](https://artificialintelligenceact.eu/article/99/), your AI literacy programme serves as evidence of organisational responsibility. 
+There is no automatic, multi-million euro fine for skipping AI literacy training on its own, and enforcement sits with each EU Member State's own market surveillance authority rather than a single EU regulator. But when that authority is deciding whether to fine you for anything under the AI Act, they are legally mandated to look at the systemic safeguards you have in place. Under [Article 99(7)(g)](https://artificialintelligenceact.eu/article/99/), your AI literacy programme serves as evidence of organisational responsibility. 
 
 An auditor isn't going to knock on your door just to review your training records. The problem is the day that something goes wrong. If there is an incident, a bias complaint, or an automated decision that harms an individual, the regulator will ask what you did to ensure the people running that AI system knew what they were doing. "Nothing" is not an acceptable answer at that point. It's an aggravating one.
 
