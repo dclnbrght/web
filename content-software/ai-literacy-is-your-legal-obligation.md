@@ -3,7 +3,7 @@ title: AI Literacy Is Your Legal Obligation, Not Just A Good Intention
 description: Under the EU AI Act, organisations deploying AI systems must demonstrate structured, role-appropriate training. Build a defensible compliance posture by mapping users across competence levels and providing proportionate training.
 keywords: "AI Governance, EU AI Act, AI literacy training"
 date: 2026-08-30
-updated: 2026-08-31
+updated: 2026-09-26
 permalink: "/ai/ai-literacy-is-your-legal-obligation/"
 tags: article
 ---
@@ -16,59 +16,57 @@ If your organisation uses AI tools or services, you may not realise that you hav
 
 > This article describes legal obligations in general terms. It is not legal advice. If the AI Act applies to your organisation, take proper advice on what it means for you specifically.
 
-There is no automatic, multi-million euro fine for skipping AI literacy training on its own, and enforcement sits with each EU Member State's own market surveillance authority rather than a single EU regulator. But when that authority is deciding whether to fine you for anything under the AI Act, they are legally mandated to look at the systemic safeguards you have in place. Under [Article 99(7)(g)](https://artificialintelligenceact.eu/article/99/), your AI literacy programme serves as evidence of organisational responsibility. 
+There is no automatic, multi-million euro fine for skipping AI literacy training on its own, and enforcement sits with each EU Member State's own market surveillance authority rather than a single EU regulator. But when that authority is deciding whether to fine you for anything under the AI Act, it is legally mandated to look at the systemic safeguards you have in place. Under [Article 99(7)(g)](https://artificialintelligenceact.eu/article/99/), your AI literacy programme serves as evidence of organisational responsibility.
 
-An auditor isn't going to knock on your door just to review your training records. The problem is the day that something goes wrong. If there is an incident, a bias complaint, or an automated decision that harms an individual, the regulator will ask what you did to ensure the people running that AI system knew what they were doing. "Nothing" is not an acceptable answer at that point. It's an aggravating one.
+An auditor isn't going to knock on your door just to review your training records. The problem arrives on the day something goes wrong: an incident, a bias complaint, or an automated decision that harms an individual. At that point the regulator will ask what you did to ensure the people running that AI system knew what they were doing, and saying you did "nothing" is not a good answer.
 
-If you need to justify funding for an AI literacy programme, this is how you need to frame it. A lack of structured training weakens your legal defence and amplifies your exposure under the AI Act's formal penalty test.
+If you need to justify funding for an AI literacy programme, this is how you should frame it. A lack of structured training weakens your legal defence and amplifies your exposure under the AI Act's formal penalty test.
 
-The Digital Omnibus updated the literacy obligation to make it easier to meet, and pushed out the enforcement timelines for high-risk AI systems. [Many legal experts have already published the breakdown on these updates](https://www.modulos.ai/blog/eu-ai-act-omnibus-now-law), so I won’t repeat it here. What none of them are asking is whether the softer wording changes your actual exposure. It doesn't, for the reason above, and that's why I'm calling it out here.
+The Digital Omnibus updated the literacy obligation to make it easier to meet, and pushed out the enforcement timelines for high-risk AI systems. [Many legal experts have already published the breakdown on these updates](https://www.modulos.ai/blog/eu-ai-act-omnibus-now-law), so I won't repeat it here. What none of them are asking is whether the softer wording changes your actual exposure. It doesn't, for the reason above, and that's why I'm calling it out here.
 
-Most organisations zoom right past [Article 4](https://artificialintelligenceact.eu/article/4/), either because they believe a basic on-line course will meet the requirements, or they think it only applies to companies that build AI systems. That's a mistake. This obligation needs more than basic training and it applies to deployers, not just to the companies that build AI. If you put an AI system to work in your business, you're a deployer. In Ireland, [64% of employees expect to reskill because of AI while only 5% of organisations train on AI at scale](https://www.ibec.ie/connect-and-learn/media/2026/07/02/ireland-risks-failing-to-capitalise-on-multibillion-euro-ai-opport). That's not just a skills gap. It's a compliance gap.
+Most organisations zoom right past [Article 4](https://artificialintelligenceact.eu/article/4/), either because they believe a basic on-line course will meet the requirements, or they think it only applies to companies that build AI systems. Both assumptions are wrong. The obligation requires more than basic training, and it applies to deployers, not just to the companies that build AI. If you put an AI system to work in your business, you're a deployer. In Ireland, [64% of employees expect to reskill because of AI while only 5% of organisations train on AI at scale](https://www.ibec.ie/connect-and-learn/media/2026/07/02/ireland-risks-failing-to-capitalise-on-multibillion-euro-ai-opport), which is as much a compliance gap as it is a skills gap.
 
-## The wording softened, the obligation didn't
+## The wording softened, but the obligation didn't
 
-The final text of the AI Act has less stringent criteria: [Article 4(1)](https://artificialintelligenceact.eu/article/4/) no longer requires you to guarantee any individual's specific level of AI literacy. The duty changed from a duty of *result*, ensuring a defined outcome *"to your best extent,"* to a duty of *effort*: supporting the development of AI literacy. That sounds like a downgrade, and it is, but effort in providing adequate training is still something you have to show.
+The final text of the AI Act has less stringent criteria: [Article 4(1)](https://artificialintelligenceact.eu/article/4/) no longer requires you to guarantee any individual's specific level of AI literacy. The duty changed from ensuring a defined outcome *"to your best extent,"* to a lighter duty of supporting the development of AI literacy. That sounds like a downgrade, and it is, but you still have to show adequate effort in providing sufficient training.
 
-Crucially, this bar rises depending on who your system impacts. Your training programme must actively account for the technical knowledge, experience and education of your staff, the context the AI systems are to be used in, and the specific groups of persons on whom the AI systems are to be used. If your AI makes decisions about patients, job candidates, or borrowers, the depth of literacy training must scale up accordingly.
+This bar rises depending on who your system impacts. Your training programme must account for the technical knowledge, experience and education of your staff, the context the AI systems are used in, and the specific groups of people on whom the AI systems are to be used. If your AI makes decisions about patients, job candidates, or borrowers, the depth of literacy training must scale up accordingly.
 
-If your AI is classified as high-risk, a second, sharper obligation sits directly inside the [heavier penalty tier](https://artificialintelligenceact.eu/article/99/): [human oversight has to sit with people who have the necessary competence, training and authority to exercise it, and the support to do so](https://artificialintelligenceact.eu/article/26/). The Digital Omnibus pushed the enforcement timelines back, setting 2 December 2027 for independent high-risk systems under Annex III (like recruitment and credit scoring) and 2 August 2028 for embedded safety components under Annex I. However, building a defensible framework that proves your AI supervisors actually possess this competence is a multi-quarter operational lift, so starting sooner is better than scrambling later.
+If your AI is classified as high-risk, a second, sharper obligation sits directly inside the [heavier penalty tier](https://artificialintelligenceact.eu/article/99/): [human oversight has to be assigned to people who have the necessary competence, training and authority to exercise it, and the support to do so](https://artificialintelligenceact.eu/article/26/). The Digital Omnibus pushed the enforcement timelines back, setting 2nd December 2027 for independent high-risk systems under Annex III (like recruitment and credit scoring) and 2nd August 2028 for embedded safety components under Annex I. Building a defensible framework that proves your AI supervisors actually possess this competence requires a multi-quarter programme, so starting sooner is better than scrambling later.
 
 ## Why generic vendor training fails the compliance test
 
-There are some key definitions outlined in a European standards document published in June 2026: [CWA 18398](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf) splits AI competence across three categories of users, and the split is more important than it looks at first glance.
+There are some key definitions outlined in a European standards document published in June 2026. [CWA 18398](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/RI/2026/cwa18398_2026.pdf) splits AI competence across three distinct categories of users:
 
-* **Lay user**: Needs to recognise when AI is involved and treat what it says with appropriate caution.  
-* **Professional user**: Clinicians, lawyers or marketers etc. stay personally accountable for how AI shapes their professional judgement, even though they have no input in how the system is built.  
+* **Lay user**: Needs to recognise when AI is involved and treat what it says with appropriate caution.
+* **Professional user**: Clinicians, lawyers or marketers etc. stay personally accountable for how AI shapes their professional judgement, even though they have no input in how the system is built.
 * **AI professional**: People who actually build, run or govern the AI systems.
 
 The standard's own test is clean: a developer using an AI tool to build an ordinary app is a *Professional user*; a developer building an AI application is an *AI professional*. The same split applies to a clinician using a diagnostic aid versus a data scientist who trained it, or a recruiter running a screening tool versus the vendor who built it.
 
-Content vendors often sell training material to all three levels as one product, and organisations buy assuming they’re covered. A prompt-engineering workshop does not make a clinician safe to rely on an AI recommendation, because the risk in that job was never about prompting. It's about knowing when to overrule the machine, which is a *Professional user* skill, not a technical one. You cannot design a proportionate training programme, the kind that would stand up to scrutiny in front of a regulator, until you know which of these three categories each of your people sits in.
+Content vendors often sell training material to all three levels as one product, and organisations buy assuming they're covered. A prompt-engineering workshop does not make a clinician safe to rely on an AI recommendation, because the risk in that job was never about prompting. It's about knowing when to overrule the machine, a *Professional user* skill rather than a technical one. You cannot design a proportionate training programme, the kind that would stand up to scrutiny in front of a regulator, until you know which of these three categories each of your people sits in.
 
-None of this can be delivered centrally. You can publish an overarching AI policy for your company, but you cannot centrally define the type of judgement needed by someone at five o'clock on a Friday afternoon, deciding if they should accept what an AI model just told them. That is a role-specific decision; therefore, the training has to be role-specific too.
+You can publish an overarching AI policy for your company, but you cannot centrally define the type of judgement needed by someone at five o'clock on a Friday afternoon, deciding whether to accept what an AI model just told them. That's a role-specific decision, so the training has to be role-specific too.
 
 Someone also has to own the literacy programme itself. In most organisations that person already exists, unnamed, part-time, doing the work on top of their real job. Formally naming them is the first move.
 
 ## Softer wording isn't a way out
 
-The easy response to all of this is a few e-learning modules, a completion register and some screenshots for the auditor. The softer wording makes that easier to justify and no more likely to change how anyone actually uses AI day to day. However, this will read just as thin to a regulator weighing intent and mitigation. They will know if you treat it as a box-ticking exercise. It also costs you trust that's already low, with 44% of workers reporting little or no confidence AI will be good for them. Measure how AI is used and how work actually changes, not whether learning videos were watched.
+The easy response to all of this is a few e-learning modules, a completion register and some screenshots for the auditor. The softer wording makes that easier to justify. This response, however, will read just as thin to a regulator weighing intent and mitigation. They will know if you're treating it as a box-ticking exercise, and it will cost you trust that's already low: 44% of workers report little or no confidence AI will be good for them. Measure how AI is used and how work actually changes, rather than whether learning videos were watched.
 
 ## What to do next
 
 1. **Map your users**: Audit who uses AI and how, then categorise them as *Lay user*, *Professional user*, or *AI professional*.
-2. **Target by role, not seniority**: The most senior person in the room may be the least literate. Prioritise the *Professional users* carrying judgement accountability, as they need far more depth than a *Lay user* ever will.
-3. **Flag high-risk systems now**: Identify any AI systems that touch recruitment, credit scoring, or critical infrastructure. Formally name whoever performs human oversight, and check that they have all four of: competence, training, authority, and support.  
+2. **Target by role, not seniority**: The most senior person in the room may be the least AI literate. Prioritise the *Professional users* carrying judgement accountability, as they need far more depth than a *Lay user* ever will.
+3. **Flag high-risk systems now**: Identify any AI systems that touch recruitment, credit scoring, or critical infrastructure. Formally name whoever performs human oversight, and check that they have all four of: competence, training, authority, and support.
 4. **Nominate a programme owner**: Make it an official position and give them time to make it a real deliverable rather than a side project.
 5. **Record what you did and why it was proportionate**: This is what you'll show the regulator or auditor if something does go wrong.
 
-None of that requires a specialist consultant or an expensive platform. It requires deciding this is something your organisation is accountable for, before a regulator makes that decision for you.
-
-The wording may have softened, but what a regulator will ask for on the day something goes wrong doesn't.
+None of this requires a specialist consultant or an expensive platform. It requires deciding this is something your organisation is accountable for, before a regulator makes that decision for you. The wording may have softened, but what a regulator will ask for on the day something goes wrong hasn't.
 
 **Further reading:**
 
-- [AI Governance & the Journey To ISO 42001](/ai/ai-governance-and-the-journey-to-ISO-42001/)  
+- [AI Governance & the Journey To ISO 42001](/ai/ai-governance-and-the-journey-to-ISO-42001/)
 - [The AI Adoption Gap: Why Regulated Companies Can't Move As Fast As The Hype](/ai/the-ai-adoption-gap-why-regulated-companies-cant-move-as-fast-as-the-hype/)
 
 <div id="comments" class="comments"></div>
