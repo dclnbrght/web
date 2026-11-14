@@ -1,7 +1,7 @@
 ---
 title: About
 description: Declan Bright - Chief Technology and AI Officer based in Dublin, Ireland working at the intersection of technology strategy, enterprise software and GRC. 
-keywords: "Declan Bright,CV,Curriculum Vitae,Resume,CTO,Chief Technology Officer,Chief Software Architect,AI Officer,ArchiMate,GRC,ISO 27001,ISO 27701,ISO 42001,HIPAA,IASA,ICS,SAIN,Dublin"
+keywords: "Declan Bright,CV,Curriculum Vitae,Resume,CTO,Chief Technology Officer,Chief Software Architect,AI Officer,ArchiMate,GRC,ISO 27001,ISO 27701,ISO 42001,HIPAA,ICS,SAIN,IASA,FICS,ICS Fellow,Dublin"
 date: 2026-06-24
 pagination:
   data: paths
@@ -29,7 +29,8 @@ permalink: /{{ path }}/
     .cv-capability-last {
         padding: 0;
     }
-    .cv-tags {
+    .cv-tags, 
+    .cv-badges {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5em;
@@ -44,12 +45,16 @@ permalink: /{{ path }}/
         border: solid 1px var(--border-color);
         border-radius: 2em;
     }
+    .cv-badges {
+        gap: 1em;
+        justify-content: left;
+    }
 </style>
 
 ## {{title}}
 
 <p class="cv-intro">
-    I'm a Chief Technology and AI Officer based in Dublin, Ireland, working at the intersection of technology strategy, enterprise software and GRC. I have been working with organisations in regulated industries for over <span id="years-experience">27</span> years, building systems that work reliably, securely and at scale. I believe good technology leadership is about clarity of thinking as much as technical depth, and that AI transformation needs intentional change management.
+    I'm a Chief Technology and AI Officer based in Dublin, Ireland, working at the intersection of technology strategy, enterprise software and GRC. I have been working with organisations in regulated industries for over <span id="years-experience">27</span> years, building systems that work reliably, securely and at scale. I believe good technology leadership is about clarity of thinking as much as technical depth, and that AI transformation needs intentional change management. I am a member of the <a href="https://ics.ie/fellows/">Irish Computer Society Fellows Guild</a>.
 </p>
 
 <h2 class="section-label">What I do</h2>
@@ -97,15 +102,22 @@ permalink: /{{ path }}/
 <div class="cv-tags">
     <span class="cv-tag">ISO 27001: Information Security</span>
     <span class="cv-tag">ISO 27701: Data Privacy</span>
-    <span class="cv-tag">ISO 42001: AI</span>
+    <span class="cv-tag">ISO 42001: AI Governance</span>
     <span class="cv-tag">HIPAA</span>
 </div>
 
 <h2 class="section-label">Industry Groups</h2>
 
 <div class="cv-tags">
-    <span class="cv-tag">Irish Computer Society</span>
+    <span class="cv-tag">Irish Computer Society Fellow</span>
+    <span class="cv-tag">IASA</span>
     <span class="cv-tag">Strategic AI Network</span>
+</div>
+
+<div class="cv-badges">
+    <a href="https://ics.ie/fellows/">
+        <img alt="Irish Computer Society Fellows Guild" src="/images/ics-fellows-guild-logo.webp" style="max-width:8em" />
+    </a>
 </div>
 
 <p></p>

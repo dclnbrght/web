@@ -100,27 +100,27 @@ layout: layouts/home.njk
 <!-- Featured latest article -->
 <div class="home-featured animate-duration-medium animate-fade-in">
     <h2 class="section-label">Latest Article</h2>
-    <a href="/ai/ai-literacy-is-your-legal-obligation/">
-        <div class="home-featured-image" style="background-image:url('/content-software/images/ai-literacy-legal-obligation.webp');"></div>
-        <p class="home-featured-title">AI Literacy Is Your Legal Obligation, Not Just A Good Intention</p>
+    <a href="/ai/junior-roles-need-to-be-redefined/">
+        <div class="home-featured-image" style="background-image:url('/content-software/images/junior-roles-need-to-be-redefined.webp');"></div>
+        <p class="home-featured-title">Junior Roles Need To Be Redefined. So, How Should We Do That?</p>
         <p class="home-featured-desc">
-            Under the EU AI Act, organisations deploying AI systems must demonstrate structured, role-appropriate training. Build a defensible compliance posture by mapping users across competence levels and providing proportionate training.
+            Expectations of new hires are changing. Employers in AI-exposed occupations are asking junior candidates for judgement, oversight and communication skills that were previously expected after several years in the job.
         </p>
         <span class="home-featured-read">Read article →</span>
     </a>
 </div>
 
-<h2 class="section-label">Recent Articles</h2>
+<h2 class="section-label">News</h2>
 
 <div class="card-container">
     <div class="card">
-        <a href="/ai/ai-utopia-well-maybe/">
+        <a href="/media/irish-computer-society-fellowship/">
             <div class="card-header">
-                <div class="card-header-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');background-size:100%;"></div>
+                <div class="card-header-image" style="background-image:url('/images/ics-fellows-guild-logo.webp');background-size:40%;"></div>
             </div>
             <div class="card-body">
-                <strong>AI Utopia, Well Maybe?</strong>
-                <br>Shorter work week, more free time?
+                <strong>Admitted as a Fellow of the Irish Computer Society</strong>
+                <br>
             </div>
         </a>
     </div>
@@ -143,6 +143,33 @@ layout: layouts/home.njk
             <div class="card-body">
                 <strong>Strategic AI Network</strong>
                 <br>Executive Committee Membership
+            </div>
+        </a>
+    </div>
+</div>
+
+<h2 class="section-label">Recent Articles</h2>
+
+<div class="card-container">
+    <div class="card">
+        <a href="/ai/ai-literacy-is-your-legal-obligation/">
+            <div class="card-header">
+                <div class="card-header-image" style="background-image:url('/content-software/images/ai-literacy-legal-obligation.webp');background-size:100%;"></div>
+            </div>
+            <div class="card-body">
+                <strong>AI Literacy Is Your Legal Obligation</strong>
+                <br>Not Just A Good Intention
+            </div>
+        </a>
+    </div>
+    <div class="card">
+        <a href="/ai/ai-utopia-well-maybe/">
+            <div class="card-header">
+                <div class="card-header-image" style="background-image:url('/content-software/images/ai-utopia-well-maybe.webp');background-size:100%;"></div>
+            </div>
+            <div class="card-body">
+                <strong>AI Utopia, Well Maybe?</strong>
+                <br>Shorter work week, more free time?
             </div>
         </a>
     </div>
@@ -208,7 +235,6 @@ layout: layouts/home.njk
             </div>
         </a>
     </div>
-    <!--
     <div class="card">
         <a href="/software/fullstack-software-engineers-in-the-ai-era/">
             <div class="card-header">
@@ -219,7 +245,6 @@ layout: layouts/home.njk
             </div>
         </a>
     </div>
-    -->
     <div class="card">
         <a href="/software/ai-assisted-threat-modelling/">
             <div class="card-header">
