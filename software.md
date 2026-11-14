@@ -6,6 +6,9 @@ keywords: "Software Architecture,Software Engineering,IASA"
 
 ## Artificial Intelligence
 
+[Junior Roles Need To Be Redefined. So, How Should We Do That?](/ai/junior-roles-need-to-be-redefined/) \
+Expectations of new hires are changing. Employers in AI-exposed occupations are asking junior candidates for judgement, oversight and communication skills that were previously expected after several years in the job. 
+
 [AI Literacy Is Your Legal Obligation, Not Just A Good Intention](/ai/ai-literacy-is-your-legal-obligation/) \
 Practical guidance on AI literacy obligations under the EU AI Act.
 
