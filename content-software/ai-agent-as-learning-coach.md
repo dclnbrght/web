@@ -3,8 +3,15 @@ title: AI Agent as a Software Engineering Learning Coach
 description: Use an AI agent to advance your learning and improve your software engineering skills.
 keywords: "learning coach, continuous learning, career development, fullstack software engineer"
 date: 2026-01-03
-updated: 2026-06-17
-permalink: "/software/ai-agent-as-learning-coach/"
+updated: 2026-11-15
+pagination:
+  data: paths
+  size: 1
+  alias: path
+paths:
+  - software
+  - ai
+permalink: "/{{ path }}/ai-agent-as-learning-coach/"
 tags: article
 ---
 
@@ -12,13 +19,17 @@ tags: article
 
 With AI agents, we typically think about productivity gains or coding tasks. While these use cases are incredibly beneficial, there is another use case that is often overlooked. Regardless of what stage you're at in your career, we all need to continue learning, and AI agents are excellent as personal tutors.
 
+> “The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.”
+>
+> — [Alvin Toffler](https://www.goodreads.com/quotes/8800-the-illiterate-of-the-21st-century-will-not-be-those)
+
 <img src="/content-software/images/ai-agent-learning-coach.webp" alt="AI Agent as a Software Engineering Learning Coach" class="article-image-header" />
 
-AI agents can assist with learning any topic, however this article focuses on software engineering and software architecture. It also aligns nicely with the [Career Planning in the AI Era](https://declanbright.com/software/career-planning-in-the-ai-era/) article.
+AI agents can assist with learning any topic, however this article focuses on software engineering and software architecture which aligns with my [Career Planning in the AI Era](https://declanbright.com/software/career-planning-in-the-ai-era/) article.
 
 As the role of the software engineer evolves, from writing every line of code, to designing systems, orchestrating and reviewing the output of AI agents, we all need to [broaden our knowledge across the stack](https://declanbright.com/software/fullstack-software-engineers-in-the-ai-era/).
 
-> It's vital that we don't over-rely on AI coding agents: **outsource the doing, but not the critical thinking**. It's important to understand the code that's generated and the overall system architecture.
+> It's vital that we don't over-rely on AI coding agents: **outsource the doing, but not the critical thinking**. We must understand the code that's generated and the overall system architecture.
 
 <div id="toc" class="table-of-contents"></div>
 
